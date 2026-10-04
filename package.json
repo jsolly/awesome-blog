@@ -29,6 +29,10 @@
     "protect:stacks": "bash scripts/protect-stacks.sh",
     "check:stack-protection": "bash scripts/protect-stacks.sh --check",
     "test:stack-protection": "node --test scripts/stack-protection.test.mjs",
+    "plan:infra": "node scripts/plan-infra.mjs",
+    "check:infra-drift": "node scripts/check-infra-drift.mjs",
+    "deploy:infra": "bash aws/migration-backups/deploy.sh",
+    "test:infra": "node --test scripts/plan-infra.test.mjs scripts/check-infra-drift.test.mjs scripts/deploy-infra.test.mjs",
     "test:search": "node --test scripts/search.test.mjs",
     "test:browse": "node --test scripts/browse.test.mjs"
   },
