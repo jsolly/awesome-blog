@@ -16,7 +16,8 @@ export async function buildRecipePwa(directory) {
   };
   for (const page of [recipeRoute,...(await readdir(`${root}/recipes`)).filter(name=>!name.includes('.')).map(name=>`/recipes/${name}/`)]) {
   urls.add(page);
-  const $ = load(await readFile(`${root}${page}index.html`,'utf8'));
+  // Parse noscript links too: those styles must work in the offline fallback.
+  const $ = load(await readFile(`${root}${page}index.html`,'utf8'), { scriptingEnabled: false });
   const pageAdd=(value)=>add(value,page);
   $('[src], link[rel="stylesheet"], link[rel="modulepreload"], link[rel="manifest"], link[rel="apple-touch-icon"]').each((_, element) => {
     const value = $(element).attr('src') ?? $(element).attr('href');

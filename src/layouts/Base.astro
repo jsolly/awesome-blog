@@ -1,5 +1,6 @@
 ---
 import Navigation from '../components/Navigation.svelte';
+import noScriptStyles from '../styles/no-script.css?url';
 import { blogContent, site } from '../lib/content';
 import '@fontsource/inter/400.css';
 import '@fontsource/inter/600.css';
@@ -30,13 +31,7 @@ const navigation = categories.map(({ data }) => ({ slug: data.slug, name: data.n
     <meta property="og:image" content={new URL(image, site).href} /><meta property="og:image:alt" content={imageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
     {noindex && <meta name="robots" content="noindex, follow" />}
-    <noscript><style>
-      @media (max-width: 900px) {
-        .navigation-panel.collapsed { grid-template-rows: 1fr !important; opacity: 1 !important; visibility: visible !important; }
-        .navigation-panel.collapsed nav { padding-top: 1rem !important; }
-        .menu-toggle { display: none !important; }
-      }
-    </style></noscript>
+    <noscript><link rel="stylesheet" href={noScriptStyles} /></noscript>
     <slot name="head" />
   </head>
   <body id="top">

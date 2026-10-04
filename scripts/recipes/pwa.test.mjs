@@ -362,6 +362,11 @@ for (const width of [390,1280]) {
   try{
    const page=await plain.newPage();await page.goto(`${origin}/recipes/meals/`);
    assert.equal(await page.locator('.recipe-card').count(),13);assert.equal(await page.locator('.recipe-detail').count(),0);
+   assert.equal(await page.getByRole('combobox',{name:'Servings',exact:true}).isVisible(),false);
+   assert.equal(await page.getByRole('button',{name:'Print all meals',exact:true}).isVisible(),false);
+   assert.equal(await page.getByRole('link',{name:'All posts',exact:true}).first().isVisible(),true);
+   const fallbackStyles=await page.locator('noscript link[rel=stylesheet]').getAttribute('href');
+   assert.ok(snapshots[0].urls.includes(fallbackStyles),'Offline snapshot includes no-JavaScript stylesheet');
    await page.getByRole('link',{name:'Smoothies',exact:true}).click();assert.equal(await page.locator('.recipe-card').count(),6);
    await page.getByRole('link',{name:'Avocado-lime smoothie',exact:true}).click();assert.equal(await page.locator('.recipe-detail').count(),1);
    await page.locator('.trn-ingredient input[type=checkbox]').first().check();assert.equal(await page.locator('.trn-ingredient input[type=checkbox]').first().isChecked(),true);
