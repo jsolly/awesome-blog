@@ -4,5 +4,3 @@ import data from './recipes.json';
 const {collection='meal'}=Astro.props;
 ---
 <div class="recipe-experience"><RecipeLibrary recipes={data.recipes} initialCollection={collection} client:load /></div>
-
-<noscript><style>.recipe-experience .library-controls > :not(.collection-options), .recipe-experience .action-status, .recipe-experience .print-output {display:none!important}.recipe-experience .library-controls {display:block}</style></noscript>

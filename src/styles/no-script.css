@@ -1,0 +1,14 @@
+/* A first-party stylesheet keeps fallback styles compatible with the CSP. */
+@media (max-width: 900px) {
+  .navigation-panel.collapsed {
+    grid-template-rows: 1fr !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  .navigation-panel.collapsed nav { padding-top: 1rem !important; }
+  .menu-toggle { display: none !important; }
+}
+.recipe-experience .library-controls > :not(.collection-options),
+.recipe-experience .action-status,
+.recipe-experience .print-output { display: none !important; }
+.recipe-experience .library-controls { display: block; }
