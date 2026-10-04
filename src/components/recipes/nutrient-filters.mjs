@@ -29,6 +29,7 @@ export const recipeStarches={
  'cucumber-spinach-lime-smoothie':['none'],
  'strawberry-banana-smoothie':['fruit'],
  'banana-flax-smoothie':['fruit'],
+ 'chicken-posole':['legumes'],
  'tomato-lentil-and-chicken-bake':['legumes'],
  'harissa-chickpea-and-cauliflower-bowls':['legumes'],
  'lemon-chicken-potatoes-and-green-beans':['potatoes'],

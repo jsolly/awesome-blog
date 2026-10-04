@@ -1,6 +1,6 @@
 # Easy Meals recipe library
 
-19 complete four-serving recipes. Keto bases are shown without family starch; separate measured per-person options are included below each shared recipe. Small seasoning amounts use spoon measures. Recipes are newly designed and not kitchen-tested.
+20 complete four-serving recipes. Keto bases are shown without family starch; separate measured per-person options are included below each shared recipe. Small seasoning amounts use spoon measures. Recipes are newly designed and not kitchen-tested.
 
 ## Lemon salmon and asparagus
 
@@ -2009,5 +2009,123 @@ Serve chilled immediately for best texture; refrigerate any remainder promptly.
 - [Lime juice, raw — USDA FoodData Central](https://fdc.nal.usda.gov/food-details/168156/nutrients)
 
 - [Seeds, flaxseed — USDA FoodData Central](https://fdc.nal.usda.gov/food-details/169414/nutrients)
+
+These newly designed recipes have not been cooked, tasted or stopwatch-tested. Nutrition is an ingredient estimate, not laboratory analysis. Sources support safety, labels or comparable methods; they do not validate this exact recipe.
+
+---
+
+## Chicken Posole (enchilada soup)
+
+4 adult servings · US measures · nonketo · 15 min active per base batch · 30–40 min
+
+Chicken and white beans in red enchilada broth, finished with lime, cabbage and cilantro.
+
+Stir during sautéing and simmering; check cooked chicken reaches 165°F before serving.
+
+The listed pan and basket capacity, cook times, and thermometer endpoint are for four servings.
+
+Ingredients are scaled; keep food thickness, spacing, settings and safe endpoints fixed. Timings assume the four-serving batch and specified shortcuts. More food can require additional batches.
+
+### Cooking flow (Tabular Recipe Notation)
+
+<div class="trn-scroll" tabindex="0" role="region" aria-label="Chicken Posole (enchilada soup) cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="5" class="trn-prep">Use fully cooked chicken and canned beans. Prepare washed cabbage and cilantro; keep them for serving. Use a 4-quart or larger pot, or a larger pot/batches above four servings.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14g</strong> Olive oil<small class="trn-state-detail"></small></th><td rowspan="4" colspan="1" class="trn-operation">Heat oil over medium heat; sauté onion and pepper about 5 min until soft, then add garlic for 30 sec.</td><td rowspan="9" colspan="1" class="trn-operation">Add broth, sauce, canned beans with liquid, salt and cayenne. Boil, then simmer 10 min, stirring occasionally.</td><td rowspan="10" colspan="1" class="trn-operation">Add cooked chicken; simmer until chicken reaches 165°F in several places.</td><td rowspan="13" colspan="1" class="trn-operation">Turn off heat, stir in lime; serve with cabbage and cilantro.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>40g</strong> Onion<small class="trn-state-detail">diced</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>30g</strong> Red bell pepper<small class="trn-state-detail">diced · The old optional pepper is included in this estimate.</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>15g</strong> Garlic<small class="trn-state-detail">minced</small></th></tr><tr><th scope="row" colspan="2" class="trn-ingredient"><strong>32.5 oz</strong> Reduced-sodium chicken broth<small class="trn-state-detail">ready-to-use</small></th></tr><tr><th scope="row" colspan="2" class="trn-ingredient"><strong>283g</strong> Red enchilada sauce<small class="trn-state-detail">ready-to-eat, canned · Base four-serving batch: about one 10 oz can. Estimate uses Old El Paso medium red sauce; labels vary.</small></th></tr><tr><th scope="row" colspan="2" class="trn-ingredient"><strong>425g</strong> Canned white beans<small class="trn-state-essential">fully cooked, including can liquid · Base four-serving batch: one 15 oz can; do not substitute dry beans.</small></th></tr><tr><th scope="row" colspan="2" class="trn-ingredient"><strong>3g</strong> Fine salt<small class="trn-state-detail">Original amount; reduce to taste if your broth or sauce is salty.</small></th></tr><tr><th scope="row" colspan="2" class="trn-ingredient"><strong>3g</strong> Cayenne pepper<small class="trn-state-detail">Original amount is very hot. Start with less if desired.</small></th></tr><tr><th scope="row" colspan="3" class="trn-ingredient"><strong>400g</strong> Cooked shredded chicken breast<small class="trn-state-essential">fully cooked, skinless, boneless; cooked edible weight · Added in the restored version because the old Chicken Posole entry omitted a chicken amount.</small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>15g</strong> Lime juice<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>150g</strong> Cabbage<small class="trn-state-detail">finely shredded · Measured amount for the old to-taste garnish.</small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>8g</strong> Cilantro<small class="trn-state-detail">washed and chopped · Measured amount for the old to-taste garnish.</small></th></tr></tbody></table></div>
+
+### Ingredients
+
+- 14g Olive oil
+
+- 40g Onion — diced
+
+- 15g Garlic — minced
+
+- 30g Red bell pepper — diced. The old optional pepper is included in this estimate.
+
+- 3g Fine salt. Original amount; reduce to taste if your broth or sauce is salty.
+
+- 283g Red enchilada sauce — ready-to-eat, canned. Base four-serving batch: about one 10 oz can. Estimate uses Old El Paso medium red sauce; labels vary.
+
+- 3g Cayenne pepper. Original amount is very hot. Start with less if desired.
+
+- 425g Canned white beans — fully cooked, including can liquid. Base four-serving batch: one 15 oz can; do not substitute dry beans.
+
+- 32.5 oz Reduced-sodium chicken broth — ready-to-use
+
+- 400g Cooked shredded chicken breast — fully cooked, skinless, boneless; cooked edible weight. Added in the restored version because the old Chicken Posole entry omitted a chicken amount.
+
+- 15g Lime juice
+
+- 150g Cabbage — finely shredded. Measured amount for the old to-taste garnish.
+
+- 8g Cilantro — washed and chopped. Measured amount for the old to-taste garnish.
+
+### Equipment
+
+- Stovetop and 4-quart or larger saucepan; larger pot or batches for six/eight servings
+
+- Spoon and clean chopping board
+
+- Instant-read thermometer
+
+### Cook
+
+Prepare cold sides first. Keep raw-poultry tools separate; use clean serving utensils. Probe more than one thick piece. A timer is not a doneness test.
+
+1. **Prepare.** Use fully cooked shredded chicken and canned, fully cooked beans. Wash and prepare the vegetables and garnishes. Set a 4-quart or larger saucepan on the stovetop; use a larger pot or batches for six or eight servings.
+
+2. **Sauté.** Heat the oil over medium heat. Cook onion and bell pepper for about 5 minutes, stirring, until softened. Add garlic and cook for 30 seconds.
+
+3. **Simmer.** Add broth, enchilada sauce, canned beans with their liquid, salt and cayenne. Bring to a boil, then reduce heat and simmer gently for about 10 minutes, stirring occasionally. Add the cooked chicken and return to a simmer. Heat until chicken reaches 165°F in several places, about 5 minutes or longer as needed. Do not use raw chicken with this method.
+
+4. **Finish.** Turn off the heat and stir in lime juice. Divide among four bowls and top with cabbage and cilantro. Taste before adding more salt or cayenne.
+
+### Attention timeline
+
+- Prepare and sauté: 10–15 min. Chop vegetables; soften onion and pepper, then briefly cook garlic.
+
+- Boil and simmer: 15–20 min. Bring broth, sauce and beans to a boil; simmer 10 min, stirring occasionally.
+
+- Heat chicken and finish: 5 min or longer to 165°F. Add fully cooked chicken, check temperature, then add lime and garnishes.
+
+Stages can overlap; endpoints and appliance behavior override the estimate.
+
+### Flavor and capacity
+
+Red enchilada sauce gives the broth chile flavor; lime and fresh cabbage balance it.
+
+- The original recipe used beans, not hominy. This restores that version rather than a traditional pozole.
+
+- The source gave no pressure time. This adaptation uses a saucepan, not pressure cooking.
+
+- The original 3g cayenne is hot; use less to suit your taste.
+
+### Nutrition per serving
+
+376 kcal; 43.0 g protein; 32.6 g total carbs; 6.7 g fiber; 25.9 g net carbs
+
+Per adult: base includes measured sauces, seeds and sides. Family nutrition adds one selected starch portion. US net carbs = total carbohydrate − fiber. Labels and food variation matter; no guarantee of ketosis.
+
+Known allergens for these plates: none listed; check every product label. Check product labels and cross-contact.
+
+### First-cook checks and limits
+
+- Restored from the old Chicken Posole recipe. Its oil, onion, garlic, pepper, salt, sauce, cayenne, beans, broth and lime amounts are retained.
+
+- The source omitted chicken and a cooking time. The 400g cooked chicken and stovetop method are new; cabbage and cilantro now have measured garnish amounts. This adaptation has not been kitchen-tested.
+
+- Nutrition uses generic USDA ingredients, canned white beans including liquid, and an Old El Paso sauce label with an estimated 60g per quarter cup. Broth is modeled at 1g/mL. Brands, draining beans, and reducing garnishes or seasoning change the estimates.
+
+- Complete micronutrient totals are unavailable for this restored recipe and are omitted. Check chicken, broth and sauce labels for allergens.
+
+### Leftovers
+
+Refrigerate in shallow containers within two hours, or one hour above 90°F. Use within 3–4 days or freeze; reheat to 165°F. Keep cold greens and yogurt separate.
+
+### Sources
+
+- [USDA ingredient profiles](https://fdc.nal.usda.gov/download-datasets/)
+
+- [Old El Paso red enchilada sauce label](https://www.oldelpaso.com/products/old-el-paso-red-enchilada-sauce-medium-1)
+
+- [USDA leftovers and reheating guidance](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety)
 
 These newly designed recipes have not been cooked, tasted or stopwatch-tested. Nutrition is an ingredient estimate, not laboratory analysis. Sources support safety, labels or comparable methods; they do not validate this exact recipe.
