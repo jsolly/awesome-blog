@@ -9,6 +9,10 @@ import { resolve, extname, join } from 'node:path';
 import { chromium } from 'playwright';
 import { recipeRoute, buildRecipePwa } from './pwa-build.mjs';
 
+const {recipes}=JSON.parse(await readFile(new URL('../../src/components/recipes/recipes.json',import.meta.url),'utf8'));
+const mealCount=recipes.filter(recipe=>(recipe.type||'meal')==='meal').length;
+const smoothieCount=recipes.filter(recipe=>recipe.type==='smoothie').length;
+
 let server, browser, origin, fixture, legacyDirectory;
 const snapshots = [];
 let version = 1;
@@ -361,17 +365,17 @@ for (const width of [390,1280]) {
   const live=await browser.newContext({viewport:{width,height:900},hasTouch:width===390,isMobile:width===390});
   try{
    const page=await plain.newPage();await page.goto(`${origin}/recipes/meals/`);
-   assert.equal(await page.locator('.recipe-card').count(),13);assert.equal(await page.locator('.recipe-detail').count(),0);
+   assert.equal(await page.locator('.recipe-card').count(),mealCount);assert.equal(await page.locator('.recipe-detail').count(),0);
    assert.equal(await page.getByRole('combobox',{name:'Servings',exact:true}).isVisible(),false);
    assert.equal(await page.getByRole('button',{name:'Print all meals',exact:true}).isVisible(),false);
    assert.equal(await page.getByRole('link',{name:'All posts',exact:true}).first().isVisible(),true);
    const fallbackStyles=await page.locator('noscript link[rel=stylesheet]').getAttribute('href');
    assert.ok(snapshots[0].urls.includes(fallbackStyles),'Offline snapshot includes no-JavaScript stylesheet');
-   await page.getByRole('link',{name:'Smoothies',exact:true}).click();assert.equal(await page.locator('.recipe-card').count(),6);
+   await page.getByRole('link',{name:'Smoothies',exact:true}).click();assert.equal(await page.locator('.recipe-card').count(),smoothieCount);
    await page.getByRole('link',{name:'Avocado-lime smoothie',exact:true}).click();assert.equal(await page.locator('.recipe-detail').count(),1);
    await page.locator('.trn-ingredient input[type=checkbox]').first().check();assert.equal(await page.locator('.trn-ingredient input[type=checkbox]').first().isChecked(),true);
    await page.locator('.nutrient-disclosure summary').click();await page.locator('.recipe-body .daily-values').waitFor();assert.equal(await page.locator('.recipe-body .daily-values').isVisible(),true);
-   await page.getByRole('link',{name:'← Back to smoothies',exact:true}).click();assert.equal(await page.locator('.recipe-card').count(),6);
+   await page.getByRole('link',{name:'← Back to smoothies',exact:true}).click();assert.equal(await page.locator('.recipe-card').count(),smoothieCount);
    const enhanced=await live.newPage();await enhanced.goto(`${origin}/recipes/meals/`);await enhanced.locator('[data-hydrated=true]').waitFor();
    const help=enhanced.getByRole('button',{name:'About nutrition filters',exact:true});
    if(width===1280){await help.hover();await enhanced.locator('.nutrition-help').waitFor();await enhanced.getByRole('heading',{name:'Meals',exact:true}).hover();await enhanced.locator('.nutrition-help').waitFor({state:'detached'});await help.focus();await enhanced.keyboard.press('Enter');await enhanced.locator('.nutrition-help').waitFor();await enhanced.keyboard.press('Escape');await enhanced.locator('.nutrition-help').waitFor({state:'detached'});}else{await help.tap();await enhanced.locator('.nutrition-help').waitFor();await enhanced.getByRole('heading',{name:'Meals',exact:true}).tap();await enhanced.locator('.nutrition-help').waitFor({state:'detached'});}
@@ -404,7 +408,7 @@ test('Legacy and root workers update independently with both new recipe tabs ope
   await waitForBrowserState(inspect, async()=>{const regs=await navigator.serviceWorker.getRegistrations();return regs.length===2&&regs.every(r=>r.active&&!r.waiting);});
   const names=await inspect.evaluate(()=>caches.keys());assert.ok(names.includes(snapshots[1].cache));assert.ok(names.includes(snapshots[1].cache.replace('recipe-pages-pwa-','recipe-pwa-')));
   await context.setOffline(true);await inspect.goto(`${origin}${recipeRoute}`);assert.equal(await inspect.locator('meta[name="pwa-test-snapshot"]').getAttribute('content'),'B');
-  await inspect.getByRole('link',{name:'Smoothies',exact:true}).click();await inspect.locator('[data-hydrated=true]').waitFor();assert.equal(await inspect.locator('.recipe-card').count(),6);
+  await inspect.getByRole('link',{name:'Smoothies',exact:true}).click();await inspect.locator('[data-hydrated=true]').waitFor();assert.equal(await inspect.locator('.recipe-card').count(),smoothieCount);
   await inspect.getByRole('link',{name:'Avocado-lime smoothie',exact:true}).click();await inspect.locator('.recipe-detail .reset-checks-row').waitFor();assert.match(await inspect.locator('.recipe-detail h1').innerText(),/Avocado/);
   assert.equal(await inspect.evaluate(async()=>{const regs=await navigator.serviceWorker.getRegistrations();return regs.length;}),2);
  }finally{await context.close();version=1;}
@@ -432,7 +436,7 @@ test('Previous shipped article snapshot migrates to standalone recipe pages offl
   await migrated.getByText('Recipes saved for offline use.',{exact:false}).waitFor({state:'attached'});
   await waitForBrowserState(migrated, async()=>{const regs=await navigator.serviceWorker.getRegistrations();return regs.length===2&&regs.every(r=>r.active);});
   await context.setOffline(true);
-  await migrated.getByRole('link',{name:'Meals',exact:true}).click();await migrated.locator('[data-hydrated=true]').waitFor();assert.equal(await migrated.locator('.recipe-card').count(),13);
+  await migrated.getByRole('link',{name:'Meals',exact:true}).click();await migrated.locator('[data-hydrated=true]').waitFor();assert.equal(await migrated.locator('.recipe-card').count(),mealCount);
   await migrated.locator('.recipe-card').filter({hasText:'Lemon salmon and asparagus'}).getByRole('link',{name:'See recipe',exact:true}).click();await migrated.locator('.recipe-detail .reset-checks-row').waitFor();
   await migrated.waitForFunction(()=>[...document.querySelectorAll('.recipe-photo img')].every(image=>image.complete&&image.naturalWidth>0));
   const names=await migrated.evaluate(()=>caches.keys());assert.ok(names.includes(snapshots[1].cache));assert.ok(names.includes(snapshots[1].cache.replace('recipe-pages-pwa-','recipe-pwa-')));
