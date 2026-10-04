@@ -450,7 +450,7 @@ Ingredients are scaled; keep food thickness, spacing, settings and safe endpoint
 
 ### Cooking flow (Tabular Recipe Notation)
 
-<div class="trn-scroll" tabindex="0" role="region" aria-label="Shawarma chicken bowls cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>150g</strong> Cucumber<small class="trn-state-detail">diced</small></th><td rowspan="2" colspan="2" class="trn-operation">Prepare cucumber and greens.</td><td rowspan="25" colspan="1" class="trn-operation">Plate shawarma bowls: greens, cucumber, cooked chicken and cauliflower, yogurt sauce and remaining lemon.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>142g</strong> Salad greens<small class="trn-state-detail">washed, ready to eat · Buy by scaled edible weight.</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>120g</strong> Plain strained Greek yogurt<small class="trn-state-detail">plain, strained · At least 9 g protein and no more than 4 g total carbs per 100 g.</small></th><td rowspan="4" colspan="2" class="trn-operation">Mix yogurt sauce.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>¼ tsp</strong> Garlic powder<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>pinch of</strong> salt<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>15g</strong> Lemon juice<small class="trn-state-detail">unsweetened</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14g</strong> Olive oil<small class="trn-state-detail"></small></th><td rowspan="9" colspan="1" class="trn-operation">Toss cauliflower with oil and spices on its own 18×13-inch pan.</td><td rowspan="18" colspan="1" class="trn-operation">Heat oven to 425°F on bake. Roast both pans for 18–23 min, until chicken reaches 165°F and cauliflower is tender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>2g</strong> Ground cumin<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>1g</strong> Smoked paprika<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>1g</strong> Garlic powder<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>¼ tsp</strong> Ground turmeric<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>⅛ tsp</strong> Ground cinnamon<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>to taste</strong> Black pepper<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>½ remaining (5g total)</strong> Fine salt<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>454g</strong> Cauliflower florets<small class="trn-state-detail">about 1 inch across</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14g</strong> Olive oil<small class="trn-state-detail"></small></th><td rowspan="9" colspan="1" class="trn-operation">Toss chicken with oil and spices on its own 18×13-inch pan.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>2g</strong> Ground cumin<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>1g</strong> Smoked paprika<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>1g</strong> Garlic powder<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>¼ tsp</strong> Ground turmeric<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>⅛ tsp</strong> Ground cinnamon<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>to taste</strong> Black pepper<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>½ remaining (5g total)</strong> Fine salt<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>680g</strong> Boneless skinless chicken thighs<small class="trn-state-essential">raw, thawed, cut into 1-inch pieces</small></th></tr><tr><th scope="row" colspan="3" class="trn-ingredient"><strong>15g</strong> Lemon juice<small class="trn-state-detail">unsweetened</small></th></tr></tbody></table></div>
+<div class="trn-scroll" tabindex="0" role="region" aria-label="Shawarma chicken bowls cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>150g</strong> Cucumber<small class="trn-state-detail">diced</small></th><td rowspan="2" colspan="2" class="trn-operation">Prepare cucumber and greens.</td><td rowspan="25" colspan="1" class="trn-operation">Plate shawarma bowls: greens, cucumber, cooked chicken and cauliflower, yogurt sauce and remaining lemon.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>142g</strong> Salad greens<small class="trn-state-detail">washed, ready to eat · Buy by scaled edible weight.</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>120g</strong> Plain strained Greek yogurt<small class="trn-state-detail">plain, strained · At least 9 g protein and no more than 4 g total carbs per 100 g.</small></th><td rowspan="4" colspan="2" class="trn-operation">Mix yogurt sauce.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>¼ tsp</strong> Garlic powder<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>pinch of</strong> salt<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>15g</strong> Lemon juice<small class="trn-state-detail">unsweetened</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>454g</strong> Cauliflower florets<small class="trn-state-detail">about 1 inch across</small></th><td rowspan="9" colspan="1" class="trn-operation">Toss cauliflower with oil and spices on its own 18×13-inch pan.</td><td rowspan="18" colspan="1" class="trn-operation">Heat oven to 425°F on bake. Roast both pans for 18–23 min, until chicken reaches 165°F and cauliflower is tender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14g</strong> Olive oil<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>2g</strong> Ground cumin<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>1g</strong> Smoked paprika<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>1g</strong> Garlic powder<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>¼ tsp</strong> Ground turmeric<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>⅛ tsp</strong> Ground cinnamon<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>to taste</strong> Black pepper<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>½ remaining (5g total)</strong> Fine salt<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>680g</strong> Boneless skinless chicken thighs<small class="trn-state-essential">raw, thawed, cut into 1-inch pieces</small></th><td rowspan="9" colspan="1" class="trn-operation">Toss chicken with oil and spices on its own 18×13-inch pan.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14g</strong> Olive oil<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>2g</strong> Ground cumin<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>1g</strong> Smoked paprika<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>1g</strong> Garlic powder<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>¼ tsp</strong> Ground turmeric<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>⅛ tsp</strong> Ground cinnamon<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>to taste</strong> Black pepper<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>½ remaining (5g total)</strong> Fine salt<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="3" class="trn-ingredient"><strong>15g</strong> Lemon juice<small class="trn-state-detail">unsweetened</small></th></tr></tbody></table></div>
 
 ### Ingredients
 
@@ -1514,7 +1514,7 @@ Allow about 5 minutes for four servings in two batches.
 
 ### Cooking flow (Tabular Recipe Notation)
 
-<div class="trn-scroll" tabindex="0" role="region" aria-label="Avocado-lime smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Prepare fruit and vegetables as listed; use chilled ingredients.</td></tr><tr><td colspan="2" class="trn-prep">Blend two servings at a time in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>400g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th><td rowspan="6" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>240g</strong> Avocado flesh<small class="trn-state-detail">peeled, pitted</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>200g</strong> Cucumber<small class="trn-state-detail">trimmed, chopped</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>20g</strong> Lime juice<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>28g</strong> Ground flaxseed<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14 fl oz</strong> Cold water<small class="trn-state-detail"></small></th></tr></tbody></table></div>
+<div class="trn-scroll" tabindex="0" role="region" aria-label="Avocado-lime smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Prepare fruit and vegetables as listed; use chilled ingredients.</td></tr><tr><td colspan="2" class="trn-prep">Blend two servings at a time in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14 oz</strong> Cold water<small class="trn-state-detail"></small></th><td rowspan="6" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>20g</strong> Lime juice<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>400g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>28g</strong> Ground flaxseed<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>240g</strong> Avocado flesh<small class="trn-state-detail">peeled, pitted</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>200g</strong> Cucumber<small class="trn-state-detail">trimmed, chopped</small></th></tr></tbody></table></div>
 
 ### Ingredients
 
@@ -1528,7 +1528,7 @@ Allow about 5 minutes for four servings in two batches.
 
 - 28g Ground flaxseed
 
-- 14 fl oz Cold water
+- 14 oz Cold water
 
 ### Equipment
 
@@ -1560,7 +1560,7 @@ Greek yogurt gives the smoothie body and a tangy finish.
 
 - Use chilled or frozen fruit for a cold smoothie.
 
-### Nutrition per 8 fl oz glass (estimated)
+### Nutrition per 8 oz glass
 
 158 kcal; 9.4 g protein; 9.8 g total carbs; 4.6 g fiber; 5.2 g net carbs
 
@@ -1598,7 +1598,7 @@ Allow about 5 minutes for four servings in two batches.
 
 ### Cooking flow (Tabular Recipe Notation)
 
-<div class="trn-scroll" tabindex="0" role="region" aria-label="Strawberry-avocado smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Prepare fruit and vegetables as listed; use chilled ingredients.</td></tr><tr><td colspan="2" class="trn-prep">Blend two servings at a time in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>400g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th><td rowspan="5" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>200g</strong> Avocado flesh<small class="trn-state-detail">peeled, pitted</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>200g</strong> Strawberries<small class="trn-state-detail">hulled</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>28g</strong> Ground flaxseed<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14 fl oz</strong> Cold water<small class="trn-state-detail"></small></th></tr></tbody></table></div>
+<div class="trn-scroll" tabindex="0" role="region" aria-label="Strawberry-avocado smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Prepare fruit and vegetables as listed; use chilled ingredients.</td></tr><tr><td colspan="2" class="trn-prep">Blend two servings at a time in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14 oz</strong> Cold water<small class="trn-state-detail"></small></th><td rowspan="5" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>400g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>28g</strong> Ground flaxseed<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>200g</strong> Avocado flesh<small class="trn-state-detail">peeled, pitted</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>200g</strong> Strawberries<small class="trn-state-detail">hulled</small></th></tr></tbody></table></div>
 
 ### Ingredients
 
@@ -1610,7 +1610,7 @@ Allow about 5 minutes for four servings in two batches.
 
 - 28g Ground flaxseed
 
-- 14 fl oz Cold water
+- 14 oz Cold water
 
 ### Equipment
 
@@ -1642,7 +1642,7 @@ Greek yogurt gives the smoothie body and a tangy finish.
 
 - Use chilled or frozen fruit for a cold smoothie.
 
-### Nutrition per 8 fl oz glass (estimated)
+### Nutrition per 8 oz glass
 
 159 kcal; 9.7 g protein; 10.8 g total carbs; 4.8 g fiber; 6.0 g net carbs
 
@@ -1680,7 +1680,7 @@ Allow about 5 minutes for four servings in two batches.
 
 ### Cooking flow (Tabular Recipe Notation)
 
-<div class="trn-scroll" tabindex="0" role="region" aria-label="Strawberry-banana smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Prepare fruit and vegetables as listed; use chilled ingredients.</td></tr><tr><td colspan="2" class="trn-prep">Blend two servings at a time in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>600g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th><td rowspan="4" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>600g</strong> Strawberries<small class="trn-state-detail">hulled</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>400g</strong> Banana<small class="trn-state-detail">peeled, sliced</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14 fl oz</strong> Cold water<small class="trn-state-detail"></small></th></tr></tbody></table></div>
+<div class="trn-scroll" tabindex="0" role="region" aria-label="Strawberry-banana smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Prepare fruit and vegetables as listed; use chilled ingredients.</td></tr><tr><td colspan="2" class="trn-prep">Blend two servings at a time in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14 oz</strong> Cold water<small class="trn-state-detail"></small></th><td rowspan="4" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>600g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>400g</strong> Banana<small class="trn-state-detail">peeled, sliced</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>600g</strong> Strawberries<small class="trn-state-detail">hulled</small></th></tr></tbody></table></div>
 
 ### Ingredients
 
@@ -1690,7 +1690,7 @@ Allow about 5 minutes for four servings in two batches.
 
 - 400g Banana — peeled, sliced
 
-- 14 fl oz Cold water
+- 14 oz Cold water
 
 ### Equipment
 
@@ -1722,7 +1722,7 @@ Greek yogurt gives the smoothie body and a tangy finish.
 
 - Use chilled or frozen fruit for a cold smoothie.
 
-### Nutrition per 8 fl oz glass (estimated)
+### Nutrition per 8 oz glass
 
 117 kcal; 8.1 g protein; 19.1 g total carbs; 2.6 g fiber; 16.4 g net carbs
 
@@ -1760,7 +1760,7 @@ Allow about 5 minutes for four servings in two batches.
 
 ### Cooking flow (Tabular Recipe Notation)
 
-<div class="trn-scroll" tabindex="0" role="region" aria-label="Banana-flax smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Prepare fruit and vegetables as listed; use chilled ingredients.</td></tr><tr><td colspan="2" class="trn-prep">Blend two servings at a time in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>600g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th><td rowspan="4" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>480g</strong> Banana<small class="trn-state-detail">peeled, sliced</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>40g</strong> Ground flaxseed<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14 fl oz</strong> Cold water<small class="trn-state-detail"></small></th></tr></tbody></table></div>
+<div class="trn-scroll" tabindex="0" role="region" aria-label="Banana-flax smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Prepare fruit and vegetables as listed; use chilled ingredients.</td></tr><tr><td colspan="2" class="trn-prep">Blend two servings at a time in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>14 oz</strong> Cold water<small class="trn-state-detail"></small></th><td rowspan="4" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>600g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>40g</strong> Ground flaxseed<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>480g</strong> Banana<small class="trn-state-detail">peeled, sliced</small></th></tr></tbody></table></div>
 
 ### Ingredients
 
@@ -1770,7 +1770,7 @@ Allow about 5 minutes for four servings in two batches.
 
 - 40g Ground flaxseed
 
-- 14 fl oz Cold water
+- 14 oz Cold water
 
 ### Equipment
 
@@ -1802,7 +1802,7 @@ Greek yogurt gives the smoothie body and a tangy finish.
 
 - Use chilled or frozen fruit for a cold smoothie.
 
-### Nutrition per 8 fl oz glass (estimated)
+### Nutrition per 8 oz glass
 
 168 kcal; 11.2 g protein; 22.5 g total carbs; 3.6 g fiber; 18.9 g net carbs
 
@@ -1840,7 +1840,7 @@ Allow about 5 minutes for four servings in two batches.
 
 ### Cooking flow (Tabular Recipe Notation)
 
-<div class="trn-scroll" tabindex="0" role="region" aria-label="Strawberry-hemp smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Hull and quarter the strawberries. Weigh the yogurt and hulled hemp hearts.</td></tr><tr><td colspan="2" class="trn-prep">Use chilled ingredients; blend at most two servings per batch in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>400g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th><td rowspan="4" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>240g</strong> Strawberries<small class="trn-state-detail">hulled</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>80g</strong> Hulled hemp hearts<small class="trn-state-detail">hulled, unsalted</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>20 fl oz</strong> Cold water<small class="trn-state-detail"></small></th></tr></tbody></table></div>
+<div class="trn-scroll" tabindex="0" role="region" aria-label="Strawberry-hemp smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Hull and quarter the strawberries. Weigh the yogurt and hulled hemp hearts.</td></tr><tr><td colspan="2" class="trn-prep">Use chilled ingredients; blend at most two servings per batch in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>20 oz</strong> Cold water<small class="trn-state-detail"></small></th><td rowspan="4" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>400g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>80g</strong> Hulled hemp hearts<small class="trn-state-detail">hulled, unsalted</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>240g</strong> Strawberries<small class="trn-state-detail">hulled</small></th></tr></tbody></table></div>
 
 ### Ingredients
 
@@ -1850,7 +1850,7 @@ Allow about 5 minutes for four servings in two batches.
 
 - 80g Hulled hemp hearts — hulled, unsalted
 
-- 20 fl oz Cold water
+- 20 oz Cold water
 
 ### Equipment
 
@@ -1884,7 +1884,7 @@ Greek yogurt supplies a creamy, tangy base; strawberries add fruit flavor and he
 
 - Serve promptly. Ground seeds thicken on standing; blend again with a little extra water if needed.
 
-### Nutrition per 8 fl oz glass (estimated)
+### Nutrition per 8 oz glass
 
 145 kcal; 11.9 g protein; 7.4 g total carbs; 1.4 g fiber; 5.9 g net carbs
 
@@ -1930,7 +1930,7 @@ Allow about 5 minutes for four servings in two batches.
 
 ### Cooking flow (Tabular Recipe Notation)
 
-<div class="trn-scroll" tabindex="0" role="region" aria-label="Cucumber-spinach-lime smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Rinse cucumber and spinach under running water. Trim and chop cucumber; juice the lime and weigh the juice.</td></tr><tr><td colspan="2" class="trn-prep">Use chilled ingredients; blend at most two servings per batch in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>400g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th><td rowspan="6" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>240g</strong> Cucumber<small class="trn-state-detail">trimmed, chopped</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>120g</strong> Raw spinach<small class="trn-state-detail">fresh, washed</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>24g</strong> Lime juice<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>32g</strong> Ground flaxseed<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>20 fl oz</strong> Cold water<small class="trn-state-detail"></small></th></tr></tbody></table></div>
+<div class="trn-scroll" tabindex="0" role="region" aria-label="Cucumber-spinach-lime smoothie cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="2" class="trn-prep">Rinse cucumber and spinach under running water. Trim and chop cucumber; juice the lime and weigh the juice.</td></tr><tr><td colspan="2" class="trn-prep">Use chilled ingredients; blend at most two servings per batch in a 1.5 L blender.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>20 oz</strong> Cold water<small class="trn-state-detail"></small></th><td rowspan="6" colspan="1" class="trn-operation">Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>24g</strong> Lime juice<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>400g</strong> Plain lowfat Greek yogurt<small class="trn-state-detail">plain, unsweetened, 2% fat</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>32g</strong> Ground flaxseed<small class="trn-state-detail"></small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>120g</strong> Raw spinach<small class="trn-state-detail">fresh, washed</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>240g</strong> Cucumber<small class="trn-state-detail">trimmed, chopped</small></th></tr></tbody></table></div>
 
 ### Ingredients
 
@@ -1944,7 +1944,7 @@ Allow about 5 minutes for four servings in two batches.
 
 - 32g Ground flaxseed
 
-- 20 fl oz Cold water
+- 20 oz Cold water
 
 ### Equipment
 
@@ -1978,7 +1978,7 @@ Cucumber and lime keep this savory smoothie fresh; yogurt gives body and ground 
 
 - Serve promptly. Ground seeds thicken on standing; blend again with a little extra water if needed.
 
-### Nutrition per 8 fl oz glass (estimated)
+### Nutrition per 8 oz glass
 
 89 kcal; 8.5 g protein; 6.7 g total carbs; 2.1 g fiber; 4.6 g net carbs
 

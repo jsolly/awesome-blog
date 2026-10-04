@@ -66,3 +66,9 @@
     --recipe-focus: #a65c16;
   }
 }
+
+@media print {
+    html:is([data-recipe-print],:has(.recipe-page)) .site-header,html:is([data-recipe-print],:has(.recipe-page)) .sidebar,html:is([data-recipe-print],:has(.recipe-page)) .site-footer,html:is([data-recipe-print],:has(.recipe-page)) .breadcrumbs,html:is([data-recipe-print],:has(.recipe-page)) .post-meta,html:is([data-recipe-print],:has(.recipe-page)) .article-actions,html:is([data-recipe-print],:has(.recipe-page)) .related-posts,html:is([data-recipe-print],:has(.recipe-page)) .about-card,html:is([data-recipe-print],:has(.recipe-page)) .heading-link,html:is([data-recipe-print],:has(.recipe-page)) h1:not(.print-title){display:none!important}
+    html:is([data-recipe-print],:has(.recipe-page)) .page-layout{display:block!important;max-width:none!important;padding:0!important;margin:0!important}
+    html:is([data-recipe-print],:has(.recipe-page)),html:is([data-recipe-print],:has(.recipe-page)) body{background:white!important;color:black!important}
+}

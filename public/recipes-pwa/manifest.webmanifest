@@ -4,7 +4,7 @@
   "short_name": "Easy Meals",
   "description": "Meals and smoothies with serving scaling and appliance filters, available offline.",
   "start_url": "/post/15-minute-dump-and-go-instant-pot-recipes/",
-  "scope": "/post/15-minute-dump-and-go-instant-pot-recipes/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#f5f1e7",
   "theme_color": "#183e2b",

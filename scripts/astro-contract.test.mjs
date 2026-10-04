@@ -171,36 +171,29 @@ test('related cards render the selected published associations', async () => {
   }
 });
 
-test('recipe route retains a complete sanitized no-JavaScript guide and first-party assets', async () => {
+test('recipe route shares complete recipe bodies without JavaScript and retains first-party assets', async () => {
   const { recipes } = await readJson('src/components/recipes/recipes.json');
   const html = await readFile('dist/post/15-minute-dump-and-go-instant-pot-recipes/index.html', 'utf8');
   const $ = load(html, { scriptingEnabled: false });
   assert.equal($('h1').not('.print-title').length, 1);
   assert.equal($('.article-hero, #print-article').length, 0);
-  assert.equal($('#recipe-static').length, 1);
-  assert.equal($('#recipe-static').parents('noscript').length, 0, 'The guide must survive blocked or failed hydration');
-  assert.equal($('.meal-library').attr('data-hydrated'), 'false', 'Only successful hydration may replace the static guide');
-  assert.equal($('#recipe-static .trn-table').length, recipes.length);
-  assert.equal($('#recipe-static .trn-scroll[tabindex="0"][role="region"]').length, recipes.length);
-  assert.equal($('#recipe-static .recipe-table-scroll table').length, 3);
-  assert.deepEqual($('#recipe-static h3').toArray().map(heading => $(heading).clone().find('.heading-link').remove().end().text()).sort(), recipes.map(recipe => recipe.title).sort());
-  for (const recipe of recipes) assert.equal($(`#recipe-static [id="${recipe.id}"]`).length, 1, `Missing stable recipe anchor: ${recipe.id}`);
-  assert.match($('#recipe-static').text(), /not kitchen-tested/u);
-  for (const recipe of recipes) {
-    const image = $(`#recipe-static img[src="${recipe.image.src}"]`);
-    assert.equal(image.length, recipes.filter(r=>r.image.src===recipe.image.src).length);
-    assert.equal(image.attr('srcset'), recipe.image.detailSrcset);
-    assert.equal(image.attr('alt'), recipe.image.alt);
-    for (const ingredient of recipe.ingredients) assert.ok($('#recipe-static').text().includes(ingredient.name), `${recipe.id}: missing fallback ingredient ${ingredient.name}`);
-    for (const srcset of [recipe.image.cardSrcset, recipe.image.detailSrcset]) {
-      for (const candidate of srcset.split(',')) {
-        const path = candidate.trim().split(/\s+/u)[0];
-        assert.match(path, /^\/media\/recipes\/[a-z0-9-]+\.(?:webp|svg)$/u);
-        await access(`dist${path}`);
-      }
-    }
+  assert.equal($('.meal-library').attr('data-hydrated'), 'false');
+  assert.equal($('.recipe-detail').length,0);
+  for (const collection of ['meals','smoothies']) {
+    const grid=load(await readFile(`dist/recipes/${collection}/index.html`,'utf8'));
+    const expected=recipes.filter(recipe=>(recipe.type||'meal')===(collection==='meals'?'meal':'smoothie'));
+    assert.equal(grid('.recipe-card').length,expected.length);
+    for(const recipe of expected) assert.equal(grid(`a.title-button[href^="/recipes/${recipe.id}/"]`).length,1);
   }
-  assert.doesNotMatch($('#recipe-static').html(), /<script|\son\w+=|javascript:/iu);
+  for(const recipe of recipes){
+    const detail=load(await readFile(`dist/recipes/${recipe.id}/index.html`,'utf8'));
+    assert.equal(detail('.recipe-detail').length,1);
+    assert.equal(detail('.recipe-body .trn-table').length,1);
+    assert.equal(detail('details.nutrient-disclosure').length,1);
+    assert.equal(detail('.recipe-photo img').attr('src'),recipe.image.src);
+    for(const ingredient of recipe.ingredients)assert.ok(detail('.recipe-body').text().includes(ingredient.name),recipe.id);
+    for(const srcset of [recipe.image.cardSrcset,recipe.image.detailSrcset])for(const candidate of srcset.split(','))await access(`dist${candidate.trim().split(/\s+/u)[0]}`);
+  }
   const assistant = await readJson('dist/data/recipe-library.json');
   assert.deepEqual(assistant.recipes.map(recipe => recipe.recipeId), recipes.map(recipe => recipe.id));
   assert.equal(assistant.recipes.length, recipes.length);

@@ -65,12 +65,12 @@ key. Titles and region order can change without changing ownership. Add editoria
 content outside these comments; it remains untouched, including HTML tables.
 
 The article retains `/post/15-minute-dump-and-go-instant-pot-recipes/`. Its route
-uses `RecipeExperience.astro` with the host-sanitized article as a complete
-fallback that stays visible until the interactive library hydrates successfully.
-Disabled, blocked or failed JavaScript therefore retains the complete guide.
-Only catalog images gain responsive attributes after
-sanitization; the twelve TRN regions support keyboard scrolling. Interactive,
-print and export views share the same ingredient and dependency model.
+uses `RecipeExperience.astro`. Interactive details and the no-JavaScript view
+render the same `RecipeBody` and `RecipeFlow` components. The library and initial
+recipe cards appear before hydration. JavaScript-disabled visitors see anchored
+four-serving recipes, native ingredient checkboxes and nutrient disclosures.
+Static family sides show the default four-diner option. Print and assistant
+exports retain the expanded guide and share the ingredient and dependency model.
 
 During this migration only, an explicit rewrite receipt pins the authorized
 replacement and the original legacy record. Reconcile any new frozen-source
@@ -85,9 +85,9 @@ Recipe settings use `blogthedata-recipes-v2`. Old meal-plan storage is left inta
 
 Ingredient display uses grams whenever the scaled canonical mass is at least 1 g, including split flow allocations. Subgram quantities retain typed source measures; volumes and counts retain their canonical conversions. Cooking flow has a native dialog explaining Tabular Recipe Notation; Escape and its close button return to the recipe.
 
-The interactive cooking interface uses only the flow table, with a checkbox for each ingredient allocation. Separate ingredient and cooking-step checklists are removed; canonical steps remain for static reading, printing and assistant exports. Table rows retain ingredient notes and purchase hints; preparation rows retain equipment, safe handling and selected family-side heating. Checks reset when another recipe opens.
+The interactive cooking interface uses only the flow table, with a checkbox for each ingredient allocation. Separate ingredient and cooking-step checklists are removed; canonical steps remain for printing and assistant exports. Static reading uses the same cooking flow as interactive details. Table rows retain ingredient notes and purchase hints; preparation rows retain equipment, safe handling and selected family-side heating. Checks reset when another recipe opens.
 
-Recipe detail keeps appliance icons above the photo/table, a concise family-side selector and quantity, and always-visible nutrition. General capacity alerts, duplicate side section, rationale/source disclosures and nutrition explanations are removed from the interactive view. The method link sits below the table. Pressure-flow actions are condensed while retaining pressure time, release time and165°F endpoint; canonical full steps remain in print/export/static content.
+Recipe detail keeps appliance icons above the photo/table, a concise family-side selector and quantity, and always-visible nutrition. General capacity alerts, duplicate side section, rationale/source disclosures and nutrition explanations are removed from the interactive view. The method link sits below the table. Pressure-flow actions are condensed while retaining pressure time, release time and165°F endpoint; canonical full steps remain in print/export content.
 
 Recipe details use the card badge, a short meal description, whole-gram ingredient amounts (spoon measures below one gram), decorative food symbols, and rounded nutrition per serving. The detail toolbar offers Back and Print recipe; clipboard actions, JSON downloads, cooking view and chart-only printing have been removed. Side nutrition is omitted from the display.
 
@@ -118,3 +118,9 @@ Appliances on hand stores validated counts (0–2 pressure cookers/air fryers,0�
 The Meals/Smoothies switch uses a full-width large segmented control. Collapsed micronutrients preview the three highest known Daily Values. Gram ingredient quantities omit the space before g. Shawarma has separate oil/spice rows per pan, a plain pinch-of-salt sauce row, and fractional remaining salt portions that preserve the total allocation. Oven setup belongs to the roasting operation; redundant reservation/preparation rows are removed.
 
 All new recipe standard controls compose installed/generated shadcn-svelte sources: Button, Native Select, Checkbox, Popover, Collapsible, and Dialog. Dialog portals avoid container-layout containment; the recipe takeover overrides centering/animation utilities to fill the viewport, while the method dialog remains centered. Reload validates category/nutrition compatibility against the complete appliance set and preserves an empty user inventory without discarding filters. Built-app regression tests cover these workflows and offline smoothie SVG decoding.
+
+Recipe details end with Share recipe. Native sharing falls back to copying a deep link, or showing the link if clipboard access fails. Links preserve servings and selected family starch. Static recipes offer a permalink. Nutrition Daily Values appear highest first; missing values sort last. Liquid displays use oz while canonical data keeps volume distinct from mass. Smoothie flow rows use full-size blender loading order: liquids and yogurt first, then seeds, greens and fruit. Meal rows keep the main ingredient beside its oil/seasonings, while pressure recipes keep cooking liquid first.
+
+Meals and Smoothies have separate card grids at `/recipes/meals/` and `/recipes/smoothies/`. Each card links to `/recipes/<recipe-id>/`, which server-renders one shared recipe body and enhances its cooking controls with JavaScript. Without JavaScript, native checks and nutrient disclosures work and the collection grids hide interactive filters. Existing article fragments retain their enhanced dialog behavior. Shared links now use individual recipe URLs. Offline snapshots include both grids and every recipe page; the worker has root scope but only intercepts its explicit recipe asset allowlist.
+
+The non-JavaScript recipe body uses the base four-serving recipe and default family side. Scaling and alternate-side query settings require JavaScript. The legacy worker URL remains available for installed-app updates, with an independent cache namespace.

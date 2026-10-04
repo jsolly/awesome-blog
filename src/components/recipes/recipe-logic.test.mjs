@@ -152,9 +152,9 @@ test('smoothie nutrition uses explicit estimated fluid yield, independent of bat
 });
 test('whole-ounce smoothie display keeps canonical quantities intact',()=>{
  const water={id:'water',amount:400,unit:'ml',scale:'linear'};
- assert.equal(formatIngredient(water,4,'us'),'13.5 fl oz');
- assert.equal(formatIngredient(water,4,'us',{wholeOunces:true}),'14 fl oz');
- assert.equal(formatIngredient(water,2,'us',{wholeOunces:true}),'7 fl oz');
+ assert.equal(formatIngredient(water,4,'us'),'13.5 oz');
+ assert.equal(formatIngredient(water,4,'us',{wholeOunces:true}),'14 oz');
+ assert.equal(formatIngredient(water,2,'us',{wholeOunces:true}),'7 oz');
  assert.equal(formatIngredient(water,4,'metric',{wholeOunces:true}),'400 ml');
  assert.equal(water.amount,400);
 });

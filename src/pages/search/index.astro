@@ -1,5 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Search from '../../components/Search.svelte';
+import { blogContent } from '../../lib/content';
+import { cards } from '../../lib/cards';
+const { posts, categories } = await blogContent();
 ---
-<Base title="Search posts" noindex><Search client:load /></Base>
+<Base title="Search posts" noindex><Search posts={cards(posts, categories)} client:load /></Base>

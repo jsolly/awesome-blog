@@ -29,7 +29,7 @@ const structured = { '@context': 'https://schema.org', '@type': 'BlogPosting', h
     {interactiveMealPost && <RecipePwa />}
     <h1 id={headingId(data.title)}>{data.title}<a class="heading-link" href={`#${headingId(data.title)}`} aria-label="Link to this heading">#</a></h1>
     {!interactiveMealPost && <figure><img class="article-hero" src={image} alt={data.imageAlt} width={data.imageWidth ?? undefined} height={data.imageHeight ?? undefined} fetchpriority="high" />{data.imageAttribution && <figcaption>{data.imageAttribution}</figcaption>}</figure>}
-    {interactiveMealPost ? <RecipeExperience fallbackHtml={articleHtml(post.html)} /> : <div class="article-body post-text" set:html={articleHtml(post.html)} />}
+    {interactiveMealPost ? <RecipeExperience /> : <div class="article-body post-text" set:html={articleHtml(post.html)} />}
     <footer class="post-details">
     <p class="post-meta"><time datetime={data.published.toISOString()}>{dateLabel(data.published)}</time> in <a href={`/category/${data.category}/`}>{category?.data.name}</a></p>
     <p class="post-meta">Updated <time datetime={data.updated.toISOString()}>{dateLabel(data.updated)}</time></p>

@@ -29,3 +29,14 @@ test('split symbolic salt preserves one pinch and a complete positive remainder'
  branches[0].children.find(x=>x.share==='remainder').fraction=.25;branches[1].children.find(x=>x.share==='remainder').fraction=.5;
  assert.throws(()=>validateFlow(invalid),/Unbalanced symbolic allocation/);
 });
+
+
+test('smoothie loading starts with liquids and keeps seeds and greens ahead of fruit',()=>{
+ for(const recipe of recipes.filter(r=>r.type==='smoothie')){
+  const rows=flowGrid(recipe,{servings:4,units:'us'}).rows;
+  assert.equal(rows[0].ingredient.ingredientId,'water',recipe.id);
+  const ids=rows.map(r=>r.ingredient.ingredientId);
+  const firstFruit=Math.min(...['avocado','banana','strawberry','cucumber'].map(id=>ids.indexOf(id)).filter(i=>i>=0));
+  for(const id of ['lime','yogurt','flax','hemp','spinach'])if(ids.includes(id))assert.ok(ids.indexOf(id)<firstFruit,recipe.id+' '+id);
+ }
+});

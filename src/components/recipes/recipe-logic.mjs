@@ -65,7 +65,7 @@ export function formatIngredient(ingredient, servings, units = 'metric', {wholeO
   // Typed source measures can land just below a decimal half after rescaling.
   const roundedOunces = wholeOunces?Math.round(shown):Math.round((shown + Number.EPSILON * Math.abs(shown)) * 10) / 10;
   const quantity=unit==='oz'||unit==='fl oz'?String(roundedOunces):formatQuantity(shown);
-  return `${quantity}${unit ? ` ${unit}` : ''}`;
+  return `${quantity}${unit ? ` ${unit === 'fl oz' ? 'oz' : unit}` : ''}`;
 }
 
 /** Safe endpoints round upward; appliance settings round to the nearest 5°C. */
@@ -113,7 +113,7 @@ export function displayNutrition(recipe,servings=4){
  return recipe.type==='smoothie'?smoothiePortionNutrition(recipe):servingNutrition(recipe,servings);
 }
 export function nutritionHeading(recipe){
- return recipe.type==='smoothie'?'Nutrition per 8 fl oz glass (estimated)':'Nutrition per serving';
+ return recipe.type==='smoothie'?'Nutrition per 8 oz glass':'Nutrition per serving';
 }
 export function smoothieYieldNote(recipe,servings=4){
  const glasses=smoothieGlassesPerBatch(recipe)*validateSettings({servings}).servings/4;

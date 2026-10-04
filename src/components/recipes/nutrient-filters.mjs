@@ -58,7 +58,7 @@ export function toggleMealStyle(selected,value){
  if(selected.includes(value))return selected.filter(item=>item!==value);
  return normalizeMealStyles([...selected,value]);
 }
-export const applianceChoices={'Instant Pot':'Pressure cooker',Oven:'Oven',Pans:'Pans',Microwave:'Microwave','Two air fryers':'Air fryer',Blender:'Blender'};
+export const applianceChoices={'Instant Pot':'Pressure cookers',Oven:'Oven',Pans:'Pans',Microwave:'Microwave','Two air fryers':'Air fryers',Blender:'Blender'};
 export const defaultAppliances={'Instant Pot':1,Oven:1,Pans:1,Microwave:1,'Two air fryers':2,Blender:1};
 export function availableAppliances(value){
  if(Array.isArray(value))return Object.fromEntries(Object.keys(applianceChoices).map(key=>[key,value.includes(key)?(key==='Two air fryers'?2:1):0]));
