@@ -52,7 +52,7 @@ npm run test:recipes
 npm run gate
 ```
 
-`recipes:sync` regenerates all twelve complete recipe sections and the three
+`recipes:sync` regenerates every complete recipe section and the three
 overview/nutrition/family tables in the existing article. It preserves frontmatter
 except the generated excerpt, and preserves editorial guidance. It also updates `public/data/recipe-library.json` and
 `public/data/recipe-library.md`. `recipes:check` checks synchronization without
@@ -111,7 +111,7 @@ Opening a recipe uses a full-viewport shadcn-svelte Dialog, with the rest of the
 
 Meal style supports Shared Main plus either Keto or Not Keto; selecting the opposite replaces only the exclusive style. Empty selection includes all styles. Style arrays persist locally, with old single values normalized. The nutrient fieldset label is Nutrition. The site header uses a bundled topographic contour SVG.
 
-Easy Meals includes 13 meals and four smoothies, selected with a persisted Meals/Smoothies control. Pan-fried Greek turkey patties use one 12-inch nonstick frying pan in batches of four; original ingredients, nutrition profiles and illustration remain the same as the air-fryer version. Smoothies use plain lowfat Greek yogurt, edible fruit weights and direct USDA SR Legacy profiles (167762 strawberries,173944 banana,170903 yogurt,171705 avocado,169414 flax,168409 cucumber,168156 lime). No added sugar; two keto blends have under8g net carbs per serving, while two banana blends are Not Keto. Micronutrients retain unknown-data omission. Blend up to two servings per batch; larger serving counts add batches. New smoothie images are bundled vector illustrations.
+Easy Meals includes 14 meals and six smoothies, selected with a persisted Meals/Smoothies control. Pan-fried Greek turkey patties use one 12-inch nonstick frying pan in batches of four; original ingredients, nutrition profiles and illustration remain the same as the air-fryer version. Smoothies use plain lowfat Greek yogurt, edible fruit weights and direct USDA SR Legacy profiles (167762 strawberries,173944 banana,170903 yogurt,171705 avocado,169414 flax,168409 cucumber,168156 lime). No added sugar; two keto blends have under8g net carbs per serving, while two banana blends are Not Keto. Micronutrients retain unknown-data omission. Blend up to two servings per batch; larger serving counts add batches. New smoothie images are bundled vector illustrations.
 
 Appliances on hand stores validated counts (0–2 pressure cookers/air fryers,0–1 other appliances). Every required appliance must be available; two-fryer recipes require2. Each appliance uses one icon. Oven-off disables Pans and makes pans unavailable as the requested inventory UI rule; the pan-fried method itself uses a stovetop. The blender option covers smoothies. Appliance changes may leave no matching recipes; the empty state asks users to adjust appliances and filters. Switching collections or opening deep links clears incompatible category/nutrition filters while preserving appliance inventory. Cards share five subgrid tracks so titles can wrap without shifting metrics within each row. Share links use bundled logos with accessible platform names; the article All posts button is removed. Header, favicon, legacy logo.webp and PWA icon exports share the topographic SVG artwork.
 
@@ -124,3 +124,5 @@ Recipe details end with Share recipe. Native sharing falls back to copying a dee
 Meals and Smoothies have separate card grids at `/recipes/meals/` and `/recipes/smoothies/`. Each card links to `/recipes/<recipe-id>/`, which server-renders one shared recipe body and enhances its cooking controls with JavaScript. Without JavaScript, native checks and nutrient disclosures work and the collection grids hide interactive filters. Existing article fragments retain their enhanced dialog behavior. Shared links now use individual recipe URLs. Offline snapshots include both grids and every recipe page; the worker has root scope but only intercepts its explicit recipe asset allowlist.
 
 The non-JavaScript recipe body uses the base four-serving recipe and default family side. Scaling and alternate-side query settings require JavaScript. The legacy worker URL remains available for installed-app updates, with an independent cache namespace.
+
+Keto zuppa toscana is the household Instant Pot soup (chicken Italian sausage and turkey bacon, no pork; kale, not spinach), scaled to the four-serving base from a 10-serving batch. Nutrition uses USDA SR Legacy 174604 smoked Italian turkey sausage as the closest poultry Italian sausage profile; its 9.6 mg/100 g iron value is excluded as an outlier, so iron is not reported. Optional xanthan and Parmesan are excluded. Its illustration is a bundled vector.

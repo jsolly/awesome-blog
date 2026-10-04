@@ -361,7 +361,7 @@ for (const width of [390,1280]) {
   const live=await browser.newContext({viewport:{width,height:900},hasTouch:width===390,isMobile:width===390});
   try{
    const page=await plain.newPage();await page.goto(`${origin}/recipes/meals/`);
-   assert.equal(await page.locator('.recipe-card').count(),13);assert.equal(await page.locator('.recipe-detail').count(),0);
+   assert.equal(await page.locator('.recipe-card').count(),14);assert.equal(await page.locator('.recipe-detail').count(),0);
    assert.equal(await page.getByRole('combobox',{name:'Servings',exact:true}).isVisible(),false);
    assert.equal(await page.getByRole('button',{name:'Print all meals',exact:true}).isVisible(),false);
    assert.equal(await page.getByRole('link',{name:'All posts',exact:true}).first().isVisible(),true);
@@ -432,7 +432,7 @@ test('Previous shipped article snapshot migrates to standalone recipe pages offl
   await migrated.getByText('Recipes saved for offline use.',{exact:false}).waitFor({state:'attached'});
   await waitForBrowserState(migrated, async()=>{const regs=await navigator.serviceWorker.getRegistrations();return regs.length===2&&regs.every(r=>r.active);});
   await context.setOffline(true);
-  await migrated.getByRole('link',{name:'Meals',exact:true}).click();await migrated.locator('[data-hydrated=true]').waitFor();assert.equal(await migrated.locator('.recipe-card').count(),13);
+  await migrated.getByRole('link',{name:'Meals',exact:true}).click();await migrated.locator('[data-hydrated=true]').waitFor();assert.equal(await migrated.locator('.recipe-card').count(),14);
   await migrated.locator('.recipe-card').filter({hasText:'Lemon salmon and asparagus'}).getByRole('link',{name:'See recipe',exact:true}).click();await migrated.locator('.recipe-detail .reset-checks-row').waitFor();
   await migrated.waitForFunction(()=>[...document.querySelectorAll('.recipe-photo img')].every(image=>image.complete&&image.naturalWidth>0));
   const names=await migrated.evaluate(()=>caches.keys());assert.ok(names.includes(snapshots[1].cache));assert.ok(names.includes(snapshots[1].cache.replace('recipe-pages-pwa-','recipe-pwa-')));

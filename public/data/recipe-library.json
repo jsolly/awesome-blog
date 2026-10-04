@@ -2360,6 +2360,595 @@
           "unit": "g",
           "dailyValue": 78,
           "usdaId": 1004,
+          "amount": 16.09635375,
+          "percent": 21
+        },
+        {
+          "key": "saturated_fat",
+          "label": "Saturated fat",
+          "unit": "g",
+          "dailyValue": 20,
+          "usdaId": 1258,
+          "amount": 7.8808125,
+          "percent": 39
+        },
+        {
+          "key": "cholesterol",
+          "label": "Cholesterol",
+          "unit": "mg",
+          "dailyValue": 300,
+          "usdaId": 1253,
+          "amount": 69.2075,
+          "percent": 23
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium",
+          "unit": "mg",
+          "dailyValue": 2300,
+          "usdaId": 1093,
+          "amount": 1340.69875,
+          "percent": 58
+        },
+        {
+          "key": "vitamin_a",
+          "label": "Vitamin A",
+          "unit": "mcg RAE",
+          "dailyValue": 900,
+          "usdaId": 1106,
+          "amount": 146.498625,
+          "percent": 16
+        },
+        {
+          "key": "vitamin_c",
+          "label": "Vitamin C",
+          "unit": "mg",
+          "dailyValue": 90,
+          "usdaId": 1162,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_d",
+          "label": "Vitamin D",
+          "unit": "mcg",
+          "dailyValue": 20,
+          "usdaId": 1114,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_e",
+          "label": "Vitamin E",
+          "unit": "mg",
+          "dailyValue": 15,
+          "usdaId": 1109,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_k",
+          "label": "Vitamin K",
+          "unit": "mcg",
+          "dailyValue": 120,
+          "usdaId": 1185,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "thiamin",
+          "label": "Thiamin (B1)",
+          "unit": "mg",
+          "dailyValue": 1.2,
+          "usdaId": 1165,
+          "amount": 0.12064400000000002,
+          "percent": 10
+        },
+        {
+          "key": "riboflavin",
+          "label": "Riboflavin (B2)",
+          "unit": "mg",
+          "dailyValue": 1.3,
+          "usdaId": 1166,
+          "amount": 0.34234137499999995,
+          "percent": 26
+        },
+        {
+          "key": "niacin",
+          "label": "Niacin (B3)",
+          "unit": "mg",
+          "dailyValue": 16,
+          "usdaId": 1167,
+          "amount": 3.148071125,
+          "percent": 20
+        },
+        {
+          "key": "vitamin_b6",
+          "label": "Vitamin B6",
+          "unit": "mg",
+          "dailyValue": 1.7,
+          "usdaId": 1175,
+          "amount": 0.33833874999999997,
+          "percent": 20
+        },
+        {
+          "key": "folate",
+          "label": "Folate",
+          "unit": "mcg DFE",
+          "dailyValue": 400,
+          "usdaId": 1190,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_b12",
+          "label": "Vitamin B12",
+          "unit": "mcg",
+          "dailyValue": 2.4,
+          "usdaId": 1178,
+          "amount": 0.471475,
+          "percent": 20
+        },
+        {
+          "key": "pantothenic_acid",
+          "label": "Pantothenic acid (B5)",
+          "unit": "mg",
+          "dailyValue": 5,
+          "usdaId": 1170,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "choline",
+          "label": "Choline",
+          "unit": "mg",
+          "dailyValue": 550,
+          "usdaId": 1180,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "calcium",
+          "label": "Calcium",
+          "unit": "mg",
+          "dailyValue": 1300,
+          "usdaId": 1087,
+          "amount": 85.6465,
+          "percent": 7
+        },
+        {
+          "key": "iron",
+          "label": "Iron",
+          "unit": "mg",
+          "dailyValue": 18,
+          "usdaId": 1089,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "magnesium",
+          "label": "Magnesium",
+          "unit": "mg",
+          "dailyValue": 420,
+          "usdaId": 1090,
+          "amount": 28.491000000000003,
+          "percent": 7
+        },
+        {
+          "key": "phosphorus",
+          "label": "Phosphorus",
+          "unit": "mg",
+          "dailyValue": 1250,
+          "usdaId": 1091,
+          "amount": 170.874625,
+          "percent": 14
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium",
+          "unit": "mg",
+          "dailyValue": 4700,
+          "usdaId": 1092,
+          "amount": 383.97325,
+          "percent": 8
+        },
+        {
+          "key": "zinc",
+          "label": "Zinc",
+          "unit": "mg",
+          "dailyValue": 11,
+          "usdaId": 1095,
+          "amount": 1.7664650000000002,
+          "percent": 16
+        },
+        {
+          "key": "copper",
+          "label": "Copper",
+          "unit": "mg",
+          "dailyValue": 0.9,
+          "usdaId": 1098,
+          "amount": 0.12117462500000001,
+          "percent": 13
+        },
+        {
+          "key": "manganese",
+          "label": "Manganese",
+          "unit": "mg",
+          "dailyValue": 2.3,
+          "usdaId": 1101,
+          "amount": 0.25244,
+          "percent": 11
+        },
+        {
+          "key": "selenium",
+          "label": "Selenium",
+          "unit": "mcg",
+          "dailyValue": 55,
+          "usdaId": 1103,
+          "amount": 14.760400000000002,
+          "percent": 27
+        }
+      ],
+      "recipeId": "keto-zuppa-toscana",
+      "type": "meal",
+      "title": "Keto zuppa toscana",
+      "group": "keto",
+      "servings": 4,
+      "units": "us",
+      "familyDiners": 0,
+      "cookingFlow": {
+        "notation": "Tabular Recipe Notation (TRN)",
+        "prep": [
+          "Remove sausage casings; chop bacon, onion and kale; mince garlic."
+        ],
+        "columns": 5,
+        "rows": [
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "182g",
+              "name": "Chicken Italian sausage",
+              "state": "raw, casings removed · No pork; check the label for allergens and fillers.",
+              "essentialState": true
+            },
+            {
+              "kind": "operation",
+              "col": 1,
+              "colspan": 1,
+              "rowspan": 4,
+              "text": "Sauté sausage and turkey bacon in the Instant Pot, then onion and red pepper."
+            },
+            {
+              "kind": "operation",
+              "col": 2,
+              "colspan": 1,
+              "rowspan": 5,
+              "text": "Add garlic briefly."
+            },
+            {
+              "kind": "operation",
+              "col": 3,
+              "colspan": 1,
+              "rowspan": 7,
+              "text": "Add broth, scrape the bottom, then add cauliflower. Then: High pressure: 5 min, Keep Warm off. Quick release; open after the float drops. Sausage must reach 165°F."
+            },
+            {
+              "kind": "operation",
+              "col": 4,
+              "colspan": 1,
+              "rowspan": 11,
+              "text": "Stir in cream and kale; thicken with xanthan if using. Serve with Parmesan if using."
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "67g",
+              "name": "Turkey bacon",
+              "state": "chopped",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "22g",
+              "name": "Onion",
+              "state": "diced",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "¼ tsp",
+              "name": "Crushed red pepper",
+              "state": "flakes",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 2,
+              "rowspan": 1,
+              "text": "4g",
+              "name": "Garlic",
+              "state": "minced",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 3,
+              "rowspan": 1,
+              "text": "770 ml",
+              "name": "Chicken broth",
+              "state": "thin, water-based",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 3,
+              "rowspan": 1,
+              "text": "171g",
+              "name": "Cauliflower florets",
+              "state": "bite-size",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 4,
+              "rowspan": 1,
+              "text": "95g",
+              "name": "Organic heavy cream",
+              "state": "added after pressure cooking",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 4,
+              "rowspan": 1,
+              "text": "42g",
+              "name": "Kale",
+              "state": "stems removed, chopped · Kale, not spinach.",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 4,
+              "rowspan": 1,
+              "text": "¼ tsp",
+              "name": "Xanthan gum",
+              "state": "Optional thickener; not counted in nutrition.",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 4,
+              "rowspan": 1,
+              "text": "to taste",
+              "name": "Parmesan",
+              "state": "grated · Optional garnish; not counted in nutrition.",
+              "essentialState": false
+            }
+          ]
+        ]
+      },
+      "summary": "Creamy Instant Pot soup with chicken Italian sausage, turkey bacon, cauliflower and kale.",
+      "activeMinutes": 20,
+      "totalTime": "35–45 min expected; pressure buildup can take longer",
+      "attentionSummary": "Sauté first, then quick release after 5 minutes; stir in cream and kale.",
+      "capacity": "The listed pan and basket capacity, cook times, and thermometer endpoint are for four servings.",
+      "timingNote": "Ingredients are scaled; keep food thickness, spacing, settings and safe endpoints fixed. Timings assume the four-serving batch and specified shortcuts. More food can require additional batches.",
+      "equipment": [
+        "Instant Pot 6QT or larger",
+        "Instant-read thermometer",
+        "Ladle"
+      ],
+      "ingredients": [
+        {
+          "quantity": "182g",
+          "name": "Chicken Italian sausage",
+          "state": "raw, casings removed",
+          "note": "No pork; check the label for allergens and fillers."
+        },
+        {
+          "quantity": "67g",
+          "name": "Turkey bacon",
+          "state": "chopped",
+          "note": ""
+        },
+        {
+          "quantity": "22g",
+          "name": "Onion",
+          "state": "diced",
+          "note": ""
+        },
+        {
+          "quantity": "¼ tsp",
+          "name": "Crushed red pepper",
+          "state": "flakes",
+          "note": ""
+        },
+        {
+          "quantity": "4g",
+          "name": "Garlic",
+          "state": "minced",
+          "note": ""
+        },
+        {
+          "quantity": "770 ml",
+          "name": "Chicken broth",
+          "state": "thin, water-based",
+          "note": ""
+        },
+        {
+          "quantity": "171g",
+          "name": "Cauliflower florets",
+          "state": "bite-size",
+          "note": ""
+        },
+        {
+          "quantity": "95g",
+          "name": "Organic heavy cream",
+          "state": "added after pressure cooking",
+          "note": ""
+        },
+        {
+          "quantity": "42g",
+          "name": "Kale",
+          "state": "stems removed, chopped",
+          "note": "Kale, not spinach."
+        },
+        {
+          "quantity": "¼ tsp",
+          "name": "Xanthan gum",
+          "state": "",
+          "note": "Optional thickener; not counted in nutrition."
+        },
+        {
+          "quantity": "to taste",
+          "name": "Parmesan",
+          "state": "grated",
+          "note": "Optional garnish; not counted in nutrition."
+        }
+      ],
+      "familyIngredient": null,
+      "familyOptions": [],
+      "steps": [
+        {
+          "title": "Prepare",
+          "text": "Dice the onion, mince the garlic, chop the turkey bacon and kale, and cut cauliflower into bite-size florets. Remove sausage casings. Keep raw sausage, its board and utensils away from the kale and cream."
+        },
+        {
+          "title": "Sauté",
+          "text": "Set the Instant Pot to Sauté. Brown the sausage, breaking it up, with the turkey bacon. Add the onion and crushed red pepper and cook until the onion softens. Add the garlic for about 30 seconds. Turn Sauté off."
+        },
+        {
+          "title": "Cook",
+          "text": "Add the broth and scrape up browned bits so the pot does not trigger a burn warning. Add the cauliflower. Seal, switch Keep Warm off, and cook at high pressure for 5 minutes. Stay under PC MAX."
+        },
+        {
+          "title": "Finish",
+          "text": "Quick release according to your manual, keeping clear of steam; vent in short bursts if the soup sputters. Open only after the float valve drops. Check the sausage reaches 165°F. Stir in the cream and kale until the kale wilts. Sprinkle in xanthan while stirring if you want a thicker soup. Serve with Parmesan if using."
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "Prepare and sauté",
+          "duration": "about 12 min",
+          "attention": "Brown sausage and turkey bacon, then onion, red pepper and garlic."
+        },
+        {
+          "phase": "Pressurize",
+          "duration": "10–15 min expected",
+          "attention": "Deglaze with broth before sealing; Keep Warm off."
+        },
+        {
+          "phase": "Pressure cook",
+          "duration": "5 min high pressure",
+          "attention": "Countdown starts after pressure is reached."
+        },
+        {
+          "phase": "Release and finish",
+          "duration": "about 5 min",
+          "attention": "Quick release, open after the float drops, then stir in cream and kale."
+        }
+      ],
+      "tips": [
+        "Deglaze thoroughly after sautéing to avoid a burn warning.",
+        "Add cream only after pressure cooking.",
+        "Kale wilts in the hot soup; no extra cooking needed.",
+        "Xanthan thickens quickly; sprinkle it in while stirring to avoid clumps."
+      ],
+      "fallback": "",
+      "limitations": [
+        "35–45 min is a planning estimate; pressure build time varies with liquid volume and starting temperature.",
+        "Follow your exact model’s liquid minimum, PC MAX, venting and float-valve instructions. Do not leave the operating cooker unattended.",
+        "Nutrition uses USDA smoked Italian turkey sausage as the closest poultry Italian sausage profile, excluding its outlier iron value; check your sausage, bacon and broth labels.",
+        "Household version scaled from a 10-serving batch; not kitchen-tested at other serving counts."
+      ],
+      "sources": [
+        {
+          "title": "Christy Denney / The Girl Who Ate Everything",
+          "url": "https://www.the-girl-who-ate-everything.com/"
+        },
+        {
+          "title": "USDA FoodData Central source data",
+          "url": "https://fdc.nal.usda.gov/download-datasets/"
+        },
+        {
+          "title": "FoodSafety.gov safe minimum temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "nutrition": {
+        "kcal": 220.45525,
+        "protein_g": 12.689211249999998,
+        "carbs_g": 7.450608750000001,
+        "fiber_g": 1.8401,
+        "net_carbs_g": 5.610508750000001
+      },
+      "nutritionHeading": "Nutrition per serving",
+      "familyNutrition": null,
+      "nutritionNote": "Per adult: base includes measured sauces, seeds and sides. Family nutrition adds one selected starch portion. US net carbs = total carbohydrate − fiber. Labels and food variation matter; no guarantee of ketosis.",
+      "allergens": [
+        "milk"
+      ],
+      "flavorRationale": "Chicken sausage and turkey bacon replace pork, and cauliflower stands in for potatoes to keep the soup keto.",
+      "disclaimer": "These newly designed recipes have not been cooked, tasted or stopwatch-tested. Nutrition is an ingredient estimate, not laboratory analysis. Sources support safety, labels or comparable methods; they do not validate this exact recipe.",
+      "leftovers": "Refrigerate in shallow containers within two hours, or one hour above 90°F. Use within 3–4 days or freeze; reheat to 165°F. Keep cold greens and yogurt separate.",
+      "safety": "Prepare cold sides first. Keep raw-poultry tools separate; use clean serving utensils. Probe more than one thick piece. A timer is not a doneness test.",
+      "image": {
+        "src": "/media/recipes/keto-zuppa-toscana.svg",
+        "cardSrc": "/media/recipes/keto-zuppa-toscana.svg",
+        "cardSrcset": "/media/recipes/keto-zuppa-toscana.svg 512w",
+        "detailSrcset": "/media/recipes/keto-zuppa-toscana.svg 512w",
+        "width": 512,
+        "height": 384,
+        "alt": "Illustration of a bowl of creamy soup with sausage, cauliflower and kale.",
+        "caption": "Soup illustration."
+      }
+    },
+    {
+      "dailyNutrition": [
+        {
+          "key": "fat",
+          "label": "Total fat",
+          "unit": "g",
+          "dailyValue": 78,
+          "usdaId": 1004,
           "amount": 15.1413625,
           "percent": 19
         },

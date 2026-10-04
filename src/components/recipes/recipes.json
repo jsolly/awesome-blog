@@ -1368,6 +1368,359 @@
       "type": "meal"
     },
     {
+      "id": "keto-zuppa-toscana",
+      "key": "zuppa",
+      "title": "Keto zuppa toscana",
+      "group": "keto",
+      "proteinType": "chicken",
+      "vegetarian": false,
+      "appliance": "instant-pot",
+      "activeMinutes": 20,
+      "totalMin": 35,
+      "totalMax": 45,
+      "timeVariable": true,
+      "summary": "Creamy Instant Pot soup with chicken Italian sausage, turkey bacon, cauliflower and kale.",
+      "allergens": [
+        "milk"
+      ],
+      "boosters": [],
+      "ingredients": [
+        {
+          "id": "chicken_italian_sausage",
+          "name": "Chicken Italian sausage",
+          "state": "raw, casings removed",
+          "amount": 182,
+          "unit": "g",
+          "category": "protein",
+          "us": {
+            "amount": 6.4,
+            "unit": "oz"
+          },
+          "note": "No pork; check the label for allergens and fillers.",
+          "scale": "linear"
+        },
+        {
+          "id": "turkey_bacon",
+          "name": "Turkey bacon",
+          "state": "chopped",
+          "amount": 67,
+          "unit": "g",
+          "category": "protein",
+          "us": {
+            "amount": 2.4,
+            "unit": "oz"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "onion",
+          "name": "Onion",
+          "state": "diced",
+          "amount": 22,
+          "unit": "g",
+          "category": "produce",
+          "us": {
+            "amount": 0.75,
+            "unit": "oz"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "crushed_red_pepper",
+          "name": "Crushed red pepper",
+          "state": "flakes",
+          "amount": 0.25,
+          "unit": "tsp",
+          "category": "pantry",
+          "us": {
+            "amount": 0.25,
+            "unit": "tsp"
+          },
+          "note": "",
+          "scale": "linear",
+          "gramsPerUnit": 1.8,
+          "massSource": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+          "displayMeasure": "spoon"
+        },
+        {
+          "id": "garlic",
+          "name": "Garlic",
+          "state": "minced",
+          "amount": 4,
+          "unit": "g",
+          "category": "produce",
+          "us": {
+            "amount": 1,
+            "unit": "clove"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "chicken_broth",
+          "name": "Chicken broth",
+          "state": "thin, water-based",
+          "amount": 770,
+          "unit": "ml",
+          "category": "pantry",
+          "us": {
+            "amount": 770,
+            "unit": "ml"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "cauliflower",
+          "name": "Cauliflower florets",
+          "state": "bite-size",
+          "amount": 171,
+          "unit": "g",
+          "category": "produce",
+          "us": {
+            "amount": 6,
+            "unit": "oz"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "heavy_cream",
+          "name": "Organic heavy cream",
+          "state": "added after pressure cooking",
+          "amount": 95,
+          "unit": "g",
+          "category": "dairy",
+          "us": {
+            "amount": 0.4,
+            "unit": "cup"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "kale",
+          "name": "Kale",
+          "state": "stems removed, chopped",
+          "amount": 42,
+          "unit": "g",
+          "category": "produce",
+          "us": {
+            "amount": 1.5,
+            "unit": "oz"
+          },
+          "note": "Kale, not spinach.",
+          "scale": "linear"
+        },
+        {
+          "id": "xanthan",
+          "name": "Xanthan gum",
+          "state": "",
+          "amount": 0.25,
+          "unit": "tsp",
+          "category": "pantry",
+          "us": {
+            "amount": 0.25,
+            "unit": "tsp"
+          },
+          "note": "Optional thickener; not counted in nutrition.",
+          "scale": "linear",
+          "gramsPerUnit": 3,
+          "massSource": "https://www.bobsredmill.com/product/xanthan-gum",
+          "displayMeasure": "spoon"
+        },
+        {
+          "id": "parmesan",
+          "name": "Parmesan",
+          "state": "grated",
+          "amount": 0,
+          "unit": "tsp",
+          "category": "dairy",
+          "us": {
+            "amount": 0,
+            "unit": "tsp"
+          },
+          "note": "Optional garnish; not counted in nutrition.",
+          "scale": "fixed"
+        }
+      ],
+      "steps": [
+        {
+          "title": "Prepare",
+          "text": "Dice the onion, mince the garlic, chop the turkey bacon and kale, and cut cauliflower into bite-size florets. Remove sausage casings. Keep raw sausage, its board and utensils away from the kale and cream."
+        },
+        {
+          "title": "Sauté",
+          "text": "Set the Instant Pot to Sauté. Brown the sausage, breaking it up, with the turkey bacon. Add the onion and crushed red pepper and cook until the onion softens. Add the garlic for about 30 seconds. Turn Sauté off."
+        },
+        {
+          "title": "Cook",
+          "text": "Add the broth and scrape up browned bits so the pot does not trigger a burn warning. Add the cauliflower. Seal, switch Keep Warm off, and cook at high pressure for 5 minutes. Stay under PC MAX."
+        },
+        {
+          "title": "Finish",
+          "text": "Quick release according to your manual, keeping clear of steam; vent in short bursts if the soup sputters. Open only after the float valve drops. Check the sausage reaches 165°F. Stir in the cream and kale until the kale wilts. Sprinkle in xanthan while stirring if you want a thicker soup. Serve with Parmesan if using."
+        }
+      ],
+      "equipment": [
+        "Instant Pot 6QT or larger",
+        "Instant-read thermometer",
+        "Ladle"
+      ],
+      "timeline": [
+        {
+          "phase": "Prepare and sauté",
+          "duration": "about 12 min",
+          "attention": "Brown sausage and turkey bacon, then onion, red pepper and garlic."
+        },
+        {
+          "phase": "Pressurize",
+          "duration": "10–15 min expected",
+          "attention": "Deglaze with broth before sealing; Keep Warm off."
+        },
+        {
+          "phase": "Pressure cook",
+          "duration": "5 min high pressure",
+          "attention": "Countdown starts after pressure is reached."
+        },
+        {
+          "phase": "Release and finish",
+          "duration": "about 5 min",
+          "attention": "Quick release, open after the float drops, then stir in cream and kale."
+        }
+      ],
+      "tips": [
+        "Deglaze thoroughly after sautéing to avoid a burn warning.",
+        "Add cream only after pressure cooking.",
+        "Kale wilts in the hot soup; no extra cooking needed.",
+        "Xanthan thickens quickly; sprinkle it in while stirring to avoid clumps."
+      ],
+      "fallback": "",
+      "limitations": [
+        "35–45 min is a planning estimate; pressure build time varies with liquid volume and starting temperature.",
+        "Follow your exact model’s liquid minimum, PC MAX, venting and float-valve instructions. Do not leave the operating cooker unattended.",
+        "Nutrition uses USDA smoked Italian turkey sausage as the closest poultry Italian sausage profile, excluding its outlier iron value; check your sausage, bacon and broth labels.",
+        "Household version scaled from a 10-serving batch; not kitchen-tested at other serving counts."
+      ],
+      "sources": [
+        {
+          "title": "Christy Denney / The Girl Who Ate Everything",
+          "url": "https://www.the-girl-who-ate-everything.com/"
+        },
+        {
+          "title": "USDA FoodData Central source data",
+          "url": "https://fdc.nal.usda.gov/download-datasets/"
+        },
+        {
+          "title": "FoodSafety.gov safe minimum temperatures",
+          "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
+        }
+      ],
+      "nutrition": {
+        "kcal": 220.45525,
+        "protein_g": 12.689211249999998,
+        "carbs_g": 7.450608750000001,
+        "fiber_g": 1.8401,
+        "net_carbs_g": 5.610508750000001
+      },
+      "familyOptions": [],
+      "attentionSummary": "Sauté first, then quick release after 5 minutes; stir in cream and kale.",
+      "flavorRationale": "Chicken sausage and turkey bacon replace pork, and cauliflower stands in for potatoes to keep the soup keto.",
+      "midCookActions": 0,
+      "image": {
+        "src": "/media/recipes/keto-zuppa-toscana.svg",
+        "cardSrc": "/media/recipes/keto-zuppa-toscana.svg",
+        "cardSrcset": "/media/recipes/keto-zuppa-toscana.svg 512w",
+        "detailSrcset": "/media/recipes/keto-zuppa-toscana.svg 512w",
+        "width": 512,
+        "height": 384,
+        "alt": "Illustration of a bowl of creamy soup with sausage, cauliflower and kale.",
+        "caption": "Soup illustration."
+      },
+      "flow": {
+        "prep": [
+          "Remove sausage casings; chop bacon, onion and kale; mince garlic."
+        ],
+        "root": {
+          "action": "Stir in cream and kale; thicken with xanthan if using. Serve with Parmesan if using.",
+          "children": [
+            {
+              "action": "High pressure: 5 min, Keep Warm off. Quick release; open after the float drops. Sausage must reach 165°F.",
+              "children": [
+                {
+                  "action": "Add broth, scrape the bottom, then add cauliflower.",
+                  "children": [
+                    {
+                      "action": "Add garlic briefly.",
+                      "children": [
+                        {
+                          "action": "Sauté sausage and turkey bacon in the Instant Pot, then onion and red pepper.",
+                          "children": [
+                            {
+                              "ingredientId": "chicken_italian_sausage",
+                              "fraction": 1
+                            },
+                            {
+                              "ingredientId": "turkey_bacon",
+                              "fraction": 1
+                            },
+                            {
+                              "ingredientId": "onion",
+                              "fraction": 1
+                            },
+                            {
+                              "ingredientId": "crushed_red_pepper",
+                              "fraction": 1
+                            }
+                          ]
+                        },
+                        {
+                          "ingredientId": "garlic",
+                          "fraction": 1
+                        }
+                      ]
+                    },
+                    {
+                      "ingredientId": "chicken_broth",
+                      "fraction": 1
+                    },
+                    {
+                      "ingredientId": "cauliflower",
+                      "fraction": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ingredientId": "heavy_cream",
+              "fraction": 1
+            },
+            {
+              "ingredientId": "kale",
+              "fraction": 1
+            },
+            {
+              "ingredientId": "xanthan",
+              "fraction": 1
+            },
+            {
+              "ingredientId": "parmesan",
+              "fraction": 1
+            }
+          ]
+        }
+      },
+      "appliancesNeeded": [
+        "Instant Pot"
+      ],
+      "capacity": "Use a 6QT or larger Instant Pot and stay under PC MAX; at eight servings check the fill line before sealing.",
+      "timingNote": "Pressure build time grows with liquid volume; larger batches take longer to come to pressure.",
+      "type": "meal"
+    },
+    {
       "id": "shawarma-chicken-bowls",
       "key": "shawarma",
       "title": "Shawarma chicken bowls",

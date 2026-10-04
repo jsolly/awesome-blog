@@ -41,6 +41,7 @@ Every recipe includes **Tabular Recipe Notation (TRN)**, the recipe-summary form
 <tr><td><a href="#smoky-chicken-thighs-and-broccoli">Smoky chicken thighs and broccoli</a></td><td>Keto</td><td>Two air fryers</td><td>12</td><td>25–35</td><td>Start broccoli five minutes after chicken; shake broccoli once.</td></tr>
 <tr><td><a href="#pesto-cod-and-zucchini">Pesto cod and zucchini</a></td><td>Keto</td><td>Oven</td><td>11</td><td>30–40</td><td>One scheduled fish-pan addition, then separate vegetable/fish endpoint checks.</td></tr>
 <tr><td><a href="#spinach-feta-and-hemp-frittata">Spinach, feta, and hemp frittata</a></td><td>Keto</td><td>Oven</td><td>15</td><td>40–50</td><td>No mid-cook action; toss salad while the frittata bakes.</td></tr>
+<tr><td><a href="#keto-zuppa-toscana">Keto zuppa toscana</a></td><td>Keto</td><td>Instant Pot</td><td>20</td><td>35–45 expected</td><td>Sauté first, then quick release after 5 minutes; stir in cream and kale.</td></tr>
 <tr><td><a href="#shawarma-chicken-bowls">Shawarma chicken bowls</a></td><td>Keto + family</td><td>Oven</td><td>14</td><td>30–40</td><td>Heat one separate starch while roasting; optional rack swap.</td></tr>
 <tr><td><a href="#sheet-pan-chicken-fajitas">Sheet-pan chicken fajitas</a></td><td>Keto + family</td><td>Oven</td><td>14</td><td>30–40</td><td>Heat tortillas during the roast; optional rack swap.</td></tr>
 <tr><td><a href="#salsa-verde-shredded-chicken">Salsa verde shredded chicken</a></td><td>Keto + family</td><td>Instant Pot</td><td>15</td><td>40–45 expected</td><td>Controlled pressure release, safety check, and shredding at the end; time has a long tail.</td></tr>
@@ -102,6 +103,7 @@ Smoothie nutrition is shown per estimated 8 fl oz glass. Finished yields are est
 <tr><td><a href="#smoky-chicken-thighs-and-broccoli">Smoky chicken thighs and broccoli</a></td><td>One quarter of recipe</td><td>317</td><td>37.9</td><td>9.5</td><td>3.8</td><td>5.7</td></tr>
 <tr><td><a href="#pesto-cod-and-zucchini">Pesto cod and zucchini</a></td><td>One quarter of recipe</td><td>328</td><td>33.9</td><td>7.1</td><td>2.3</td><td>4.8</td></tr>
 <tr><td><a href="#spinach-feta-and-hemp-frittata">Spinach, feta, and hemp frittata</a></td><td>One quarter of recipe</td><td>408</td><td>30.3</td><td>9.9</td><td>5.0</td><td>4.9</td></tr>
+<tr><td><a href="#keto-zuppa-toscana">Keto zuppa toscana</a></td><td>One quarter of recipe</td><td>220</td><td>12.7</td><td>7.5</td><td>1.8</td><td>5.6</td></tr>
 <tr><td><a href="#shawarma-chicken-bowls">Shawarma chicken bowls</a></td><td>One quarter of recipe</td><td>339</td><td>39.7</td><td>11.6</td><td>3.8</td><td>7.8</td></tr>
 <tr><td><a href="#sheet-pan-chicken-fajitas">Sheet-pan chicken fajitas</a></td><td>One quarter of recipe</td><td>378</td><td>37.5</td><td>13.0</td><td>5.9</td><td>7.1</td></tr>
 <tr><td><a href="#salsa-verde-shredded-chicken">Salsa verde shredded chicken</a></td><td>One quarter of recipe</td><td>327</td><td>38.6</td><td>13.9</td><td>5.5</td><td>8.4</td></tr>
@@ -381,6 +383,73 @@ Dry spinach prevents a watery center; feta, hemp, and yeast add savory depth.
 These sources support safety, labels or comparable cooking methods; this exact recipe has not been kitchen-tested.
 
 <!-- recipe-generated:recipe:spinach-feta-and-hemp-frittata:end -->
+
+<!-- recipe-generated:recipe:keto-zuppa-toscana:begin -->
+
+<div id="keto-zuppa-toscana"></div>
+
+### Keto zuppa toscana
+
+<figure class="recipe-illustration"><img src="/media/recipes/keto-zuppa-toscana.svg" width="512" height="384" srcset="/media/recipes/keto-zuppa-toscana.svg 512w" sizes="(max-width:600px) 340px, 640px" alt="Illustration of a bowl of creamy soup with sausage, cauliflower and kale." loading="lazy" decoding="async" /><figcaption>Soup illustration.</figcaption></figure>
+
+About 20 minutes hands-on; 35–45 minutes expected total. Four adult servings. Creamy Instant Pot soup with chicken Italian sausage, turkey bacon, cauliflower and kale.
+
+**Cooking flow · Tabular Recipe Notation**
+
+<div class="trn-scroll" tabindex="0" role="region" aria-label="Keto zuppa toscana cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="5" class="trn-prep">Remove sausage casings; chop bacon, onion and kale; mince garlic.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>182g</strong> Chicken Italian sausage<small class="trn-state-essential">raw, casings removed · No pork; check the label for allergens and fillers.</small></th><td rowspan="4" colspan="1" class="trn-operation">Sauté sausage and turkey bacon in the Instant Pot, then onion and red pepper.</td><td rowspan="5" colspan="1" class="trn-operation">Add garlic briefly.</td><td rowspan="7" colspan="1" class="trn-operation">Add broth, scrape the bottom, then add cauliflower. Then: High pressure: 5 min, Keep Warm off. Quick release; open after the float drops. Sausage must reach 165°F.</td><td rowspan="11" colspan="1" class="trn-operation">Stir in cream and kale; thicken with xanthan if using. Serve with Parmesan if using.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>67g</strong> Turkey bacon<small class="trn-state-detail">chopped</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>22g</strong> Onion<small class="trn-state-detail">diced</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>¼ tsp</strong> Crushed red pepper<small class="trn-state-detail">flakes</small></th></tr><tr><th scope="row" colspan="2" class="trn-ingredient"><strong>4g</strong> Garlic<small class="trn-state-detail">minced</small></th></tr><tr><th scope="row" colspan="3" class="trn-ingredient"><strong>770 ml</strong> Chicken broth<small class="trn-state-detail">thin, water-based</small></th></tr><tr><th scope="row" colspan="3" class="trn-ingredient"><strong>171g</strong> Cauliflower florets<small class="trn-state-detail">bite-size</small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>95g</strong> Organic heavy cream<small class="trn-state-detail">added after pressure cooking</small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>42g</strong> Kale<small class="trn-state-detail">stems removed, chopped · Kale, not spinach.</small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>¼ tsp</strong> Xanthan gum<small class="trn-state-detail">Optional thickener; not counted in nutrition.</small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>to taste</strong> Parmesan<small class="trn-state-detail">grated · Optional garnish; not counted in nutrition.</small></th></tr></tbody></table></div>
+
+**Ingredients**
+
+- 182g Chicken Italian sausage — raw, casings removed. No pork; check the label for allergens and fillers.
+- 67g Turkey bacon — chopped
+- 22g Onion — diced
+- ¼ tsp Crushed red pepper — flakes
+- 4g Garlic — minced
+- 770 ml Chicken broth — thin, water-based
+- 171g Cauliflower florets — bite-size
+- 95g Organic heavy cream — added after pressure cooking
+- 42g Kale — stems removed, chopped. Kale, not spinach.
+- ¼ tsp Xanthan gum. Optional thickener; not counted in nutrition.
+- to taste Parmesan — grated. Optional garnish; not counted in nutrition.
+
+**Equipment and capacity**
+
+- Instant Pot 6QT or larger
+- Instant-read thermometer
+- Ladle
+
+**Method**
+
+1. **Prepare.** Dice the onion, mince the garlic, chop the turkey bacon and kale, and cut cauliflower into bite-size florets. Remove sausage casings. Keep raw sausage, its board and utensils away from the kale and cream.
+2. **Sauté.** Set the Instant Pot to Sauté. Brown the sausage, breaking it up, with the turkey bacon. Add the onion and crushed red pepper and cook until the onion softens. Add the garlic for about 30 seconds. Turn Sauté off.
+3. **Cook.** Add the broth and scrape up browned bits so the pot does not trigger a burn warning. Add the cauliflower. Seal, switch Keep Warm off, and cook at high pressure for 5 minutes. Stay under PC MAX.
+4. **Finish.** Quick release according to your manual, keeping clear of steam; vent in short bursts if the soup sputters. Open only after the float valve drops. Check the sausage reaches 165°F. Stir in the cream and kale until the kale wilts. Sprinkle in xanthan while stirring if you want a thicker soup. Serve with Parmesan if using.
+
+**Why it works**
+
+Chicken sausage and turkey bacon replace pork, and cauliflower stands in for potatoes to keep the soup keto.
+
+- Deglaze thoroughly after sautéing to avoid a burn warning.
+- Add cream only after pressure cooking.
+- Kale wilts in the hot soup; no extra cooking needed.
+- Xanthan thickens quickly; sprinkle it in while stirring to avoid clumps.
+
+**First-cook checks and limits**
+
+- 35–45 min is a planning estimate; pressure build time varies with liquid volume and starting temperature.
+- Follow your exact model’s liquid minimum, PC MAX, venting and float-valve instructions. Do not leave the operating cooker unattended.
+- Nutrition uses USDA smoked Italian turkey sausage as the closest poultry Italian sausage profile, excluding its outlier iron value; check your sausage, bacon and broth labels.
+- Household version scaled from a 10-serving batch; not kitchen-tested at other serving counts.
+
+**Sources**
+
+- [Christy Denney / The Girl Who Ate Everything](https://www.the-girl-who-ate-everything.com/)
+- [USDA FoodData Central source data](https://fdc.nal.usda.gov/download-datasets/)
+- [FoodSafety.gov safe minimum temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures)
+
+These sources support safety, labels or comparable cooking methods; this exact recipe has not been kitchen-tested.
+
+<!-- recipe-generated:recipe:keto-zuppa-toscana:end -->
 
 ## 2. One keto main, an easy family add-on
 
