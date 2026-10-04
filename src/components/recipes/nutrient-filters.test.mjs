@@ -20,7 +20,7 @@ test('protein and carb categories combine with nutrient criteria',()=>{const fis
  const ids=starch=>data.recipes.filter(r=>matchesRecipe(r,4,{starch})).map(r=>r.id);
  assert.deepEqual(ids('rice').sort(),['salsa-verde-shredded-chicken','shawarma-chicken-bowls']);
  assert.deepEqual(ids('pasta'),['sheet-pan-gnocchi-white-beans-and-broccoli']);
- assert.equal(ids('none').length,6);
+ assert.equal(ids('none').length,7);
  assert.equal(ids('bread').length,3);
  for(const types of Object.values(recipeStarches))for(const type of types)assert(type in starchTypes);
  });
@@ -42,7 +42,7 @@ test('Shared Main combines with either exclusive meal style and saved styles nor
  assert.deepEqual(toggleMealStyle(['shared','nonketo'],'shared'),['nonketo']);
  assert.deepEqual(normalizeMealStyles('keto'),['keto']);
  assert.deepEqual(normalizeMealStyles(['keto','nonketo','shared','bogus']),['nonketo','shared']);
- assert.equal(data.recipes.filter(r=>matchesRecipe(r,4,{carb:['keto','shared']})).length,13);
+ assert.equal(data.recipes.filter(r=>matchesRecipe(r,4,{carb:['keto','shared']})).length,14);
 });
 
 test('appliance inventory honors counts and oven/pan dependency, and validates storage',()=>{

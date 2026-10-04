@@ -1,6 +1,6 @@
 # Easy Meals recipe library
 
-20 complete four-serving recipes. Keto bases are shown without family starch; separate measured per-person options are included below each shared recipe. Small seasoning amounts use spoon measures. Recipes are newly designed and not kitchen-tested.
+21 complete four-serving recipes. Keto bases are shown without family starch; separate measured per-person options are included below each shared recipe. Small seasoning amounts use spoon measures. Recipes are newly designed and not kitchen-tested.
 
 ## Lemon salmon and asparagus
 
@@ -431,6 +431,124 @@ Refrigerate in shallow containers within two hours, or one hour above 90°F. Use
 - [FoodSafety.gov safe minimum temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures)
 
 - [Bob's Red Mill nutritional yeast label](https://www.bobsredmill.com/product/nutritional-yeast)
+
+These newly designed recipes have not been cooked, tasted or stopwatch-tested. Nutrition is an ingredient estimate, not laboratory analysis. Sources support safety, labels or comparable methods; they do not validate this exact recipe.
+
+---
+
+## Keto zuppa toscana
+
+4 adult servings · US measures · keto · 20 min active per base batch · 35–45 min expected; pressure buildup can take longer
+
+Creamy Instant Pot soup with chicken Italian sausage, turkey bacon, cauliflower and kale.
+
+Sauté first, then quick release after 5 minutes; stir in cream and kale.
+
+The listed pan and basket capacity, cook times, and thermometer endpoint are for four servings.
+
+Ingredients are scaled; keep food thickness, spacing, settings and safe endpoints fixed. Timings assume the four-serving batch and specified shortcuts. More food can require additional batches.
+
+### Cooking flow (Tabular Recipe Notation)
+
+<div class="trn-scroll" tabindex="0" role="region" aria-label="Keto zuppa toscana cooking flow, scroll horizontally"><table class="trn-table"><tbody><tr><td colspan="5" class="trn-prep">Remove sausage casings; chop bacon, onion and kale; mince garlic.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>182g</strong> Chicken Italian sausage<small class="trn-state-essential">raw, casings removed · No pork; check the label for allergens and fillers.</small></th><td rowspan="4" colspan="1" class="trn-operation">Sauté sausage and turkey bacon in the Instant Pot, then onion and red pepper.</td><td rowspan="5" colspan="1" class="trn-operation">Add garlic briefly.</td><td rowspan="7" colspan="1" class="trn-operation">Add broth, scrape the bottom, then add cauliflower. Then: High pressure: 5 min, Keep Warm off. Quick release; open after the float drops. Sausage must reach 165°F.</td><td rowspan="11" colspan="1" class="trn-operation">Stir in cream and kale; thicken with xanthan if using. Serve with Parmesan if using.</td></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>67g</strong> Turkey bacon<small class="trn-state-detail">chopped</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>22g</strong> Onion<small class="trn-state-detail">diced</small></th></tr><tr><th scope="row" colspan="1" class="trn-ingredient"><strong>¼ tsp</strong> Crushed red pepper<small class="trn-state-detail">flakes</small></th></tr><tr><th scope="row" colspan="2" class="trn-ingredient"><strong>4g</strong> Garlic<small class="trn-state-detail">minced</small></th></tr><tr><th scope="row" colspan="3" class="trn-ingredient"><strong>770 ml</strong> Chicken broth<small class="trn-state-detail">thin, water-based</small></th></tr><tr><th scope="row" colspan="3" class="trn-ingredient"><strong>171g</strong> Cauliflower florets<small class="trn-state-detail">bite-size</small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>95g</strong> Organic heavy cream<small class="trn-state-detail">added after pressure cooking</small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>42g</strong> Kale<small class="trn-state-detail">stems removed, chopped · Kale, not spinach.</small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>¼ tsp</strong> Xanthan gum<small class="trn-state-detail">Optional thickener; not counted in nutrition.</small></th></tr><tr><th scope="row" colspan="4" class="trn-ingredient"><strong>to taste</strong> Parmesan<small class="trn-state-detail">grated · Optional garnish; not counted in nutrition.</small></th></tr></tbody></table></div>
+
+### Ingredients
+
+- 182g Chicken Italian sausage — raw, casings removed. No pork; check the label for allergens and fillers.
+
+- 67g Turkey bacon — chopped
+
+- 22g Onion — diced
+
+- ¼ tsp Crushed red pepper — flakes
+
+- 4g Garlic — minced
+
+- 770 ml Chicken broth — thin, water-based
+
+- 171g Cauliflower florets — bite-size
+
+- 95g Organic heavy cream — added after pressure cooking
+
+- 42g Kale — stems removed, chopped. Kale, not spinach.
+
+- ¼ tsp Xanthan gum. Optional thickener; not counted in nutrition.
+
+- to taste Parmesan — grated. Optional garnish; not counted in nutrition.
+
+### Equipment
+
+- Instant Pot 6QT or larger
+
+- Instant-read thermometer
+
+- Ladle
+
+### Cook
+
+Prepare cold sides first. Keep raw-poultry tools separate; use clean serving utensils. Probe more than one thick piece. A timer is not a doneness test.
+
+1. **Prepare.** Dice the onion, mince the garlic, chop the turkey bacon and kale, and cut cauliflower into bite-size florets. Remove sausage casings. Keep raw sausage, its board and utensils away from the kale and cream.
+
+2. **Sauté.** Set the Instant Pot to Sauté. Brown the sausage, breaking it up, with the turkey bacon. Add the onion and crushed red pepper and cook until the onion softens. Add the garlic for about 30 seconds. Turn Sauté off.
+
+3. **Cook.** Add the broth and scrape up browned bits so the pot does not trigger a burn warning. Add the cauliflower. Seal, switch Keep Warm off, and cook at high pressure for 5 minutes. Stay under PC MAX.
+
+4. **Finish.** Quick release according to your manual, keeping clear of steam; vent in short bursts if the soup sputters. Open only after the float valve drops. Check the sausage reaches 165°F. Stir in the cream and kale until the kale wilts. Sprinkle in xanthan while stirring if you want a thicker soup. Serve with Parmesan if using.
+
+### Attention timeline
+
+- Prepare and sauté: about 12 min. Brown sausage and turkey bacon, then onion, red pepper and garlic.
+
+- Pressurize: 10–15 min expected. Deglaze with broth before sealing; Keep Warm off.
+
+- Pressure cook: 5 min high pressure. Countdown starts after pressure is reached.
+
+- Release and finish: about 5 min. Quick release, open after the float drops, then stir in cream and kale.
+
+Stages can overlap; endpoints and appliance behavior override the estimate.
+
+### Flavor and capacity
+
+Chicken sausage and turkey bacon replace pork, and cauliflower stands in for potatoes to keep the soup keto.
+
+- Deglaze thoroughly after sautéing to avoid a burn warning.
+
+- Add cream only after pressure cooking.
+
+- Kale wilts in the hot soup; no extra cooking needed.
+
+- Xanthan thickens quickly; sprinkle it in while stirring to avoid clumps.
+
+### Nutrition per serving
+
+220 kcal; 12.7 g protein; 7.5 g total carbs; 1.8 g fiber; 5.6 g net carbs
+
+Per adult: base includes measured sauces, seeds and sides. Family nutrition adds one selected starch portion. US net carbs = total carbohydrate − fiber. Labels and food variation matter; no guarantee of ketosis.
+
+Known allergens for these plates: milk. Check product labels and cross-contact.
+
+### First-cook checks and limits
+
+- 35–45 min is a planning estimate; pressure build time varies with liquid volume and starting temperature.
+
+- Follow your exact model’s liquid minimum, PC MAX, venting and float-valve instructions. Do not leave the operating cooker unattended.
+
+- Nutrition uses USDA smoked Italian turkey sausage as the closest poultry Italian sausage profile, excluding its outlier iron value; check your sausage, bacon and broth labels.
+
+- Household version scaled from a 10-serving batch; not kitchen-tested at other serving counts.
+
+### Leftovers
+
+Refrigerate in shallow containers within two hours, or one hour above 90°F. Use within 3–4 days or freeze; reheat to 165°F. Keep cold greens and yogurt separate.
+
+### Sources
+
+- [Christy Denney / The Girl Who Ate Everything](https://www.the-girl-who-ate-everything.com/)
+
+- [USDA FoodData Central source data](https://fdc.nal.usda.gov/download-datasets/)
+
+- [FoodSafety.gov safe minimum temperatures](https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures)
 
 These newly designed recipes have not been cooked, tasted or stopwatch-tested. Nutrition is an ingredient estimate, not laboratory analysis. Sources support safety, labels or comparable methods; they do not validate this exact recipe.
 

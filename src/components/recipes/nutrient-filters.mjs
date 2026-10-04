@@ -23,6 +23,7 @@ export const recipeStarches={
  'salsa-verde-shredded-chicken':['rice'],
  'greek-turkey-patties':['bread'],
  'pan-fried-greek-turkey-patties':['bread'],
+ 'keto-zuppa-toscana':['none'],
  'avocado-lime-smoothie':['none'],
  'strawberry-avocado-smoothie':['fruit'],
  'strawberry-hemp-smoothie':['fruit'],

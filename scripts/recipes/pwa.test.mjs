@@ -109,7 +109,7 @@ for (const [name, viewport] of [['desktop', { width: 1280, height: 900 }], ['mob
       await page.getByText('You are offline.', { exact: false }).waitFor({ state: 'attached' });
       await page.getByRole('combobox', { name: 'Servings', exact: true }).selectOption('2');
       await page.locator('.recipe-card').filter({hasText:'Lemon salmon and asparagus'}).getByRole('link',{name:/See recipe/}).click();
-      assert.ok(await page.locator('.recipe-detail').isVisible());
+      await page.locator('.recipe-detail').waitFor({ state: 'visible' });
       assert.ok(await page.locator('.recipe-detail .trn-table').count() > 0);
       await page.waitForFunction(() => [...document.querySelectorAll('.recipe-detail img')].every(image => image.complete && image.naturalWidth > 0));
       assert.equal(await page.evaluate(async () => (await fetch('/data/recipe-library.json')).status), 200);
