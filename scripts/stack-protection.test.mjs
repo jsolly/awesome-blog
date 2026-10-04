@@ -9,7 +9,8 @@ const template = JSON.parse(readFileSync('aws/migration-backups/template.json', 
 const policy = JSON.parse(readFileSync('aws/migration-backups/stack-policy.json', 'utf8'));
 // New resource types must receive an explicit decision about replacement/data loss.
 const protection = { 'AWS::S3::Bucket': true, 'AWS::S3::BucketPolicy': true };
-const stack = 'blogthedata-migration-backups';
+// The protected stack is the one deploy:infra applies: scripts/infra-inputs.json is the one list.
+const [{ stack }] = JSON.parse(readFileSync('scripts/infra-inputs.json', 'utf8')).stacks;
 const policyPath = 'aws/migration-backups/stack-policy.json';
 const pairs = `${stack} ${policyPath}`;
 

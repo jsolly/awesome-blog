@@ -137,6 +137,8 @@ jobs:
         if: steps.verified-tree.outputs.run_full != 'false'
       - run: npm run test:stack-protection
         if: steps.verified-tree.outputs.run_full != 'false'
+      - run: npm run test:infra
+        if: steps.verified-tree.outputs.run_full != 'false'
       - run: npm run check:yaml
         if: steps.verified-tree.outputs.run_full != 'false'
       - run: npx --no-install playwright install --with-deps chromium

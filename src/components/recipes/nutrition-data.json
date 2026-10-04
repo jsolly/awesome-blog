@@ -5937,6 +5937,164 @@
         },
         "omega3RecordedGramsPer100g": 0.0
       }
+    ],
+    "chicken-posole": [
+      {
+        "food": "olive_oil",
+        "grams": 14,
+        "source": "https://fdc.nal.usda.gov/food-details/171413/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 884.0,
+          "protein_g": 0.0,
+          "carbs_g": 0.0,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "food": "onion",
+        "grams": 40,
+        "source": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 40.0,
+          "protein_g": 1.1,
+          "carbs_g": 9.34,
+          "fiber_g": 1.7
+        }
+      },
+      {
+        "food": "garlic",
+        "grams": 15,
+        "source": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 149,
+          "protein_g": 6.36,
+          "carbs_g": 33.06,
+          "fiber_g": 2.1
+        }
+      },
+      {
+        "food": "red_pepper",
+        "grams": 30,
+        "source": "https://fdc.nal.usda.gov/food-details/170108/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 26.0,
+          "protein_g": 0.99,
+          "carbs_g": 6.03,
+          "fiber_g": 2.1
+        }
+      },
+      {
+        "food": "fine_salt",
+        "grams": 3,
+        "source": "https://fdc.nal.usda.gov/food-details/173468/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 0,
+          "protein_g": 0,
+          "carbs_g": 0,
+          "fiber_g": 0
+        }
+      },
+      {
+        "food": "enchilada_sauce",
+        "grams": 283,
+        "source": "https://www.oldelpaso.com/products/old-el-paso-red-enchilada-sauce-medium-1",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 25,
+          "protein_g": 0,
+          "carbs_g": 5,
+          "fiber_g": 0
+        }
+      },
+      {
+        "food": "cayenne",
+        "grams": 3,
+        "source": "https://fdc.nal.usda.gov/food-details/170932/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 318,
+          "protein_g": 12.01,
+          "carbs_g": 56.63,
+          "fiber_g": 27.2
+        }
+      },
+      {
+        "food": "white_beans",
+        "grams": 425,
+        "source": "https://fdc.nal.usda.gov/food-details/175204/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 114.0,
+          "protein_g": 7.26,
+          "carbs_g": 21.2,
+          "fiber_g": 4.8
+        }
+      },
+      {
+        "food": "chicken_broth",
+        "grams": 960,
+        "source": "https://fdc.nal.usda.gov/food-details/172888/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 7.0,
+          "protein_g": 1.36,
+          "carbs_g": 0.38,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "food": "cooked_chicken_breast",
+        "grams": 400,
+        "source": "https://fdc.nal.usda.gov/food-details/171477/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 165.0,
+          "protein_g": 31.02,
+          "carbs_g": 0.0,
+          "fiber_g": 0.0
+        }
+      },
+      {
+        "food": "lime_juice",
+        "grams": 15,
+        "source": "https://fdc.nal.usda.gov/food-details/168156/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 25.0,
+          "protein_g": 0.42,
+          "carbs_g": 8.42,
+          "fiber_g": 0.4
+        }
+      },
+      {
+        "food": "cabbage",
+        "grams": 150,
+        "source": "https://fdc.nal.usda.gov/food-details/169975/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 25.0,
+          "protein_g": 1.28,
+          "carbs_g": 5.8,
+          "fiber_g": 2.5
+        }
+      },
+      {
+        "food": "cilantro",
+        "grams": 8,
+        "source": "https://fdc.nal.usda.gov/food-details/169997/nutrients",
+        "nutrients": {},
+        "macrosPer100g": {
+          "kcal": 23,
+          "protein_g": 2.13,
+          "carbs_g": 3.67,
+          "fiber_g": 2.8
+        }
+      }
     ]
   },
   "sourceArchive": {

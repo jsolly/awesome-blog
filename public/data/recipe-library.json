@@ -11597,6 +11597,623 @@
         "alt": "Illustration of cucumber-spinach-lime smoothie in a glass.",
         "caption": "Smoothie illustration."
       }
+    },
+    {
+      "dailyNutrition": [
+        {
+          "key": "fat",
+          "label": "Total fat",
+          "unit": "g",
+          "dailyValue": 78,
+          "usdaId": 1004,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "saturated_fat",
+          "label": "Saturated fat",
+          "unit": "g",
+          "dailyValue": 20,
+          "usdaId": 1258,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "cholesterol",
+          "label": "Cholesterol",
+          "unit": "mg",
+          "dailyValue": 300,
+          "usdaId": 1253,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "sodium",
+          "label": "Sodium",
+          "unit": "mg",
+          "dailyValue": 2300,
+          "usdaId": 1093,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_a",
+          "label": "Vitamin A",
+          "unit": "mcg RAE",
+          "dailyValue": 900,
+          "usdaId": 1106,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_c",
+          "label": "Vitamin C",
+          "unit": "mg",
+          "dailyValue": 90,
+          "usdaId": 1162,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_d",
+          "label": "Vitamin D",
+          "unit": "mcg",
+          "dailyValue": 20,
+          "usdaId": 1114,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_e",
+          "label": "Vitamin E",
+          "unit": "mg",
+          "dailyValue": 15,
+          "usdaId": 1109,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_k",
+          "label": "Vitamin K",
+          "unit": "mcg",
+          "dailyValue": 120,
+          "usdaId": 1185,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "thiamin",
+          "label": "Thiamin (B1)",
+          "unit": "mg",
+          "dailyValue": 1.2,
+          "usdaId": 1165,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "riboflavin",
+          "label": "Riboflavin (B2)",
+          "unit": "mg",
+          "dailyValue": 1.3,
+          "usdaId": 1166,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "niacin",
+          "label": "Niacin (B3)",
+          "unit": "mg",
+          "dailyValue": 16,
+          "usdaId": 1167,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_b6",
+          "label": "Vitamin B6",
+          "unit": "mg",
+          "dailyValue": 1.7,
+          "usdaId": 1175,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "folate",
+          "label": "Folate",
+          "unit": "mcg DFE",
+          "dailyValue": 400,
+          "usdaId": 1190,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "vitamin_b12",
+          "label": "Vitamin B12",
+          "unit": "mcg",
+          "dailyValue": 2.4,
+          "usdaId": 1178,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "pantothenic_acid",
+          "label": "Pantothenic acid (B5)",
+          "unit": "mg",
+          "dailyValue": 5,
+          "usdaId": 1170,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "choline",
+          "label": "Choline",
+          "unit": "mg",
+          "dailyValue": 550,
+          "usdaId": 1180,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "calcium",
+          "label": "Calcium",
+          "unit": "mg",
+          "dailyValue": 1300,
+          "usdaId": 1087,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "iron",
+          "label": "Iron",
+          "unit": "mg",
+          "dailyValue": 18,
+          "usdaId": 1089,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "magnesium",
+          "label": "Magnesium",
+          "unit": "mg",
+          "dailyValue": 420,
+          "usdaId": 1090,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "phosphorus",
+          "label": "Phosphorus",
+          "unit": "mg",
+          "dailyValue": 1250,
+          "usdaId": 1091,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "potassium",
+          "label": "Potassium",
+          "unit": "mg",
+          "dailyValue": 4700,
+          "usdaId": 1092,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "zinc",
+          "label": "Zinc",
+          "unit": "mg",
+          "dailyValue": 11,
+          "usdaId": 1095,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "copper",
+          "label": "Copper",
+          "unit": "mg",
+          "dailyValue": 0.9,
+          "usdaId": 1098,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "manganese",
+          "label": "Manganese",
+          "unit": "mg",
+          "dailyValue": 2.3,
+          "usdaId": 1101,
+          "amount": null,
+          "percent": null
+        },
+        {
+          "key": "selenium",
+          "label": "Selenium",
+          "unit": "mcg",
+          "dailyValue": 55,
+          "usdaId": 1103,
+          "amount": null,
+          "percent": null
+        }
+      ],
+      "recipeId": "chicken-posole",
+      "type": "meal",
+      "title": "Chicken Posole (enchilada soup)",
+      "group": "nonketo",
+      "servings": 4,
+      "units": "us",
+      "familyDiners": 0,
+      "cookingFlow": {
+        "notation": "Tabular Recipe Notation (TRN)",
+        "prep": [
+          "Use fully cooked chicken and canned beans. Prepare washed cabbage and cilantro; keep them for serving. Use a 4-quart or larger pot, or a larger pot/batches above four servings."
+        ],
+        "columns": 5,
+        "rows": [
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "14g",
+              "name": "Olive oil",
+              "state": "",
+              "essentialState": false
+            },
+            {
+              "kind": "operation",
+              "col": 1,
+              "colspan": 1,
+              "rowspan": 4,
+              "text": "Heat oil over medium heat; sauté onion and pepper about 5 min until soft, then add garlic for 30 sec."
+            },
+            {
+              "kind": "operation",
+              "col": 2,
+              "colspan": 1,
+              "rowspan": 9,
+              "text": "Add broth, sauce, canned beans with liquid, salt and cayenne. Boil, then simmer 10 min, stirring occasionally."
+            },
+            {
+              "kind": "operation",
+              "col": 3,
+              "colspan": 1,
+              "rowspan": 10,
+              "text": "Add cooked chicken; simmer until chicken reaches 165°F in several places."
+            },
+            {
+              "kind": "operation",
+              "col": 4,
+              "colspan": 1,
+              "rowspan": 13,
+              "text": "Turn off heat, stir in lime; serve with cabbage and cilantro."
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "40g",
+              "name": "Onion",
+              "state": "diced",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "30g",
+              "name": "Red bell pepper",
+              "state": "diced · The old optional pepper is included in this estimate.",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "15g",
+              "name": "Garlic",
+              "state": "minced",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 2,
+              "rowspan": 1,
+              "text": "32.5 oz",
+              "name": "Reduced-sodium chicken broth",
+              "state": "ready-to-use",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 2,
+              "rowspan": 1,
+              "text": "283g",
+              "name": "Red enchilada sauce",
+              "state": "ready-to-eat, canned · Base four-serving batch: about one 10 oz can. Estimate uses Old El Paso medium red sauce; labels vary.",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 2,
+              "rowspan": 1,
+              "text": "425g",
+              "name": "Canned white beans",
+              "state": "fully cooked, including can liquid · Base four-serving batch: one 15 oz can; do not substitute dry beans.",
+              "essentialState": true
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 2,
+              "rowspan": 1,
+              "text": "3g",
+              "name": "Fine salt",
+              "state": "Original amount; reduce to taste if your broth or sauce is salty.",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 2,
+              "rowspan": 1,
+              "text": "3g",
+              "name": "Cayenne pepper",
+              "state": "Original amount is very hot. Start with less if desired.",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 3,
+              "rowspan": 1,
+              "text": "400g",
+              "name": "Cooked shredded chicken breast",
+              "state": "fully cooked, skinless, boneless; cooked edible weight · Added in the restored version because the old Chicken Posole entry omitted a chicken amount.",
+              "essentialState": true
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 4,
+              "rowspan": 1,
+              "text": "15g",
+              "name": "Lime juice",
+              "state": "",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 4,
+              "rowspan": 1,
+              "text": "150g",
+              "name": "Cabbage",
+              "state": "finely shredded · Measured amount for the old to-taste garnish.",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 4,
+              "rowspan": 1,
+              "text": "8g",
+              "name": "Cilantro",
+              "state": "washed and chopped · Measured amount for the old to-taste garnish.",
+              "essentialState": false
+            }
+          ]
+        ]
+      },
+      "summary": "Chicken and white beans in red enchilada broth, finished with lime, cabbage and cilantro.",
+      "activeMinutes": 15,
+      "totalTime": "30–40 min",
+      "attentionSummary": "Stir during sautéing and simmering; check cooked chicken reaches 165°F before serving.",
+      "capacity": "The listed pan and basket capacity, cook times, and thermometer endpoint are for four servings.",
+      "timingNote": "Ingredients are scaled; keep food thickness, spacing, settings and safe endpoints fixed. Timings assume the four-serving batch and specified shortcuts. More food can require additional batches.",
+      "equipment": [
+        "Stovetop and 4-quart or larger saucepan; larger pot or batches for six/eight servings",
+        "Spoon and clean chopping board",
+        "Instant-read thermometer"
+      ],
+      "ingredients": [
+        {
+          "quantity": "14g",
+          "name": "Olive oil",
+          "state": "",
+          "note": ""
+        },
+        {
+          "quantity": "40g",
+          "name": "Onion",
+          "state": "diced",
+          "note": ""
+        },
+        {
+          "quantity": "15g",
+          "name": "Garlic",
+          "state": "minced",
+          "note": ""
+        },
+        {
+          "quantity": "30g",
+          "name": "Red bell pepper",
+          "state": "diced",
+          "note": "The old optional pepper is included in this estimate."
+        },
+        {
+          "quantity": "3g",
+          "name": "Fine salt",
+          "state": "",
+          "note": "Original amount; reduce to taste if your broth or sauce is salty."
+        },
+        {
+          "quantity": "283g",
+          "name": "Red enchilada sauce",
+          "state": "ready-to-eat, canned",
+          "note": "Base four-serving batch: about one 10 oz can. Estimate uses Old El Paso medium red sauce; labels vary."
+        },
+        {
+          "quantity": "3g",
+          "name": "Cayenne pepper",
+          "state": "",
+          "note": "Original amount is very hot. Start with less if desired."
+        },
+        {
+          "quantity": "425g",
+          "name": "Canned white beans",
+          "state": "fully cooked, including can liquid",
+          "note": "Base four-serving batch: one 15 oz can; do not substitute dry beans."
+        },
+        {
+          "quantity": "32.5 oz",
+          "name": "Reduced-sodium chicken broth",
+          "state": "ready-to-use",
+          "note": ""
+        },
+        {
+          "quantity": "400g",
+          "name": "Cooked shredded chicken breast",
+          "state": "fully cooked, skinless, boneless; cooked edible weight",
+          "note": "Added in the restored version because the old Chicken Posole entry omitted a chicken amount."
+        },
+        {
+          "quantity": "15g",
+          "name": "Lime juice",
+          "state": "",
+          "note": ""
+        },
+        {
+          "quantity": "150g",
+          "name": "Cabbage",
+          "state": "finely shredded",
+          "note": "Measured amount for the old to-taste garnish."
+        },
+        {
+          "quantity": "8g",
+          "name": "Cilantro",
+          "state": "washed and chopped",
+          "note": "Measured amount for the old to-taste garnish."
+        }
+      ],
+      "familyIngredient": null,
+      "familyOptions": [],
+      "steps": [
+        {
+          "title": "Prepare",
+          "text": "Use fully cooked shredded chicken and canned, fully cooked beans. Wash and prepare the vegetables and garnishes. Set a 4-quart or larger saucepan on the stovetop; use a larger pot or batches for six or eight servings."
+        },
+        {
+          "title": "Sauté",
+          "text": "Heat the oil over medium heat. Cook onion and bell pepper for about 5 minutes, stirring, until softened. Add garlic and cook for 30 seconds."
+        },
+        {
+          "title": "Simmer",
+          "text": "Add broth, enchilada sauce, canned beans with their liquid, salt and cayenne. Bring to a boil, then reduce heat and simmer gently for about 10 minutes, stirring occasionally. Add the cooked chicken and return to a simmer. Heat until chicken reaches 165°F in several places, about 5 minutes or longer as needed. Do not use raw chicken with this method."
+        },
+        {
+          "title": "Finish",
+          "text": "Turn off the heat and stir in lime juice. Divide among four bowls and top with cabbage and cilantro. Taste before adding more salt or cayenne."
+        }
+      ],
+      "timeline": [
+        {
+          "phase": "Prepare and sauté",
+          "duration": "10–15 min",
+          "attention": "Chop vegetables; soften onion and pepper, then briefly cook garlic."
+        },
+        {
+          "phase": "Boil and simmer",
+          "duration": "15–20 min",
+          "attention": "Bring broth, sauce and beans to a boil; simmer 10 min, stirring occasionally."
+        },
+        {
+          "phase": "Heat chicken and finish",
+          "duration": "5 min or longer to 165°F",
+          "attention": "Add fully cooked chicken, check temperature, then add lime and garnishes."
+        }
+      ],
+      "tips": [
+        "The original recipe used beans, not hominy. This restores that version rather than a traditional pozole.",
+        "The source gave no pressure time. This adaptation uses a saucepan, not pressure cooking.",
+        "The original 3g cayenne is hot; use less to suit your taste."
+      ],
+      "fallback": "",
+      "limitations": [
+        "Restored from the old Chicken Posole recipe. Its oil, onion, garlic, pepper, salt, sauce, cayenne, beans, broth and lime amounts are retained.",
+        "The source omitted chicken and a cooking time. The 400g cooked chicken and stovetop method are new; cabbage and cilantro now have measured garnish amounts. This adaptation has not been kitchen-tested.",
+        "Nutrition uses generic USDA ingredients, canned white beans including liquid, and an Old El Paso sauce label with an estimated 60g per quarter cup. Broth is modeled at 1g/mL. Brands, draining beans, and reducing garnishes or seasoning change the estimates.",
+        "Complete micronutrient totals are unavailable for this restored recipe and are omitted. Check chicken, broth and sauce labels for allergens."
+      ],
+      "sources": [
+        {
+          "title": "USDA ingredient profiles",
+          "url": "https://fdc.nal.usda.gov/download-datasets/"
+        },
+        {
+          "title": "Old El Paso red enchilada sauce label",
+          "url": "https://www.oldelpaso.com/products/old-el-paso-red-enchilada-sauce-medium-1"
+        },
+        {
+          "title": "USDA leftovers and reheating guidance",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "nutrition": {
+        "kcal": 376.2475,
+        "protein_g": 43.048925,
+        "carbs_g": 32.589375,
+        "fiber_g": 6.71875,
+        "net_carbs_g": 25.870624999999997
+      },
+      "nutritionHeading": "Nutrition per serving",
+      "familyNutrition": null,
+      "nutritionNote": "Per adult: base includes measured sauces, seeds and sides. Family nutrition adds one selected starch portion. US net carbs = total carbohydrate − fiber. Labels and food variation matter; no guarantee of ketosis.",
+      "allergens": [],
+      "flavorRationale": "Red enchilada sauce gives the broth chile flavor; lime and fresh cabbage balance it.",
+      "disclaimer": "These newly designed recipes have not been cooked, tasted or stopwatch-tested. Nutrition is an ingredient estimate, not laboratory analysis. Sources support safety, labels or comparable methods; they do not validate this exact recipe.",
+      "leftovers": "Refrigerate in shallow containers within two hours, or one hour above 90°F. Use within 3–4 days or freeze; reheat to 165°F. Keep cold greens and yogurt separate.",
+      "safety": "Prepare cold sides first. Keep raw-poultry tools separate; use clean serving utensils. Probe more than one thick piece. A timer is not a doneness test.",
+      "image": {
+        "src": "/media/recipes/chicken-posole.svg",
+        "width": 960,
+        "height": 720,
+        "cardSrc": "/media/recipes/chicken-posole.svg",
+        "cardSrcset": "/media/recipes/chicken-posole.svg 960w",
+        "detailSrcset": "/media/recipes/chicken-posole.svg 960w",
+        "alt": "Illustration of red enchilada soup with shredded chicken, white beans, cabbage, cilantro and lime.",
+        "caption": "Illustration; appearance and portions are approximate."
+      }
     }
   ]
 }

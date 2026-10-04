@@ -51,8 +51,9 @@ npm run preview
 `npm run gate:app` checks Astro/Svelte, builds, runs content/route contracts and
 proves a real draft's content and slug are absent from all built assets and routes,
 rejects identical duplicate post/category files, then restores the normal build.
-`npm run gate` additionally checks secrets, Bash, YAML, Actions, Markdown and
-read-only production-smoke contracts. It validates the full working tree even with
+`npm run gate` additionally checks secrets, Bash, YAML, Actions, Markdown, the
+stack-protection and infra-script contracts, and read-only production-smoke
+contracts. It validates the full working tree even with
 an empty index. It needs the installed dotagents gate library, Bash 5, actionlint,
 gitleaks and pinned Node dependencies. Use `npm run worktree:init` for fresh checkouts.
 Never set `core.hooksPath`; the trusted dotagents dispatcher owns it.
@@ -103,6 +104,19 @@ mobile pixels, console, navigation, pagination, GET search, article reading,
 heading links and print. Complex-content changes additionally require recipe table,
 code and iframe checks in both viewports. Screenshots/evidence belong in ignored
 `.migration-work` or a temporary directory.
+
+## Infra
+
+- **Dirty IaC.** Vercel ships the site; nothing deploys the CloudFormation stack. A change to an infra input (`scripts/infra-inputs.json`: the backup template and its deploy script) needs a manual infra deploy after merge. Say that in the PR body and the final report, and include `plan:infra` output. `check:infra-drift` never blocks; it reads `pending` while the stack's `InfraDeployCommit` tag (written only by `deploy:infra`) lags main's infra inputs. Do not run `deploy:infra`. The action is `John runs deploy:infra after reviewing`. Canon: laptop global brief Implementation when synced.
+
+`npm run plan:infra -- --json --out <file>` previews the stack update as `agent-readonly`
+with a change set it deletes and never executes. `npm run check:infra-drift -- --json --warn-only`
+compares that tag with origin's `main` and fails closed. `npm run deploy:infra` is John's, from
+clean landed `main` in his own terminal with administrator credentials; no profile name is
+committed. `.mise.toml` pins the AWS CLI these scripts and `protect:stacks` run.
+`.gitattributes` marks the manifest's inputs `infra-input` for the pre-commit
+reminder, and `npm run test:infra` pins all three scripts without AWS. See
+[stack updates](docs/migration-backups.md#stack-updates).
 
 ## Cloud and data safety
 

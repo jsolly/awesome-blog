@@ -6603,6 +6603,374 @@
       "safety": "",
       "estimatedYieldMl": 1416,
       "yieldEstimateNote": "Estimated from ingredient mass using approximately 1 g/ml for the blended mixture. Finished volume has not been measured; aeration, blender retention and extra liquid affect yield."
+    },
+    {
+      "id": "chicken-posole",
+      "key": "chicken_posole",
+      "title": "Chicken Posole (enchilada soup)",
+      "group": "nonketo",
+      "proteinType": "chicken",
+      "vegetarian": false,
+      "appliance": "stovetop",
+      "activeMinutes": 15,
+      "totalMin": 30,
+      "totalMax": 40,
+      "timeVariable": false,
+      "summary": "Chicken and white beans in red enchilada broth, finished with lime, cabbage and cilantro.",
+      "allergens": [],
+      "boosters": [],
+      "ingredients": [
+        {
+          "id": "olive_oil",
+          "name": "Olive oil",
+          "state": "",
+          "amount": 14,
+          "unit": "g",
+          "category": "pantry",
+          "us": {
+            "amount": 14,
+            "unit": "g"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "onion",
+          "name": "Onion",
+          "state": "diced",
+          "amount": 40,
+          "unit": "g",
+          "category": "produce",
+          "us": {
+            "amount": 40,
+            "unit": "g"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "garlic",
+          "name": "Garlic",
+          "state": "minced",
+          "amount": 15,
+          "unit": "g",
+          "category": "produce",
+          "us": {
+            "amount": 15,
+            "unit": "g"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "red_pepper",
+          "name": "Red bell pepper",
+          "state": "diced",
+          "amount": 30,
+          "unit": "g",
+          "category": "produce",
+          "us": {
+            "amount": 30,
+            "unit": "g"
+          },
+          "note": "The old optional pepper is included in this estimate.",
+          "scale": "linear"
+        },
+        {
+          "id": "fine_salt",
+          "name": "Fine salt",
+          "state": "",
+          "amount": 3,
+          "unit": "g",
+          "category": "pantry",
+          "us": {
+            "amount": 3,
+            "unit": "g"
+          },
+          "note": "Original amount; reduce to taste if your broth or sauce is salty.",
+          "scale": "linear"
+        },
+        {
+          "id": "enchilada_sauce",
+          "name": "Red enchilada sauce",
+          "state": "ready-to-eat, canned",
+          "amount": 283,
+          "unit": "g",
+          "category": "pantry",
+          "us": {
+            "amount": 283,
+            "unit": "g"
+          },
+          "note": "Base four-serving batch: about one 10 oz can. Estimate uses Old El Paso medium red sauce; labels vary.",
+          "scale": "linear"
+        },
+        {
+          "id": "cayenne",
+          "name": "Cayenne pepper",
+          "state": "",
+          "amount": 3,
+          "unit": "g",
+          "category": "pantry",
+          "us": {
+            "amount": 3,
+            "unit": "g"
+          },
+          "note": "Original amount is very hot. Start with less if desired.",
+          "scale": "linear"
+        },
+        {
+          "id": "white_beans",
+          "name": "Canned white beans",
+          "state": "fully cooked, including can liquid",
+          "amount": 425,
+          "unit": "g",
+          "category": "pantry",
+          "us": {
+            "amount": 425,
+            "unit": "g"
+          },
+          "note": "Base four-serving batch: one 15 oz can; do not substitute dry beans.",
+          "scale": "linear"
+        },
+        {
+          "id": "chicken_broth",
+          "name": "Reduced-sodium chicken broth",
+          "state": "ready-to-use",
+          "amount": 960,
+          "unit": "ml",
+          "category": "pantry",
+          "us": {
+            "amount": 32.5,
+            "unit": "oz"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "cooked_chicken_breast",
+          "name": "Cooked shredded chicken breast",
+          "state": "fully cooked, skinless, boneless; cooked edible weight",
+          "amount": 400,
+          "unit": "g",
+          "category": "protein",
+          "us": {
+            "amount": 400,
+            "unit": "g"
+          },
+          "note": "Added in the restored version because the old Chicken Posole entry omitted a chicken amount.",
+          "scale": "linear"
+        },
+        {
+          "id": "lime_juice",
+          "name": "Lime juice",
+          "state": "",
+          "amount": 15,
+          "unit": "g",
+          "category": "produce",
+          "us": {
+            "amount": 15,
+            "unit": "g"
+          },
+          "note": "",
+          "scale": "linear"
+        },
+        {
+          "id": "cabbage",
+          "name": "Cabbage",
+          "state": "finely shredded",
+          "amount": 150,
+          "unit": "g",
+          "category": "produce",
+          "us": {
+            "amount": 150,
+            "unit": "g"
+          },
+          "note": "Measured amount for the old to-taste garnish.",
+          "scale": "linear"
+        },
+        {
+          "id": "cilantro",
+          "name": "Cilantro",
+          "state": "washed and chopped",
+          "amount": 8,
+          "unit": "g",
+          "category": "produce",
+          "us": {
+            "amount": 8,
+            "unit": "g"
+          },
+          "note": "Measured amount for the old to-taste garnish.",
+          "scale": "linear"
+        }
+      ],
+      "steps": [
+        {
+          "title": "Prepare",
+          "text": "Use fully cooked shredded chicken and canned, fully cooked beans. Wash and prepare the vegetables and garnishes. Set a 4-quart or larger saucepan on the stovetop; use a larger pot or batches for six or eight servings."
+        },
+        {
+          "title": "Saut\u00e9",
+          "text": "Heat the oil over medium heat. Cook onion and bell pepper for about 5 minutes, stirring, until softened. Add garlic and cook for 30 seconds."
+        },
+        {
+          "title": "Simmer",
+          "text": "Add broth, enchilada sauce, canned beans with their liquid, salt and cayenne. Bring to a boil, then reduce heat and simmer gently for about 10 minutes, stirring occasionally. Add the cooked chicken and return to a simmer. Heat until chicken reaches 165\u00b0F in several places, about 5 minutes or longer as needed. Do not use raw chicken with this method."
+        },
+        {
+          "title": "Finish",
+          "text": "Turn off the heat and stir in lime juice. Divide among four bowls and top with cabbage and cilantro. Taste before adding more salt or cayenne."
+        }
+      ],
+      "equipment": [
+        "Stovetop and 4-quart or larger saucepan; larger pot or batches for six/eight servings",
+        "Spoon and clean chopping board",
+        "Instant-read thermometer"
+      ],
+      "timeline": [
+        {
+          "phase": "Prepare and saut\u00e9",
+          "duration": "10\u201315 min",
+          "attention": "Chop vegetables; soften onion and pepper, then briefly cook garlic."
+        },
+        {
+          "phase": "Boil and simmer",
+          "duration": "15\u201320 min",
+          "attention": "Bring broth, sauce and beans to a boil; simmer 10 min, stirring occasionally."
+        },
+        {
+          "phase": "Heat chicken and finish",
+          "duration": "5 min or longer to 165\u00b0F",
+          "attention": "Add fully cooked chicken, check temperature, then add lime and garnishes."
+        }
+      ],
+      "tips": [
+        "The original recipe used beans, not hominy. This restores that version rather than a traditional pozole.",
+        "The source gave no pressure time. This adaptation uses a saucepan, not pressure cooking.",
+        "The original 3g cayenne is hot; use less to suit your taste."
+      ],
+      "fallback": null,
+      "limitations": [
+        "Restored from the old Chicken Posole recipe. Its oil, onion, garlic, pepper, salt, sauce, cayenne, beans, broth and lime amounts are retained.",
+        "The source omitted chicken and a cooking time. The 400g cooked chicken and stovetop method are new; cabbage and cilantro now have measured garnish amounts. This adaptation has not been kitchen-tested.",
+        "Nutrition uses generic USDA ingredients, canned white beans including liquid, and an Old El Paso sauce label with an estimated 60g per quarter cup. Broth is modeled at 1g/mL. Brands, draining beans, and reducing garnishes or seasoning change the estimates.",
+        "Complete micronutrient totals are unavailable for this restored recipe and are omitted. Check chicken, broth and sauce labels for allergens."
+      ],
+      "sources": [
+        {
+          "title": "USDA ingredient profiles",
+          "url": "https://fdc.nal.usda.gov/download-datasets/"
+        },
+        {
+          "title": "Old El Paso red enchilada sauce label",
+          "url": "https://www.oldelpaso.com/products/old-el-paso-red-enchilada-sauce-medium-1"
+        },
+        {
+          "title": "USDA leftovers and reheating guidance",
+          "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety"
+        }
+      ],
+      "nutrition": {
+        "kcal": 376.2475,
+        "protein_g": 43.048925,
+        "carbs_g": 32.589375,
+        "fiber_g": 6.71875,
+        "net_carbs_g": 25.870624999999997
+      },
+      "familyOptions": [],
+      "attentionSummary": "Stir during saut\u00e9ing and simmering; check cooked chicken reaches 165\u00b0F before serving.",
+      "flavorRationale": "Red enchilada sauce gives the broth chile flavor; lime and fresh cabbage balance it.",
+      "midCookActions": 2,
+      "image": {
+        "src": "/media/recipes/chicken-posole.svg",
+        "width": 960,
+        "height": 720,
+        "cardSrc": "/media/recipes/chicken-posole.svg",
+        "cardSrcset": "/media/recipes/chicken-posole.svg 960w",
+        "detailSrcset": "/media/recipes/chicken-posole.svg 960w",
+        "alt": "Illustration of red enchilada soup with shredded chicken, white beans, cabbage, cilantro and lime.",
+        "caption": "Illustration; appearance and portions are approximate."
+      },
+      "flow": {
+        "prep": [
+          "Use fully cooked chicken and canned beans. Prepare washed cabbage and cilantro; keep them for serving. Use a 4-quart or larger pot, or a larger pot/batches above four servings."
+        ],
+        "root": {
+          "action": "Turn off heat, stir in lime; serve with cabbage and cilantro.",
+          "children": [
+            {
+              "action": "Add cooked chicken; simmer until chicken reaches 165\u00b0F in several places.",
+              "children": [
+                {
+                  "action": "Add broth, sauce, canned beans with liquid, salt and cayenne. Boil, then simmer 10 min, stirring occasionally.",
+                  "children": [
+                    {
+                      "action": "Heat oil over medium heat; saut\u00e9 onion and pepper about 5 min until soft, then add garlic for 30 sec.",
+                      "children": [
+                        {
+                          "ingredientId": "olive_oil",
+                          "fraction": 1
+                        },
+                        {
+                          "ingredientId": "onion",
+                          "fraction": 1
+                        },
+                        {
+                          "ingredientId": "red_pepper",
+                          "fraction": 1
+                        },
+                        {
+                          "ingredientId": "garlic",
+                          "fraction": 1
+                        }
+                      ]
+                    },
+                    {
+                      "ingredientId": "chicken_broth",
+                      "fraction": 1
+                    },
+                    {
+                      "ingredientId": "enchilada_sauce",
+                      "fraction": 1
+                    },
+                    {
+                      "ingredientId": "white_beans",
+                      "fraction": 1
+                    },
+                    {
+                      "ingredientId": "fine_salt",
+                      "fraction": 1
+                    },
+                    {
+                      "ingredientId": "cayenne",
+                      "fraction": 1
+                    }
+                  ]
+                },
+                {
+                  "ingredientId": "cooked_chicken_breast",
+                  "fraction": 1
+                }
+              ]
+            },
+            {
+              "ingredientId": "lime_juice",
+              "fraction": 1
+            },
+            {
+              "ingredientId": "cabbage",
+              "fraction": 1
+            },
+            {
+              "ingredientId": "cilantro",
+              "fraction": 1
+            }
+          ]
+        }
+      },
+      "appliancesNeeded": [
+        "Pans"
+      ],
+      "type": "meal"
     }
   ]
 }

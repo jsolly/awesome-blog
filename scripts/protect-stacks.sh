@@ -20,7 +20,7 @@ gate_activate_mise_shims || exit 2
 gate_require_cli aws || exit 2
 
 # Explicit allow-list: <stack> <policy-file>. scripts/stack-protection.test.mjs runs this script and
-# pins the list to the committed backup template.
+# pins the list to scripts/infra-inputs.json and the committed backup template.
 STACKS=(
   blogthedata-migration-backups aws/migration-backups/stack-policy.json
 )
