@@ -61,6 +61,20 @@ production-smoke-artifacts/
 # Claude desktop nests session worktrees here; committed so tools that read only
 # .gitignore (Biome, markdownlint globs) skip them. Fleet canon: new-solly-repo row 13.
 .claude/worktrees/
+# Claude harness state, at any depth (a session started in a subdirectory writes there).
+# deploy:infra's gate_require_landed disregards .git/info/exclude and the global excludes
+# file, and refuses any untracked path no committed .gitignore ignores, so a checkout where
+# Claude ran stays deployable only with these listed. Fleet canon: new-solly-repo row 13.
+**/.claude/settings.local.json
+**/.claude/scheduled_tasks.lock
+**/.claude/scheduled_tasks.json
+**/.claude/routines/.state/
+**/.claude/checkpoints/
+**/.claude/mailbox/
+**/.claude/agent-registry.json
+**/.claude/agent-memory-local
+**/.claude/first-run
+**/.claude/assistant-daemon-state.json
 
 # Local migration evidence
 .migration-work/

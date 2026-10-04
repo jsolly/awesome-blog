@@ -15,5 +15,6 @@ run_step "actionlint" npm run check:actions
 run_step "markdown lint" npm run check:md
 run_step "smoke scenario" npm run smoke:scenario-contract
 run_step "stack protection contracts" npm run test:stack-protection
+run_step "infra plan, drift and deploy contracts" npm run test:infra
 run_step "Astro and Svelte" npm run gate:app
 echo "✓ pre-commit gate complete"

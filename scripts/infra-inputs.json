@@ -1,0 +1,11 @@
+{
+  "notes": "The one list of what each stack's deploy command applies. A commit that touches an input stays undeployed until John runs that command, which stamps the stack's InfraDeployCommit tag with the landed main commit it applied. plan:infra and check:infra-drift import this file; .gitattributes marks the same paths infra-input for the shared pre-commit reminder, and scripts/check-infra-drift.test.mjs pins the two lists together.",
+  "stacks": [
+    {
+      "stack": "blogthedata-migration-backups",
+      "command": "npm run deploy:infra",
+      "template": "aws/migration-backups/template.json",
+      "inputs": ["aws/migration-backups/template.json", "aws/migration-backups/deploy.sh"]
+    }
+  ]
+}

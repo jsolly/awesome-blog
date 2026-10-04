@@ -1,0 +1,6 @@
+# Repo-scoped pin for the system CLI this repo's infra scripts shell out to (not an npm dep, not on
+# .nvmrc): deploy:infra, plan:infra, check:infra-drift and protect:stacks. The version pin behind
+# their `gate_require_cli aws` presence checks; see
+# dotagents/skills/setup-personal-machine/references/installer.md. Bump with `mise use awscli@<ver>`.
+[tools]
+awscli = "2.35.9"   # aqua backend → official AWS CLI v2 release binary

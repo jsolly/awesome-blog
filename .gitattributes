@@ -1,0 +1,5 @@
+# Infra inputs: the files npm run deploy:infra applies (scripts/infra-inputs.json). The shared
+# pre-commit gate warns when a staged path carries this attribute, and
+# scripts/check-infra-drift.test.mjs pins the two lists together.
+aws/migration-backups/template.json infra-input
+aws/migration-backups/deploy.sh infra-input
