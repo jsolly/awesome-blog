@@ -2,12 +2,19 @@
   import Button from '../lib/components/ui/button/button.svelte';
   import Input from '../lib/components/ui/input/input.svelte';
   import { onMount } from 'svelte';
+  import PostCards, { type Card } from './PostCards.svelte';
+  let { posts }: { posts: Card[] } = $props();
+  const cardsBySlug = $derived(new Map(posts.map(post => [post.slug, post])));
   import { z } from 'zod';
   import { searchEntry, createArticleSearch } from '../lib/search';
   let query = $state('');
   type SearchState = { kind: 'loading' } | { kind: 'error' } | { kind: 'ready'; search: ReturnType<typeof createArticleSearch> };
   let searchState = $state<SearchState>({ kind: 'loading' });
   const results = $derived(searchState.kind === 'ready' ? searchState.search(query) : []);
+  const resultCards = $derived(results.flatMap(result => {
+    const card = cardsBySlug.get(result.slug);
+    return card ? [card] : [];
+  }));
   async function loadIndex() {
     searchState = { kind: 'loading' };
     try {
@@ -34,9 +41,7 @@
   {:else if query.trim()}
     <p>{results.length} {results.length === 1 ? 'result' : 'results'}</p>
     {#if !results.length}<p>No articles matched. Try a shorter phrase or another topic.</p>{/if}
-    {#each results as post (post.slug)}
-      <article class="search-result"><h2><a class="post-card-link" href={`/post/${post.slug}/`}>{post.title}</a></h2><p>{post.description}</p></article>
-    {/each}
+    <PostCards posts={resultCards} />
   {:else}<p>Search titles and article text. Partial words and small typos work too.</p>{/if}
 </div>
 <noscript><p>Search requires JavaScript. <a href="/all-posts/">Browse all posts</a>.</p></noscript>

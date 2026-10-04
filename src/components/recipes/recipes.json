@@ -157,7 +157,7 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Preheat both fryers to 390\u00b0F. Toss asparagus with half the oil, half the garlic, and half the salt. Spread in one basket without a dense pile."
+          "text": "Preheat both fryers to 390°F. Toss asparagus with half the oil, half the garlic, and half the salt. Spread in one basket without a dense pile."
         },
         {
           "title": "Cook",
@@ -165,7 +165,7 @@
         },
         {
           "title": "Finish",
-          "text": "Check asparagus at 7 minutes; medium stalks usually need 7\u201310. Check salmon at 10 minutes; allow 10\u201314 to reach 145\u00b0F. Remove each when ready. Finish with lemon juice and hemp."
+          "text": "Check asparagus at 7 minutes; medium stalks usually need 7–10. Check salmon at 10 minutes; allow 10–14 to reach 145°F. Remove each when ready. Finish with lemon juice and hemp."
         }
       ],
       "equipment": [
@@ -175,25 +175,25 @@
       "timeline": [
         {
           "phase": "Preheat and load",
-          "duration": "6\u20138 min",
+          "duration": "6–8 min",
           "attention": "Toss and load separate baskets; preheat overlaps prep."
         },
         {
           "phase": "Air fry together",
-          "duration": "7\u201314 min",
+          "duration": "7–14 min",
           "attention": "Check asparagus at 7 min and salmon at 10 min; remove each separately."
         },
         {
           "phase": "Finish",
           "duration": "2 min",
-          "attention": "Check fish at 145\u00b0F; add lemon and hemp."
+          "attention": "Check fish at 145°F; add lemon and hemp."
         }
       ],
       "tips": [
         "Thin asparagus needs an earlier check.",
         "Keep the fillets skin-side down and apart."
       ],
-      "fallback": "If either basket cannot hold its full batch, use two half-sheet pans at 425\u00b0F: fish about 12\u201318 min, asparagus 10\u201315 min; allow 25\u201335 min total.",
+      "fallback": "If either basket cannot hold its full batch, use two half-sheet pans at 425°F: fish about 12–18 min, asparagus 10–15 min; allow 25–35 min total.",
       "limitations": [
         "Basket fit and actual thickness can change the time; first cook has not been kitchen-tested.",
         "Check every packaged ingredient label for additional allergens; this data is not an allergy guarantee."
@@ -235,14 +235,14 @@
       },
       "flow": {
         "prep": [
-          "Preheat both air fryers to 390\u00b0F. Start both baskets together; remove each component at its own endpoint.",
+          "Preheat both air fryers to 390°F. Start both baskets together; remove each component at its own endpoint.",
           "Use uncrowded baskets with room for the full batch; keep 1-inch-thick salmon fillets apart and medium asparagus out of a dense pile."
         ],
         "root": {
           "action": "Plate salmon and asparagus separately; finish both with lemon juice and hemp.",
           "children": [
             {
-              "action": "Salmon basket: skin-side down with gaps; air fry at 390\u00b0F for 10\u201314 min, check at 10 min; reach 145\u00b0F.",
+              "action": "Salmon basket: skin-side down with gaps; air fry at 390°F for 10–14 min, check at 10 min; reach 145°F.",
               "children": [
                 {
                   "action": "Rub dry salmon with oil, garlic, salt, pepper and zest.",
@@ -281,7 +281,7 @@
               ]
             },
             {
-              "action": "Asparagus basket: spread without a dense pile; air fry at 390\u00b0F for 7\u201310 min, check at 7 min; remove when ready.",
+              "action": "Asparagus basket: spread without a dense pile; air fry at 390°F for 7–10 min, check at 7 min; remove when ready.",
               "children": [
                 {
                   "action": "Toss trimmed, medium asparagus with oil, garlic and salt.",
@@ -343,7 +343,7 @@
         {
           "id": "chicken_thigh",
           "name": "Boneless skinless chicken thighs",
-          "state": "raw, thawed, unfolded; no more than \u00be inch thick",
+          "state": "raw, thawed, unfolded; no more than ¾ inch thick",
           "amount": 680,
           "unit": "g",
           "category": "protein",
@@ -357,7 +357,7 @@
         {
           "id": "broccoli",
           "name": "Broccoli florets",
-          "state": "about 1\u00bd inches across",
+          "state": "about 1½ inches across",
           "amount": 454,
           "unit": "g",
           "category": "produce",
@@ -492,7 +492,7 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Preheat both fryers to 390\u00b0F. Toss broccoli with half the oil and one third of the salt; load one basket without crowding. In a separate bowl coat chicken with the remaining oil and salt, paprika, garlic, oregano, and pepper."
+          "text": "Preheat both fryers to 390°F. Toss broccoli with half the oil and one third of the salt; load one basket without crowding. In a separate bowl coat chicken with the remaining oil and salt, paprika, garlic, oregano, and pepper."
         },
         {
           "title": "Cook",
@@ -500,7 +500,7 @@
         },
         {
           "title": "Finish",
-          "text": "Shake broccoli once halfway through its 10\u201314-minute cook. Chicken usually needs 16\u201322 minutes; check the thickest pieces for 165\u00b0F. No chicken flip is required, though the underside browns less. Finish broccoli with lemon and nutritional yeast. Broccoli is ready when stems are fork-tender and crowns are lightly browned; time alone is not its endpoint."
+          "text": "Shake broccoli once halfway through its 10–14-minute cook. Chicken usually needs 16–22 minutes; check the thickest pieces for 165°F. No chicken flip is required, though the underside browns less. Finish broccoli with lemon and nutritional yeast. Broccoli is ready when stems are fork-tender and crowns are lightly browned; time alone is not its endpoint."
         }
       ],
       "equipment": [
@@ -511,7 +511,7 @@
       "timeline": [
         {
           "phase": "Preheat and load chicken",
-          "duration": "7\u20139 min",
+          "duration": "7–9 min",
           "attention": "Start chicken first; preheat overlaps prep."
         },
         {
@@ -521,8 +521,8 @@
         },
         {
           "phase": "Cook",
-          "duration": "Chicken 16\u201322 min; broccoli 10\u201314 min",
-          "attention": "Shake broccoli once halfway; check chicken thickest pieces for 165\u00b0F."
+          "duration": "Chicken 16–22 min; broccoli 10–14 min",
+          "attention": "Shake broccoli once halfway; check chicken thickest pieces for 165°F."
         },
         {
           "phase": "Finish",
@@ -534,7 +534,7 @@
         "Chicken underside browns less without a flip.",
         "Keep yeast out of the fryer to avoid scorching."
       ],
-      "fallback": "If baskets cannot hold the batch, use two oven pans at 425\u00b0F for about 20\u201325 min; allow 35\u201340 min total and check chicken for 165\u00b0F.",
+      "fallback": "If baskets cannot hold the batch, use two oven pans at 425°F for about 20–25 min; allow 35–40 min total and check chicken for 165°F.",
       "limitations": [
         "Smaller fryer baskets require the oven fallback or extra batches.",
         "Check every packaged ingredient label for additional allergens; this data is not an allergy guarantee."
@@ -580,14 +580,14 @@
       },
       "flow": {
         "prep": [
-          "Preheat both air fryers to 390\u00b0F. Start chicken first; start broccoli 5 min later.",
-          "Use uncrowded baskets; thighs must be unfolded and no more than \u00be inch thick."
+          "Preheat both air fryers to 390°F. Start chicken first; start broccoli 5 min later.",
+          "Use uncrowded baskets; thighs must be unfolded and no more than ¾ inch thick."
         ],
         "root": {
           "action": "Plate cooked chicken and finished broccoli as separate components.",
           "children": [
             {
-              "action": "Chicken basket: smooth-side up, no overlap; air fry at 390\u00b0F for 16\u201322 min; thickest pieces must reach 165\u00b0F.",
+              "action": "Chicken basket: smooth-side up, no overlap; air fry at 390°F for 16–22 min; thickest pieces must reach 165°F.",
               "children": [
                 {
                   "action": "Coat unfolded thighs with oil, paprika, garlic, oregano, salt and pepper.",
@@ -628,10 +628,10 @@
               "action": "Finish cooked broccoli with lemon juice and nutritional yeast.",
               "children": [
                 {
-                  "action": "Broccoli basket: start 5 min after chicken; air fry at 390\u00b0F for 10\u201314 min, shake once halfway; stems fork-tender, crowns lightly browned.",
+                  "action": "Broccoli basket: start 5 min after chicken; air fry at 390°F for 10–14 min, shake once halfway; stems fork-tender, crowns lightly browned.",
                   "children": [
                     {
-                      "action": "Toss 1\u00bd-inch broccoli florets with oil and salt; load without crowding.",
+                      "action": "Toss 1½-inch broccoli florets with oil and salt; load without crowding.",
                       "children": [
                         {
                           "ingredientId": "broccoli",
@@ -706,7 +706,7 @@
         {
           "id": "zucchini",
           "name": "Zucchini",
-          "state": "sliced into \u00bd-inch half-moons",
+          "state": "sliced into ½-inch half-moons",
           "amount": 680,
           "unit": "g",
           "category": "produce",
@@ -807,11 +807,11 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Heat the oven to 425\u00b0F. Toss zucchini with three quarters of the oil, salt, and pepper. Spread on one half-sheet pan. Pat fish dry, rub with the remaining oil, and place on the other pan."
+          "text": "Heat the oven to 425°F. Toss zucchini with three quarters of the oil, salt, and pepper. Spread on one half-sheet pan. Pat fish dry, rub with the remaining oil, and place on the other pan."
         },
         {
           "title": "Cook",
-          "text": "Start the zucchini pan first. After 6 minutes, add the fish pan. Check zucchini from 18 minutes of its own cooking time for browned edges and a tender center; allow about 18\u201323 minutes. Check fish after 12 minutes of its own cooking time; allow about 12\u201318 minutes to reach 145\u00b0F. Remove each pan at its endpoint and serve promptly. If either needs longer, keep checking; do not overcook the fish to match the vegetables."
+          "text": "Start the zucchini pan first. After 6 minutes, add the fish pan. Check zucchini from 18 minutes of its own cooking time for browned edges and a tender center; allow about 18–23 minutes. Check fish after 12 minutes of its own cooking time; allow about 12–18 minutes to reach 145°F. Remove each pan at its endpoint and serve promptly. If either needs longer, keep checking; do not overcook the fish to match the vegetables."
         },
         {
           "title": "Finish",
@@ -819,14 +819,14 @@
         }
       ],
       "equipment": [
-        "Oven at 425\u00b0F on bake",
-        "Two 18\u00d713-inch rimmed metal half-sheet pans",
+        "Oven at 425°F on bake",
+        "Two 18×13-inch rimmed metal half-sheet pans",
         "Instant-read thermometer"
       ],
       "timeline": [
         {
           "phase": "Preheat and load zucchini",
-          "duration": "10\u201312 min",
+          "duration": "10–12 min",
           "attention": "Preheat overlaps prep; fish and zucchini get separate pans."
         },
         {
@@ -836,8 +836,8 @@
         },
         {
           "phase": "Finish both pans",
-          "duration": "Fish 12\u201318 min; zucchini 18\u201323 min total roast",
-          "attention": "Check zucchini for browned edges and tenderness; fish must reach 145\u00b0F. Remove separately at their endpoints."
+          "duration": "Fish 12–18 min; zucchini 18–23 min total roast",
+          "attention": "Check zucchini for browned edges and tenderness; fish must reach 145°F. Remove separately at their endpoints."
         },
         {
           "phase": "Finish",
@@ -893,7 +893,7 @@
       },
       "flow": {
         "prep": [
-          "Heat oven to 425\u00b0F on bake. Use two separate 18\u00d713-inch rimmed metal half-sheet pans.",
+          "Heat oven to 425°F on bake. Use two separate 18×13-inch rimmed metal half-sheet pans.",
           "Start zucchini first; add fish pan 6 min later. Remove each pan at its own endpoint and serve promptly."
         ],
         "root": {
@@ -903,7 +903,7 @@
               "action": "Spoon pesto over cooked fish after roasting.",
               "children": [
                 {
-                  "action": "Fish pan: add 6 min after zucchini; roast at 425\u00b0F for 12\u201318 min, check at 12 min of fish cooking; reach 145\u00b0F.",
+                  "action": "Fish pan: add 6 min after zucchini; roast at 425°F for 12–18 min, check at 12 min of fish cooking; reach 145°F.",
                   "children": [
                     {
                       "action": "Pat thawed, 1-inch-thick cod dry; rub with oil and place on its own pan.",
@@ -927,10 +927,10 @@
               ]
             },
             {
-              "action": "Zucchini pan: roast at 425\u00b0F for 18\u201323 min; check at 18 min of zucchini cooking; browned edges and tender center.",
+              "action": "Zucchini pan: roast at 425°F for 18–23 min; check at 18 min of zucchini cooking; browned edges and tender center.",
               "children": [
                 {
-                  "action": "Toss \u00bd-inch zucchini half-moons with oil, salt and pepper; spread on separate pan.",
+                  "action": "Toss ½-inch zucchini half-moons with oil, salt and pepper; spread on separate pan.",
                   "children": [
                     {
                       "ingredientId": "zucchini",
@@ -1172,7 +1172,7 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Heat the oven to 375\u00b0F. Heat spinach in the microwave according to its package during preheating, then let it cool until safe to handle and press very dry in a fine-mesh sieve with a spoon. Do not squeeze hot spinach with bare hands. Use one quarter of the oil to grease one 9-inch square metal dish for two or four servings, or two matching dishes for six or eight; each must be at least 2 inches deep."
+          "text": "Heat the oven to 375°F. Heat spinach in the microwave according to its package during preheating, then let it cool until safe to handle and press very dry in a fine-mesh sieve with a spoon. Do not squeeze hot spinach with bare hands. Use one quarter of the oil to grease one 9-inch square metal dish for two or four servings, or two matching dishes for six or eight; each must be at least 2 inches deep."
         },
         {
           "title": "Cook",
@@ -1180,11 +1180,11 @@
         },
         {
           "title": "Finish",
-          "text": "For the original four-serving layer, bake about 25\u201330 minutes; for the thinner two-serving layer, begin checking at 18 minutes, until the center is set and reaches 160\u00b0F. Toss greens with the remaining oil and lemon during baking. Rest the frittata for 3 minutes before cutting into the selected number of equal adult portions."
+          "text": "For the original four-serving layer, bake about 25–30 minutes; for the thinner two-serving layer, begin checking at 18 minutes, until the center is set and reaches 160°F. Toss greens with the remaining oil and lemon during baking. Rest the frittata for 3 minutes before cutting into the selected number of equal adult portions."
         }
       ],
       "equipment": [
-        "Oven at 375\u00b0F on bake",
+        "Oven at 375°F on bake",
         "Microwave for spinach",
         "9-inch square metal baking dish at least 2 inches deep",
         "Instant-read thermometer",
@@ -1193,13 +1193,13 @@
       "timeline": [
         {
           "phase": "Preheat, thaw, and mix",
-          "duration": "12\u201315 min",
+          "duration": "12–15 min",
           "attention": "Microwave spinach per package, cool enough to handle and press dry while preheating; oil dish and whisk mixture. Cooling or thawing delays can add time."
         },
         {
           "phase": "Bake",
-          "duration": "25\u201330 min",
-          "attention": "No mid-cook action; make salad during bake. Check center for 160\u00b0F."
+          "duration": "25–30 min",
+          "attention": "No mid-cook action; make salad during bake. Check center for 160°F."
         },
         {
           "phase": "Rest and serve",
@@ -1216,7 +1216,7 @@
       "limitations": [
         "Actual spinach drain and center cook time need a first cook.",
         "Check every packaged ingredient label for additional allergens; this data is not an allergy guarantee.",
-        "Allow 40\u201350 minutes; safe spinach handling, thawing and pressing can extend prep. Two servings bake in a thinner layer: start checking the center at 18 minutes rather than assuming the four-serving time."
+        "Allow 40–50 minutes; safe spinach handling, thawing and pressing can extend prep. Two servings bake in a thinner layer: start checking the center at 18 minutes rather than assuming the four-serving time."
       ],
       "sources": [
         {
@@ -1255,7 +1255,7 @@
       },
       "flow": {
         "prep": [
-          "Heat oven to 375\u00b0F on bake. Microwave spinach during preheating.",
+          "Heat oven to 375°F on bake. Microwave spinach during preheating.",
           "Use one 9-inch square metal dish, at least 2 inches deep, for 2 or 4 servings; use two matching dishes for 6 or 8. Keep the mixture no deeper than the original four-serving layer."
         ],
         "root": {
@@ -1265,7 +1265,7 @@
               "action": "Rest frittata 3 min, then cut into the selected number of equal portions.",
               "children": [
                 {
-                  "action": "Bake at 375\u00b0F for 25\u201330 min for the four-serving layer; at 2 servings check from 18 min; center set and 160\u00b0F.",
+                  "action": "Bake at 375°F for 25–30 min for the four-serving layer; at 2 servings check from 18 min; center set and 160°F.",
                   "children": [
                     {
                       "action": "Transfer to selected greased dishes; divide so the mixture is no deeper than the original four-serving layer.",
@@ -1597,11 +1597,11 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Heat the oven to 425\u00b0F. Prepare cucumber and greens. Mix yogurt with its garlic, a pinch of salt and half the lemon juice. Toss cauliflower and chicken with their own oil and spice portions and half the remaining salt on separate 18\u00d713-inch pans."
+          "text": "Heat the oven to 425°F. Prepare cucumber and greens. Mix yogurt with its garlic, a pinch of salt and half the lemon juice. Toss cauliflower and chicken with their own oil and spice portions and half the remaining salt on separate 18×13-inch pans."
         },
         {
           "title": "Cook",
-          "text": "Roast for 18\u201323 minutes, checking the largest chicken pieces for 165\u00b0F and cauliflower for tenderness. If your oven browns unevenly, swap racks halfway."
+          "text": "Roast for 18–23 minutes, checking the largest chicken pieces for 165°F and cauliflower for tenderness. If your oven browns unevenly, swap racks halfway."
         },
         {
           "title": "Finish",
@@ -1609,21 +1609,21 @@
         }
       ],
       "equipment": [
-        "Oven at 425\u00b0F on bake",
-        "Two 18\u00d713-inch half-sheet pans",
+        "Oven at 425°F on bake",
+        "Two 18×13-inch half-sheet pans",
         "Instant-read thermometer",
         "Microwave for ready-to-eat family rice or briefly warmed pita, if serving non-keto diners"
       ],
       "timeline": [
         {
           "phase": "Preheat and load",
-          "duration": "10\u201312 min",
+          "duration": "10–12 min",
           "attention": "Prepare cold sides and seasoned yogurt sauce first; split remaining spice oil between cauliflower and chicken."
         },
         {
           "phase": "Roast",
-          "duration": "18\u201323 min",
-          "attention": "Check largest chicken pieces for 165\u00b0F and cauliflower for browned edges and tenderness; optional rack swap if browning unevenly. Heat ready family starch near serving."
+          "duration": "18–23 min",
+          "attention": "Check largest chicken pieces for 165°F and cauliflower for browned edges and tenderness; optional rack swap if browning unevenly. Heat ready family starch near serving."
         },
         {
           "phase": "Finish",
@@ -1677,7 +1677,7 @@
             "fiber_g": 0.32,
             "net_carbs_g": 22.216000000000005
           },
-          "note": "About \u00bd cup per non-keto diner; heat ready-cooked rice. Buy at least 320 g for four.",
+          "note": "About ½ cup per non-keto diner; heat ready-cooked rice. Buy at least 320 g for four.",
           "state": "fully cooked, ready to heat",
           "us": {
             "amount": 0.5,
@@ -1764,11 +1764,15 @@
               ]
             },
             {
-              "action": "Heat oven to 425\u00b0F on bake. Roast both pans for 18\u201323 min, until chicken reaches 165\u00b0F and cauliflower is tender.",
+              "action": "Heat oven to 425°F on bake. Roast both pans for 18–23 min, until chicken reaches 165°F and cauliflower is tender.",
               "children": [
                 {
-                  "action": "Toss cauliflower with oil and spices on its own 18\u00d713-inch pan.",
+                  "action": "Toss cauliflower with oil and spices on its own 18×13-inch pan.",
                   "children": [
+                    {
+                      "ingredientId": "cauliflower",
+                      "fraction": 1
+                    },
                     {
                       "ingredientId": "olive_oil",
                       "fraction": 0.5
@@ -1801,16 +1805,16 @@
                       "ingredientId": "fine_salt",
                       "share": "remainder",
                       "fraction": 0.5
-                    },
-                    {
-                      "ingredientId": "cauliflower",
-                      "fraction": 1
                     }
                   ]
                 },
                 {
-                  "action": "Toss chicken with oil and spices on its own 18\u00d713-inch pan.",
+                  "action": "Toss chicken with oil and spices on its own 18×13-inch pan.",
                   "children": [
+                    {
+                      "ingredientId": "chicken_thigh",
+                      "fraction": 1
+                    },
                     {
                       "ingredientId": "olive_oil",
                       "fraction": 0.5
@@ -1843,10 +1847,6 @@
                       "ingredientId": "fine_salt",
                       "share": "remainder",
                       "fraction": 0.5
-                    },
-                    {
-                      "ingredientId": "chicken_thigh",
-                      "fraction": 1
                     }
                   ]
                 }
@@ -1886,7 +1886,7 @@
         {
           "id": "chicken_thigh",
           "name": "Boneless skinless chicken thighs",
-          "state": "raw, thawed; strips about 1 inch wide, no more than \u00be inch thick",
+          "state": "raw, thawed; strips about 1 inch wide, no more than ¾ inch thick",
           "amount": 680,
           "unit": "g",
           "category": "protein",
@@ -1900,7 +1900,7 @@
         {
           "id": "bell_pepper",
           "name": "Bell pepper",
-          "state": "sliced into \u00bc-inch strips",
+          "state": "sliced into ¼-inch strips",
           "amount": 300,
           "unit": "g",
           "category": "produce",
@@ -1914,7 +1914,7 @@
         {
           "id": "onion",
           "name": "Onion",
-          "state": "sliced into \u00bc-inch strips",
+          "state": "sliced into ¼-inch strips",
           "amount": 60,
           "unit": "g",
           "category": "produce",
@@ -2079,11 +2079,11 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Heat the oven to 425\u00b0F. Prepare lettuce and avocado first. Mix oil, spices, and salt. Toss peppers and onion with half the mixture. Coat chicken separately with the rest."
+          "text": "Heat the oven to 425°F. Prepare lettuce and avocado first. Mix oil, spices, and salt. Toss peppers and onion with half the mixture. Coat chicken separately with the rest."
         },
         {
           "title": "Cook",
-          "text": "Divide chicken and vegetables between two half-sheet pans in a single layer, keeping pieces apart. Bake about 18\u201322 minutes, until the largest chicken strips reach 165\u00b0F. No stir is needed if there is enough space; swap racks halfway if needed for your oven."
+          "text": "Divide chicken and vegetables between two half-sheet pans in a single layer, keeping pieces apart. Bake about 18–22 minutes, until the largest chicken strips reach 165°F. No stir is needed if there is enough space; swap racks halfway if needed for your oven."
         },
         {
           "title": "Finish",
@@ -2091,21 +2091,21 @@
         }
       ],
       "equipment": [
-        "Oven at 425\u00b0F on bake",
-        "Two 18\u00d713-inch half-sheet pans",
+        "Oven at 425°F on bake",
+        "Two 18×13-inch half-sheet pans",
         "Instant-read thermometer",
         "Microwave for family tortillas"
       ],
       "timeline": [
         {
           "phase": "Preheat and load",
-          "duration": "10\u201312 min",
+          "duration": "10–12 min",
           "attention": "Prepare lettuce and avocado before raw poultry; separate chicken and vegetables on pans."
         },
         {
           "phase": "Roast",
-          "duration": "18\u201322 min",
-          "attention": "Check largest chicken strips for 165\u00b0F; swap racks if needed. Heat tortillas during cook."
+          "duration": "18–22 min",
+          "attention": "Check largest chicken strips for 165°F; swap racks if needed. Heat tortillas during cook."
         },
         {
           "phase": "Finish",
@@ -2183,7 +2183,7 @@
       },
       "flow": {
         "prep": [
-          "Heat oven to 425\u00b0F on bake; use two 18\u00d713-inch half-sheet pans."
+          "Heat oven to 425°F on bake; use two 18×13-inch half-sheet pans."
         ],
         "root": {
           "action": "Plate fajita bowls with cold lettuce, lime-finished filling, avocado and yogurt.",
@@ -2205,7 +2205,7 @@
               "action": "Finish cooked fajita filling with lime.",
               "children": [
                 {
-                  "action": "Bake at 425\u00b0F for 18\u201322 min; largest chicken strips must reach 165\u00b0F. No stir if spaced; swap racks halfway if needed.",
+                  "action": "Bake at 425°F for 18–22 min; largest chicken strips must reach 165°F. No stir if spaced; swap racks halfway if needed.",
                   "children": [
                     {
                       "action": "Toss peppers and onion with half the seasoned oil; coat chicken separately with the rest. Spread on two half-sheet pans in a single layer, pieces apart.",
@@ -2317,7 +2317,7 @@
             "amount": 375,
             "unit": "ml"
           },
-          "note": "375 mL base minimum for Instant Pot Duo 6QT; use your model\u2019s minimum.",
+          "note": "375 mL base minimum for Instant Pot Duo 6QT; use your model’s minimum.",
           "scale": "minimum",
           "nutritionBatch": {
             "kcal": 26.25,
@@ -2433,7 +2433,7 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Put the broth, cumin, garlic, and separated thighs in the Duo 6QT. Leave salsa out. Seal, switch Keep Warm off, and set high pressure for 8 minutes. The broth amount is the 6QT minimum; follow your model\u2019s higher minimum if required and stay under PC MAX."
+          "text": "Put the broth, cumin, garlic, and separated thighs in the Duo 6QT. Leave salsa out. Seal, switch Keep Warm off, and set high pressure for 8 minutes. The broth amount is the 6QT minimum; follow your model’s higher minimum if required and stay under PC MAX."
         },
         {
           "title": "Cook",
@@ -2441,7 +2441,7 @@
         },
         {
           "title": "Finish",
-          "text": "When pressure cooking ends, leave the valve at Seal for 10 minutes. Then vent according to your manual, keeping clear of steam. Open only after the float valve drops. Check the thickest thighs for 165\u00b0F. If needed, finish cooking in the liquid and recheck; that adds time."
+          "text": "When pressure cooking ends, leave the valve at Seal for 10 minutes. Then vent according to your manual, keeping clear of steam. Open only after the float valve drops. Check the thickest thighs for 165°F. If needed, finish cooking in the liquid and recheck; that adds time."
         },
         {
           "title": "Serve",
@@ -2457,7 +2457,7 @@
       "timeline": [
         {
           "phase": "Load and pressurize",
-          "duration": "3 min load + 10\u201315 min expected pressure build",
+          "duration": "3 min load + 10–15 min expected pressure build",
           "attention": "Broth, spices, thighs only; seal and turn Keep Warm off. Make slaw during build; heat ready family rice near serving."
         },
         {
@@ -2468,7 +2468,7 @@
         {
           "phase": "Release",
           "duration": "10 min natural + about 2 min controlled vent/check",
-          "attention": "Leave sealed for 10 min; vent per manual, open only after float drops. Probe thighs for 165\u00b0F."
+          "attention": "Leave sealed for 10 min; vent per manual, open only after float drops. Probe thighs for 165°F."
         },
         {
           "phase": "Shred and plate",
@@ -2484,8 +2484,8 @@
       ],
       "fallback": null,
       "limitations": [
-        "40\u201345 min is an expected planning estimate, not a hard bound. The manual permits pressure building up to 30 min, which can make the same meal about 59 min.",
-        "Follow your exact model\u2019s liquid minimum, PC MAX, venting, and float-valve instructions. Do not leave the operating cooker unattended.",
+        "40–45 min is an expected planning estimate, not a hard bound. The manual permits pressure building up to 30 min, which can make the same meal about 59 min.",
+        "Follow your exact model’s liquid minimum, PC MAX, venting, and float-valve instructions. Do not leave the operating cooker unattended.",
         "Custom 8+10 timing and shreddability need a first cook.",
         "Check chicken broth and salsa labels for allergens; the listed milk allergen comes from yogurt. This data is not an allergy guarantee."
       ],
@@ -2534,7 +2534,7 @@
             "fiber_g": 0.32,
             "net_carbs_g": 22.216000000000005
           },
-          "note": "About \u00bd cup per non-keto diner; heat ready-cooked rice. Buy at least 320 g for four.",
+          "note": "About ½ cup per non-keto diner; heat ready-cooked rice. Buy at least 320 g for four.",
           "state": "fully cooked, ready to heat",
           "us": {
             "amount": 0.5,
@@ -2544,7 +2544,7 @@
         }
       ],
       "attentionSummary": "Controlled pressure release, safety check, and shredding at the end; time has a long tail.",
-      "flavorRationale": "Salsa after pressure cooking keeps its tang and meets the cooker\u2019s need for thin liquid during pressure buildup.",
+      "flavorRationale": "Salsa after pressure cooking keeps its tang and meets the cooker’s need for thin liquid during pressure buildup.",
       "midCookActions": 0,
       "image": {
         "src": "/media/recipes/salsa-verde-shredded-chicken-960.webp",
@@ -2567,7 +2567,7 @@
               "action": "Mix with salsa, remaining lime and enough broth to moisten.",
               "children": [
                 {
-                  "action": "Cook to 165\u00b0F, then shred.",
+                  "action": "Cook to 165°F, then shred.",
                   "children": [
                     {
                       "action": "Natural release: 10 min, then vent. Open after the float drops.",
@@ -2858,32 +2858,32 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Preheat both fryers to 380\u00b0F. Prepare cucumber, greens, and yogurt mixed with lemon first. Mix turkey, egg, flax, feta, oregano, garlic, salt, and pepper just until combined. If the scaled egg amount is half an egg, beat one whole egg and use half by weight, about 25 g."
+          "text": "Preheat both fryers to 380°F. Prepare cucumber, greens, and yogurt mixed with lemon first. Mix turkey, egg, flax, feta, oregano, garlic, salt, and pepper just until combined. If the scaled egg amount is half an egg, beat one whole egg and use half by weight, about 25 g."
         },
         {
           "title": "Cook",
-          "text": "Form patties about 100 g each, 3\u00bc inches across and \u00be inch thick; allow about two per adult. Oil baskets lightly. In the four-serving batch, put four patties in each only if they fit with gaps; about 8\u00d78 inches of usable flat space per basket is a starting fit check. Do not cram them in."
+          "text": "Form patties about 100 g each, 3¼ inches across and ¾ inch thick; allow about two per adult. Oil baskets lightly. In the four-serving batch, put four patties in each only if they fit with gaps; about 8×8 inches of usable flat space per basket is a starting fit check. Do not cram them in."
         },
         {
           "title": "Finish",
-          "text": "Cook about 14\u201318 minutes, flipping once halfway, until each patty reaches 165\u00b0F. If serving non-keto diners, warm the chosen family bread during cooking. Serve patties with cucumber, greens, and yogurt sauce. A family bun is one double-patty serving, or put one patty in the bun and the other beside it; pita goes alongside the full plate."
+          "text": "Cook about 14–18 minutes, flipping once halfway, until each patty reaches 165°F. If serving non-keto diners, warm the chosen family bread during cooking. Serve patties with cucumber, greens, and yogurt sauce. A family bun is one double-patty serving, or put one patty in the bun and the other beside it; pita goes alongside the full plate."
         }
       ],
       "equipment": [
-        "Two air fryers, each with roughly 8\u00d78 inches usable flat space for four patties",
+        "Two air fryers, each with roughly 8×8 inches usable flat space for four patties",
         "Instant-read thermometer",
         "Clean board and serving tools"
       ],
       "timeline": [
         {
           "phase": "Prepare and form",
-          "duration": "10\u201312 min",
-          "attention": "Prepare cold sides first; mix lightly and form patties roughly 100 g each, 3\u00bc inches across and \u00be inch thick."
+          "duration": "10–12 min",
+          "attention": "Prepare cold sides first; mix lightly and form patties roughly 100 g each, 3¼ inches across and ¾ inch thick."
         },
         {
           "phase": "Air fry",
-          "duration": "14\u201318 min",
-          "attention": "Four patties per basket only if gaps remain; flip once halfway, check each for 165\u00b0F. Warm one bread choice during cook."
+          "duration": "14–18 min",
+          "attention": "Four patties per basket only if gaps remain; flip once halfway, check each for 165°F. Warm one bread choice during cook."
         },
         {
           "phase": "Serve",
@@ -2895,7 +2895,7 @@
         "Ground flax binds; whole flax is not equivalent.",
         "Do a cold basket fit check before committing to air frying."
       ],
-      "fallback": "If patties do not fit with gaps, bake on half-sheet pans at 425\u00b0F for about 18\u201322 min; check every patty for 165\u00b0F. Four-serving base batch can fit on one pan; larger batches may need more pans or rounds. Allow 35\u201340 min for the base batch.",
+      "fallback": "If patties do not fit with gaps, bake on half-sheet pans at 425°F for about 18–22 min; check every patty for 165°F. Four-serving base batch can fit on one pan; larger batches may need more pans or rounds. Allow 35–40 min for the base batch.",
       "limitations": [
         "Patties may require the oven fallback in smaller fryers.",
         "Check every packaged ingredient label for additional allergens; this data is not an allergy guarantee."
@@ -2988,7 +2988,7 @@
       },
       "flow": {
         "prep": [
-          "Preheat both air fryers to 380\u00b0F. Arrange four patties per basket with gaps.",
+          "Preheat both air fryers to 380°F. Arrange four patties per basket with gaps.",
           "If scaled egg is half an egg: beat one whole egg and weigh about 25 g."
         ],
         "root": {
@@ -3021,13 +3021,13 @@
               ]
             },
             {
-              "action": "Air fry at 380\u00b0F for 14\u201318 min, flipping once halfway; each patty must reach 165\u00b0F.",
+              "action": "Air fry at 380°F for 14–18 min, flipping once halfway; each patty must reach 165°F.",
               "children": [
                 {
                   "action": "Lightly oil both baskets; load patties with gaps. Four per basket for base batch only if they fit; do not cram.",
                   "children": [
                     {
-                      "action": "Form patties about 100 g each, 3\u00bc inches across and \u00be inch thick; about two per serving.",
+                      "action": "Form patties about 100 g each, 3¼ inches across and ¾ inch thick; about two per serving.",
                       "children": [
                         {
                           "action": "Mix turkey, egg, flax, feta and seasoning just until combined.",
@@ -3105,7 +3105,7 @@
         {
           "id": "cooked_chicken_breast",
           "name": "Fully cooked chicken breast",
-          "state": "plain, refrigerated, chopped no larger than \u00be inch",
+          "state": "plain, refrigerated, chopped no larger than ¾ inch",
           "amount": 340,
           "unit": "g",
           "category": "protein",
@@ -3307,11 +3307,11 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Heat the oven to 425\u00b0F. In a 13\u00d79-inch shallow metal baking dish, mix lentils, tomatoes, spinach, oil, spices, and salt. Fold in cooked chicken. Spread and gently press to an even layer no more than 1 inch deep; split into two shallow dishes if needed."
+          "text": "Heat the oven to 425°F. In a 13×9-inch shallow metal baking dish, mix lentils, tomatoes, spinach, oil, spices, and salt. Fold in cooked chicken. Spread and gently press to an even layer no more than 1 inch deep; split into two shallow dishes if needed."
         },
         {
           "title": "Cook",
-          "text": "Cover tightly with foil. Bake about 20\u201325 minutes. Check the center and several chicken pieces for 165\u00b0F; continue if needed."
+          "text": "Cover tightly with foil. Bake about 20–25 minutes. Check the center and several chicken pieces for 165°F; continue if needed."
         },
         {
           "title": "Finish",
@@ -3319,21 +3319,21 @@
         }
       ],
       "equipment": [
-        "Oven at 425\u00b0F on bake",
-        "13\u00d79-inch shallow metal baking dish",
+        "Oven at 425°F on bake",
+        "13×9-inch shallow metal baking dish",
         "Foil cover",
         "Instant-read thermometer"
       ],
       "timeline": [
         {
           "phase": "Preheat and mix",
-          "duration": "10\u201312 min",
+          "duration": "10–12 min",
           "attention": "Mix in shallow dish; keep depth no more than 1 inch, split dishes if needed. Cover tightly."
         },
         {
           "phase": "Bake",
-          "duration": "20\u201325 min",
-          "attention": "Check center and several chicken pieces for 165\u00b0F."
+          "duration": "20–25 min",
+          "attention": "Check center and several chicken pieces for 165°F."
         },
         {
           "phase": "Finish",
@@ -3348,7 +3348,7 @@
       "fallback": null,
       "limitations": [
         "Do not substitute raw chicken, dry lentils, or frozen chicken blocks.",
-        "First cook should log depth, starting temperatures, and time to 165\u00b0F.",
+        "First cook should log depth, starting temperatures, and time to 165°F.",
         "Check every packaged ingredient label for additional allergens; this data is not an allergy guarantee."
       ],
       "sources": [
@@ -3388,8 +3388,8 @@
       },
       "flow": {
         "prep": [
-          "Preheat oven to 425\u00b0F (bake). Use a shallow 13\u00d79-inch metal baking dish, foil and an instant-read thermometer.",
-          "Use fully cooked, refrigerated chicken chopped no larger than \u00be inch; raw chicken, dry lentils and frozen chicken blocks are not substitutes. Drain and rinse canned lentils; retain tomato juice; roughly chop spinach.",
+          "Preheat oven to 425°F (bake). Use a shallow 13×9-inch metal baking dish, foil and an instant-read thermometer.",
+          "Use fully cooked, refrigerated chicken chopped no larger than ¾ inch; raw chicken, dry lentils and frozen chicken blocks are not substitutes. Drain and rinse canned lentils; retain tomato juice; roughly chop spinach.",
           "Keep the mixed bake no more than 1 inch deep; split into shallow dishes if needed."
         ],
         "root": {
@@ -3399,10 +3399,10 @@
               "action": "Finish baked mixture with lemon and feta.",
               "children": [
                 {
-                  "action": "Cover tightly with foil; bake at 425\u00b0F about 20\u201325 min, until center and several chicken pieces reach 165\u00b0F; continue if needed.",
+                  "action": "Cover tightly with foil; bake at 425°F about 20–25 min, until center and several chicken pieces reach 165°F; continue if needed.",
                   "children": [
                     {
-                      "action": "Fold in fully cooked chicken; spread and gently press to an even layer \u22641 inch deep.",
+                      "action": "Fold in fully cooked chicken; spread and gently press to an even layer ≤1 inch deep.",
                       "children": [
                         {
                           "action": "Mix in shallow metal baking dish.",
@@ -3678,11 +3678,11 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Heat the oven to 425\u00b0F. Mix oil, half the harissa, cumin and half the salt. Toss thoroughly dried chickpeas and cauliflower with it. Spread across two half-sheet pans without crowding."
+          "text": "Heat the oven to 425°F. Mix oil, half the harissa, cumin and half the salt. Toss thoroughly dried chickpeas and cauliflower with it. Spread across two half-sheet pans without crowding."
         },
         {
           "title": "Cook",
-          "text": "Roast for about 22\u201325 minutes, stirring once and swapping racks halfway, until cauliflower is tender and browned. Chickpeas should still be soft inside."
+          "text": "Roast for about 22–25 minutes, stirring once and swapping racks halfway, until cauliflower is tender and browned. Chickpeas should still be soft inside."
         },
         {
           "title": "Finish",
@@ -3690,18 +3690,18 @@
         }
       ],
       "equipment": [
-        "Oven at 425\u00b0F on bake",
-        "Two 18\u00d713-inch half-sheet pans"
+        "Oven at 425°F on bake",
+        "Two 18×13-inch half-sheet pans"
       ],
       "timeline": [
         {
           "phase": "Preheat and load",
-          "duration": "10\u201312 min",
+          "duration": "10–12 min",
           "attention": "Dry rinsed chickpeas; toss with cauliflower, oil, half the mild harissa, cumin and half the salt; spread over two pans."
         },
         {
           "phase": "Roast",
-          "duration": "22\u201325 min",
+          "duration": "22–25 min",
           "attention": "Stir once and swap racks halfway. Mix yogurt with remaining mild harissa/salt, lemon, garlic and pepper during cooking."
         },
         {
@@ -3759,7 +3759,7 @@
       },
       "flow": {
         "prep": [
-          "Preheat oven to 425\u00b0F (bake); use two 18\u00d713-inch half-sheet pans. Drain, rinse and thoroughly pat chickpeas dry; use cauliflower florets about 1 inch across and washed salad greens.",
+          "Preheat oven to 425°F (bake); use two 18×13-inch half-sheet pans. Drain, rinse and thoroughly pat chickpeas dry; use cauliflower florets about 1 inch across and washed salad greens.",
           "Use the specified Mina mild harissa and the full scaled strained-yogurt amount.",
           "Keep ingredients in a single layer. For 6 or 8 servings, use extra pans or cook in batches."
         ],
@@ -3767,7 +3767,7 @@
           "action": "Plate finished meal: divide all cold yogurt sauce equally among plates; add greens and roast, then hemp.",
           "children": [
             {
-              "action": "Roast on two half-sheet pans at 425\u00b0F about 22\u201325 min; stir once and swap racks halfway; cauliflower tender and browned, chickpeas soft inside.",
+              "action": "Roast on two half-sheet pans at 425°F about 22–25 min; stir once and swap racks halfway; cauliflower tender and browned, chickpeas soft inside.",
               "children": [
                 {
                   "action": "Toss dried chickpeas and cauliflower thoroughly; spread uncrowded across two pans.",
@@ -3871,7 +3871,7 @@
         {
           "id": "chicken_thigh",
           "name": "Boneless skinless chicken thighs",
-          "state": "raw, thawed, unfolded; no more than \u00be inch thick",
+          "state": "raw, thawed, unfolded; no more than ¾ inch thick",
           "amount": 680,
           "unit": "g",
           "category": "protein",
@@ -3885,7 +3885,7 @@
         {
           "id": "baby_potatoes",
           "name": "Baby potatoes",
-          "state": "cut no larger than \u00be inch",
+          "state": "cut no larger than ¾ inch",
           "amount": 567,
           "unit": "g",
           "category": "produce",
@@ -4047,7 +4047,7 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Heat the oven to 425\u00b0F. Put potato pieces and water in a microwave-safe dish with a vented microwave-safe cover. Microwave on high for about 6\u20138 minutes in a roughly 1000 W microwave, until just fork-tender, then carefully uncover and drain. Prepare the rest during this step."
+          "text": "Heat the oven to 425°F. Put potato pieces and water in a microwave-safe dish with a vented microwave-safe cover. Microwave on high for about 6–8 minutes in a roughly 1000 W microwave, until just fork-tender, then carefully uncover and drain. Prepare the rest during this step."
         },
         {
           "title": "Cook",
@@ -4055,7 +4055,7 @@
         },
         {
           "title": "Finish",
-          "text": "Roast chicken and potatoes for 20\u201325 minutes. Add green beans to the vegetable pan after the first 10 minutes, keeping them in a separate area rather than piling them over potatoes. Swap racks at that addition. Chicken must reach 165\u00b0F; potatoes and beans should be tender. Remove each when ready."
+          "text": "Roast chicken and potatoes for 20–25 minutes. Add green beans to the vegetable pan after the first 10 minutes, keeping them in a separate area rather than piling them over potatoes. Swap racks at that addition. Chicken must reach 165°F; potatoes and beans should be tender. Remove each when ready."
         },
         {
           "title": "Serve",
@@ -4063,16 +4063,16 @@
         }
       ],
       "equipment": [
-        "Oven at 425\u00b0F on bake",
+        "Oven at 425°F on bake",
         "Microwave about 1000 W",
         "Vented microwave-safe dish",
-        "Two 18\u00d713-inch half-sheet pans",
+        "Two 18×13-inch half-sheet pans",
         "Instant-read thermometer"
       ],
       "timeline": [
         {
           "phase": "Preheat and microwave",
-          "duration": "12\u201316 min",
+          "duration": "12–16 min",
           "attention": "Microwave potatoes with the measured water until just fork-tender; drain carefully. Prep chicken and beans during this stage."
         },
         {
@@ -4082,8 +4082,8 @@
         },
         {
           "phase": "Add beans and finish",
-          "duration": "10\u201315 min",
-          "attention": "Add beans to reserved area and swap racks; check chicken for 165\u00b0F and vegetables for tenderness."
+          "duration": "10–15 min",
+          "attention": "Add beans to reserved area and swap racks; check chicken for 165°F and vegetables for tenderness."
         },
         {
           "phase": "Finish",
@@ -4144,9 +4144,9 @@
       },
       "flow": {
         "prep": [
-          "Preheat oven to 425\u00b0F (bake). Use two 18\u00d713-inch half-sheet pans, a vented microwave-safe dish, a roughly 1000 W microwave and an instant-read thermometer.",
+          "Preheat oven to 425°F (bake). Use two 18×13-inch half-sheet pans, a vented microwave-safe dish, a roughly 1000 W microwave and an instant-read thermometer.",
           "Mix oil, oregano, garlic, zest and pepper. Reserve half for potatoes, one quarter for beans and one quarter for chicken; give each one third of the salt.",
-          "Use thawed, unfolded thighs \u2264\u00be inch thick; cut potatoes no larger than \u00be inch and trim beans. Keep potatoes and beans in separate single-layer areas on one vegetable pan and chicken on its own pan.",
+          "Use thawed, unfolded thighs ≤¾ inch thick; cut potatoes no larger than ¾ inch and trim beans. Keep potatoes and beans in separate single-layer areas on one vegetable pan and chicken on its own pan.",
           "For 6 or 8 servings, microwave potatoes in batches until fork-tender.",
           "Start chicken and potatoes together; at roast minute 10 add beans to their reserved area and swap racks. Remove each component at its own endpoint."
         ],
@@ -4154,7 +4154,7 @@
           "action": "Plate finished meal: serve cooked chicken beside vegetables; finish all with lemon juice.",
           "children": [
             {
-              "action": "Roast chicken on separate pan at 425\u00b0F for 20\u201325 min, until thickest pieces reach 165\u00b0F; remove when ready.",
+              "action": "Roast chicken on separate pan at 425°F for 20–25 min, until thickest pieces reach 165°F; remove when ready.",
               "children": [
                 {
                   "action": "Coat chicken with reserved seasoning and one third of salt; unfold onto its own pan.",
@@ -4200,16 +4200,16 @@
               "action": "Sprinkle yeast over cooked vegetables.",
               "children": [
                 {
-                  "action": "Keep beans and potatoes in separate areas; roast at 425\u00b0F another 10\u201315 min until both tender; remove each when ready.",
+                  "action": "Keep beans and potatoes in separate areas; roast at 425°F another 10–15 min until both tender; remove each when ready.",
                   "children": [
                     {
-                      "action": "Spread on half the vegetable pan, reserve other half; start with chicken and roast at 425\u00b0F for 10 min.",
+                      "action": "Spread on half the vegetable pan, reserve other half; start with chicken and roast at 425°F for 10 min.",
                       "children": [
                         {
                           "action": "Coat drained potatoes with reserved seasoning and one third of salt.",
                           "children": [
                             {
-                              "action": "Microwave in vented dish on high about 6\u20138 min at ~1000 W until just fork-tender; carefully uncover and drain.",
+                              "action": "Microwave in vented dish on high about 6–8 min at ~1000 W until just fork-tender; carefully uncover and drain.",
                               "children": [
                                 {
                                   "ingredientId": "baby_potatoes",
@@ -4380,7 +4380,7 @@
         {
           "id": "broccoli",
           "name": "Broccoli florets",
-          "state": "about 1\u00bd inches across",
+          "state": "about 1½ inches across",
           "amount": 454,
           "unit": "g",
           "category": "produce",
@@ -4542,11 +4542,11 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Heat the oven to 425\u00b0F. Toss gnocchi, broccoli, and tomatoes with two thirds of the oil, oregano, garlic, salt, and pepper. Divide across two half-sheet pans. Do not boil gnocchi first."
+          "text": "Heat the oven to 425°F. Toss gnocchi, broccoli, and tomatoes with two thirds of the oil, oregano, garlic, salt, and pepper. Divide across two half-sheet pans. Do not boil gnocchi first."
         },
         {
           "title": "Cook",
-          "text": "Roast for 12 minutes. Toss beans with the remaining oil. Add them to the pans, stir everything once, and swap racks. Continue roasting for about 13\u201318 minutes, until gnocchi are tender inside and broccoli is tender and browned."
+          "text": "Roast for 12 minutes. Toss beans with the remaining oil. Add them to the pans, stir everything once, and swap racks. Continue roasting for about 13–18 minutes, until gnocchi are tender inside and broccoli is tender and browned."
         },
         {
           "title": "Finish",
@@ -4554,13 +4554,13 @@
         }
       ],
       "equipment": [
-        "Oven at 425\u00b0F on bake",
-        "Two 18\u00d713-inch half-sheet pans"
+        "Oven at 425°F on bake",
+        "Two 18×13-inch half-sheet pans"
       ],
       "timeline": [
         {
           "phase": "Preheat and load",
-          "duration": "10\u201312 min",
+          "duration": "10–12 min",
           "attention": "Toss shelf-stable unboiled gnocchi, broccoli and tomatoes with two thirds of the measured oil and seasoning; spread on two pans."
         },
         {
@@ -4570,7 +4570,7 @@
         },
         {
           "phase": "Add beans and finish",
-          "duration": "13\u201318 min",
+          "duration": "13–18 min",
           "attention": "Toss drained beans with the remaining oil; add, stir all once, swap racks. Cook until gnocchi centers and broccoli are tender."
         },
         {
@@ -4637,7 +4637,7 @@
       },
       "flow": {
         "prep": [
-          "Preheat oven to 425\u00b0F (bake); use two 18\u00d713-inch half-sheet pans. Use shelf-stable, unfrozen gnocchi; do not boil first. Drain and rinse canned beans; use broccoli florets about 1\u00bd inches across.",
+          "Preheat oven to 425°F (bake); use two 18×13-inch half-sheet pans. Use shelf-stable, unfrozen gnocchi; do not boil first. Drain and rinse canned beans; use broccoli florets about 1½ inches across.",
           "Keep ingredients in a single layer. For 6 or 8 servings, use extra pans or cook in batches.",
           "Add half the Parmesan while warm; divide the rest among plates."
         ],
@@ -4651,13 +4651,13 @@
                   "action": "Press a few softened tomatoes with serving spoon; toss their juices through gnocchi and beans.",
                   "children": [
                     {
-                      "action": "Continue roasting at 425\u00b0F for 13\u201318 min (25\u201330 min total), until gnocchi centers tender and broccoli tender and browned.",
+                      "action": "Continue roasting at 425°F for 13–18 min (25–30 min total), until gnocchi centers tender and broccoli tender and browned.",
                       "children": [
                         {
                           "action": "At minute 12 add oiled beans to both pans, stir everything once and swap racks.",
                           "children": [
                             {
-                              "action": "Roast at 425\u00b0F for 12 min on two half-sheet pans.",
+                              "action": "Roast at 425°F for 12 min on two half-sheet pans.",
                               "children": [
                                 {
                                   "action": "Toss and divide across two half-sheet pans; gnocchi remain unboiled.",
@@ -4963,11 +4963,11 @@
       "steps": [
         {
           "title": "Prepare",
-          "text": "Mix yogurt with lemon. Prepare cucumber and greens. Mix turkey, egg, flax, feta and seasoning just until combined. Form about two patties per serving about 100 g each, 3\u00bc inches across and \u00be inch thick."
+          "text": "Mix yogurt with lemon. Prepare cucumber and greens. Mix turkey, egg, flax, feta and seasoning just until combined. Form about two patties per serving about 100 g each, 3¼ inches across and ¾ inch thick."
         },
         {
           "title": "Pan-fry",
-          "text": "Heat a 12-inch nonstick frying pan over medium heat. Divide the oil among batches. Add oil and up to four patties at a time. Cook 5\u20136 minutes per side, until every patty reaches 165\u00b0F. Repeat until all patties are cooked."
+          "text": "Heat a 12-inch nonstick frying pan over medium heat. Divide the oil among batches. Add oil and up to four patties at a time. Cook 5–6 minutes per side, until every patty reaches 165°F. Repeat until all patties are cooked."
         },
         {
           "title": "Serve",
@@ -4982,13 +4982,13 @@
       "timeline": [
         {
           "phase": "Prepare",
-          "duration": "10\u201312 min",
+          "duration": "10–12 min",
           "attention": "Mix sauce and form patties."
         },
         {
           "phase": "Pan-fry two batches",
-          "duration": "20\u201324 min",
-          "attention": "Turn once per batch and check each patty for 165\u00b0F."
+          "duration": "20–24 min",
+          "attention": "Turn once per batch and check each patty for 165°F."
         },
         {
           "phase": "Serve",
@@ -5077,7 +5077,7 @@
           ]
         }
       ],
-      "attentionSummary": "Turn each batch once; cook every patty to 165\u00b0F.",
+      "attentionSummary": "Turn each batch once; cook every patty to 165°F.",
       "flavorRationale": "Ground flax binds the turkey; feta and lemon yogurt keep a lean patty from tasting flat.",
       "midCookActions": 1,
       "image": {
@@ -5125,13 +5125,13 @@
               ]
             },
             {
-              "action": "Pan-fry 5\u20136 min per side over medium heat until each patty reaches 165\u00b0F. Cook in batches of four.",
+              "action": "Pan-fry 5–6 min per side over medium heat until each patty reaches 165°F. Cook in batches of four.",
               "children": [
                 {
                   "action": "Divide oil between batches; add oil and four patties to the heated pan.",
                   "children": [
                     {
-                      "action": "Form patties about 100 g each, 3\u00bc inches across and \u00be inch thick; about two per serving.",
+                      "action": "Form patties about 100 g each, 3¼ inches across and ¾ inch thick; about two per serving.",
                       "children": [
                         {
                           "action": "Mix turkey, egg, flax, feta and seasoning just until combined.",
@@ -5187,7 +5187,7 @@
         "Pans"
       ],
       "capacity": "Use a 12-inch nonstick frying pan; cook four patties at a time, in two batches for four servings.",
-      "timingNote": "Two batches take 20\u201324 minutes of cooking, plus preparation. Larger servings require additional batches.",
+      "timingNote": "Two batches take 20–24 minutes of cooking, plus preparation. Larger servings require additional batches.",
       "type": "meal"
     },
     {
@@ -5270,7 +5270,7 @@
         },
         {
           "title": "Blend",
-          "text": "Blend in batches of up to two servings, adding water first, for 30\u201360 seconds per batch until smooth."
+          "text": "Blend in batches of up to two servings, adding water first, for 30–60 seconds per batch until smooth."
         },
         {
           "title": "Serve",
@@ -5336,10 +5336,22 @@
           "action": "Divide among serving glasses and serve chilled.",
           "children": [
             {
-              "action": "Blend in batches of up to two servings for 30\u201360 sec per batch, until smooth.",
+              "action": "Blend in batches of up to two servings for 30–60 sec per batch, until smooth.",
               "children": [
                 {
+                  "ingredientId": "water",
+                  "fraction": 1
+                },
+                {
+                  "ingredientId": "lime",
+                  "fraction": 1
+                },
+                {
                   "ingredientId": "yogurt",
+                  "fraction": 1
+                },
+                {
+                  "ingredientId": "flax",
                   "fraction": 1
                 },
                 {
@@ -5348,18 +5360,6 @@
                 },
                 {
                   "ingredientId": "cucumber",
-                  "fraction": 1
-                },
-                {
-                  "ingredientId": "lime",
-                  "fraction": 1
-                },
-                {
-                  "ingredientId": "flax",
-                  "fraction": 1
-                },
-                {
-                  "ingredientId": "water",
                   "fraction": 1
                 }
               ]
@@ -5448,7 +5448,7 @@
         },
         {
           "title": "Blend",
-          "text": "Blend in batches of up to two servings, adding water first, for 30\u201360 seconds per batch until smooth."
+          "text": "Blend in batches of up to two servings, adding water first, for 30–60 seconds per batch until smooth."
         },
         {
           "title": "Serve",
@@ -5514,10 +5514,18 @@
           "action": "Divide among serving glasses and serve chilled.",
           "children": [
             {
-              "action": "Blend in batches of up to two servings for 30\u201360 sec per batch, until smooth.",
+              "action": "Blend in batches of up to two servings for 30–60 sec per batch, until smooth.",
               "children": [
                 {
+                  "ingredientId": "water",
+                  "fraction": 1
+                },
+                {
                   "ingredientId": "yogurt",
+                  "fraction": 1
+                },
+                {
+                  "ingredientId": "flax",
                   "fraction": 1
                 },
                 {
@@ -5526,14 +5534,6 @@
                 },
                 {
                   "ingredientId": "strawberry",
-                  "fraction": 1
-                },
-                {
-                  "ingredientId": "flax",
-                  "fraction": 1
-                },
-                {
-                  "ingredientId": "water",
                   "fraction": 1
                 }
               ]
@@ -5613,7 +5613,7 @@
         },
         {
           "title": "Blend",
-          "text": "Blend in batches of up to two servings, adding water first, for 30\u201360 seconds per batch until smooth."
+          "text": "Blend in batches of up to two servings, adding water first, for 30–60 seconds per batch until smooth."
         },
         {
           "title": "Serve",
@@ -5679,14 +5679,14 @@
           "action": "Divide among serving glasses and serve chilled.",
           "children": [
             {
-              "action": "Blend in batches of up to two servings for 30\u201360 sec per batch, until smooth.",
+              "action": "Blend in batches of up to two servings for 30–60 sec per batch, until smooth.",
               "children": [
                 {
-                  "ingredientId": "yogurt",
+                  "ingredientId": "water",
                   "fraction": 1
                 },
                 {
-                  "ingredientId": "strawberry",
+                  "ingredientId": "yogurt",
                   "fraction": 1
                 },
                 {
@@ -5694,7 +5694,7 @@
                   "fraction": 1
                 },
                 {
-                  "ingredientId": "water",
+                  "ingredientId": "strawberry",
                   "fraction": 1
                 }
               ]
@@ -5774,7 +5774,7 @@
         },
         {
           "title": "Blend",
-          "text": "Blend in batches of up to two servings, adding water first, for 30\u201360 seconds per batch until smooth."
+          "text": "Blend in batches of up to two servings, adding water first, for 30–60 seconds per batch until smooth."
         },
         {
           "title": "Serve",
@@ -5840,14 +5840,14 @@
           "action": "Divide among serving glasses and serve chilled.",
           "children": [
             {
-              "action": "Blend in batches of up to two servings for 30\u201360 sec per batch, until smooth.",
+              "action": "Blend in batches of up to two servings for 30–60 sec per batch, until smooth.",
               "children": [
                 {
-                  "ingredientId": "yogurt",
+                  "ingredientId": "water",
                   "fraction": 1
                 },
                 {
-                  "ingredientId": "banana",
+                  "ingredientId": "yogurt",
                   "fraction": 1
                 },
                 {
@@ -5855,7 +5855,7 @@
                   "fraction": 1
                 },
                 {
-                  "ingredientId": "water",
+                  "ingredientId": "banana",
                   "fraction": 1
                 }
               ]
@@ -5935,7 +5935,7 @@
         },
         {
           "title": "Blend",
-          "text": "Blend in batches of up to two servings, adding water first, for 30\u201360 seconds per batch until smooth."
+          "text": "Blend in batches of up to two servings, adding water first, for 30–60 seconds per batch until smooth."
         },
         {
           "title": "Serve",
@@ -5970,15 +5970,15 @@
       ],
       "sources": [
         {
-          "title": "Yogurt, Greek, plain, lowfat \u2014 USDA FoodData Central",
+          "title": "Yogurt, Greek, plain, lowfat — USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/170903/nutrients"
         },
         {
-          "title": "Strawberries, raw \u2014 USDA FoodData Central",
+          "title": "Strawberries, raw — USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/167762/nutrients"
         },
         {
-          "title": "Seeds, hemp seed, hulled \u2014 USDA FoodData Central",
+          "title": "Seeds, hemp seed, hulled — USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/170148/nutrients"
         }
       ],
@@ -6012,14 +6012,14 @@
           "action": "Divide among serving glasses and serve chilled.",
           "children": [
             {
-              "action": "Blend in batches of up to two servings for 30\u201360 sec per batch, until smooth.",
+              "action": "Blend in batches of up to two servings for 30–60 sec per batch, until smooth.",
               "children": [
                 {
-                  "ingredientId": "yogurt",
+                  "ingredientId": "water",
                   "fraction": 1
                 },
                 {
-                  "ingredientId": "strawberry",
+                  "ingredientId": "yogurt",
                   "fraction": 1
                 },
                 {
@@ -6027,7 +6027,7 @@
                   "fraction": 1
                 },
                 {
-                  "ingredientId": "water",
+                  "ingredientId": "strawberry",
                   "fraction": 1
                 }
               ]
@@ -6125,7 +6125,7 @@
         },
         {
           "title": "Blend",
-          "text": "Blend in batches of up to two servings, adding water first, for 30\u201360 seconds per batch until smooth."
+          "text": "Blend in batches of up to two servings, adding water first, for 30–60 seconds per batch until smooth."
         },
         {
           "title": "Serve",
@@ -6160,23 +6160,23 @@
       ],
       "sources": [
         {
-          "title": "Yogurt, Greek, plain, lowfat \u2014 USDA FoodData Central",
+          "title": "Yogurt, Greek, plain, lowfat — USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/170903/nutrients"
         },
         {
-          "title": "Cucumber, with peel, raw \u2014 USDA FoodData Central",
+          "title": "Cucumber, with peel, raw — USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/168409/nutrients"
         },
         {
-          "title": "Spinach, raw \u2014 USDA FoodData Central",
+          "title": "Spinach, raw — USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/168462/nutrients"
         },
         {
-          "title": "Lime juice, raw \u2014 USDA FoodData Central",
+          "title": "Lime juice, raw — USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/168156/nutrients"
         },
         {
-          "title": "Seeds, flaxseed \u2014 USDA FoodData Central",
+          "title": "Seeds, flaxseed — USDA FoodData Central",
           "url": "https://fdc.nal.usda.gov/food-details/169414/nutrients"
         }
       ],
@@ -6210,18 +6210,10 @@
           "action": "Divide among serving glasses and serve chilled.",
           "children": [
             {
-              "action": "Blend in batches of up to two servings for 30\u201360 sec per batch, until smooth.",
+              "action": "Blend in batches of up to two servings for 30–60 sec per batch, until smooth.",
               "children": [
                 {
-                  "ingredientId": "yogurt",
-                  "fraction": 1
-                },
-                {
-                  "ingredientId": "cucumber",
-                  "fraction": 1
-                },
-                {
-                  "ingredientId": "spinach",
+                  "ingredientId": "water",
                   "fraction": 1
                 },
                 {
@@ -6229,11 +6221,19 @@
                   "fraction": 1
                 },
                 {
+                  "ingredientId": "yogurt",
+                  "fraction": 1
+                },
+                {
                   "ingredientId": "flax",
                   "fraction": 1
                 },
                 {
-                  "ingredientId": "water",
+                  "ingredientId": "spinach",
+                  "fraction": 1
+                },
+                {
+                  "ingredientId": "cucumber",
                   "fraction": 1
                 }
               ]

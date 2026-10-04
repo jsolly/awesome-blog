@@ -1,7 +1,6 @@
-const route = '/post/15-minute-dump-and-go-instant-pot-recipes/';
 const status = document.getElementById('recipe-offline-status');
 const instructions = status?.textContent ?? '';
-if ('serviceWorker' in navigator && status) {
+if (!import.meta.env.DEV && 'serviceWorker' in navigator && status) {
   const updateConnection = () => document.documentElement.classList.toggle('recipe-offline', !navigator.onLine);
   updateConnection();
   window.addEventListener('online', updateConnection);
@@ -11,7 +10,7 @@ if ('serviceWorker' in navigator && status) {
       ? `Recipes saved for offline use. ${instructions}`
       : 'You are offline. Saved recipes, scaling and grocery lists are available. External links need a connection.';
   };
-  navigator.serviceWorker.register(`${route}service-worker.js`, { scope: route, updateViaCache: 'none' })
+  navigator.serviceWorker.register('/recipe-service-worker.js', { scope: '/', updateViaCache: 'none' })
     .then(async registration => {
       const observeInstaller = () => {
         const worker = registration.installing;

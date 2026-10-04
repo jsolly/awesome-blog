@@ -1,56 +1,8 @@
 ---
 import RecipeLibrary from './RecipeLibrary.svelte';
 import data from './recipes.json';
-interface Props { fallbackHtml: string }
-const {fallbackHtml}=Astro.props;
-// The host sanitizes fallback HTML; restore only responsive URLs from our trusted image catalog.
-const responsiveFallbackHtml=fallbackHtml.replace(/<img\b[^>]*>/gu,tag=>{
-  const image=data.recipes.find(r=>r.image && tag.includes(`src="${r.image.src}"`))?.image;
-  if(!image)return tag;
-  const clean=tag.replace(/\s+(?:srcset|sizes)="[^"]*"/gu,'');
-  return clean.replace('<img ',`<img srcset="${image.detailSrcset}" sizes="(max-width:600px) 340px, 640px" `);
-}).replace(/<div class="(trn-scroll|recipe-table-scroll)">/gu,(_tag,className)=>`<div class="${className}" tabindex="0" role="region" aria-label="${className==='trn-scroll'?'Cooking flow':'Recipe comparison table'}, scroll horizontally">`);
+const {collection='meal'}=Astro.props;
 ---
-<div class="recipe-experience">
-<p class="nojs-note">Interactive recipes and scaling need JavaScript. <a href="#recipe-static">Read the complete four-serving recipes below.</a></p>
-<RecipeLibrary recipes={data.recipes} client:load />
-<section id="recipe-static" class="article-body" aria-label="Complete four-serving recipes"><div set:html={responsiveFallbackHtml}/></section>
-</div>
-<style>
-  :global(.recipe-experience .meal-library[data-hydrated="false"]) {display:none;}
-  :global(.recipe-experience:has(.meal-library[data-hydrated="true"]) #recipe-static),
-  :global(.recipe-experience:has(.meal-library[data-hydrated="true"]) .nojs-note) {display:none;}
-  #recipe-static :global(.recipe-table-scroll) { max-width:100%; overflow-x:auto; margin:1.5rem 0; }
-  #recipe-static :global(.recipe-table-scroll table) { display:table; min-width:42rem; width:100%; max-width:none; margin:0; }
-  #recipe-static :global(table) { background:var(--recipe-paper); color:var(--recipe-ink); }
-  #recipe-static :global(table a) { color:var(--blue); }
-  #recipe-static :global(.recipe-illustration) { margin:1.5rem 0;max-width:40rem; }
-  #recipe-static :global(.recipe-illustration img) { display:block;max-width:100%;height:auto; }
-  #recipe-static :global(.trn-scroll) {overflow-x:auto;max-width:100%;margin:1rem 0;}
-  #recipe-static :global(.trn-table) {border-collapse:collapse;min-width:760px;line-height:1.4;}
-  #recipe-static :global(.trn-table th),#recipe-static :global(.trn-table td) {border:1px solid var(--recipe-line);padding:8px;vertical-align:middle;}
-  #recipe-static :global(.trn-table th) {font-weight:400;text-align:left;}
-  #recipe-static :global(.trn-table td) {text-align:center;}
-  #recipe-static :global(.trn-table small) {display:block;font-size:11px;}
-  @media print {
-    :global(html:has(#recipe-static)) {background:white!important;color:black!important;}
-    #recipe-static :global(.trn-scroll) {overflow:visible;break-inside:avoid;}
-    #recipe-static :global(.trn-table) {display:table!important;table-layout:fixed;min-width:0!important;width:100%;max-width:100%;overflow:visible;font-size:7.5pt;line-height:1.2;}
-    #recipe-static :global(.trn-table caption) {font-size:8pt;line-height:1.2;padding:3pt;}
-    #recipe-static :global(.trn-table th),#recipe-static :global(.trn-table td) {padding:2pt;font-size:7.5pt;line-height:1.2;}
-    #recipe-static :global(.trn-state-detail) {display:none;}
-    #recipe-static :global(.trn-state-essential) {font-size:7pt;line-height:1.1;}
+<div class="recipe-experience"><RecipeLibrary recipes={data.recipes} initialCollection={collection} client:load /></div>
 
-    :global(.recipe-experience .meal-library[data-hydrated="false"]),.nojs-note {display:none!important;}
-    #recipe-static {font-size:11pt;line-height:1.4;overflow:visible;}
-    #recipe-static :global(.recipe-illustration) {display:none!important;}
-    #recipe-static :global(.recipe-table-scroll) {overflow:visible;max-width:none;}
-    #recipe-static :global(.recipe-table-scroll table) {display:table;min-width:0;width:100%;max-width:100%;font-size:8pt;table-layout:fixed;overflow:visible;}
-    #recipe-static :global(th),#recipe-static :global(td) {padding:4pt;overflow-wrap:anywhere;}
-    #recipe-static :global(h3) {break-before:page;break-after:avoid;}
-    #recipe-static :global(h2),#recipe-static :global(h4) {break-after:avoid;}
-    #recipe-static :global(li) {break-inside:avoid;}
-    #recipe-static :global(a) {color:black;overflow-wrap:anywhere;}
-    #recipe-static :global(a[href^="http"]::after) {content:" (" attr(href) ")";font-size:8pt;}
-  }
-</style>
+<noscript><style>.recipe-experience .library-controls > :not(.collection-options), .recipe-experience .action-status, .recipe-experience .print-output {display:none!important}.recipe-experience .library-controls {display:block}</style></noscript>

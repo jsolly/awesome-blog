@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import RecipeExperience from '../../components/recipes/RecipeExperience.astro';
+import RecipePage from '../../components/recipes/RecipePage.svelte';
+import RecipePwa from '../../components/recipes/RecipePwa.astro';
+import data from '../../components/recipes/recipes.json';
+export function getStaticPaths(){return [{params:{slug:'meals'},props:{collection:'meal'}},{params:{slug:'smoothies'},props:{collection:'smoothie'}},...data.recipes.map(recipe=>({params:{slug:recipe.id},props:{recipe}}))];}
+const {recipe,collection}=Astro.props;
+const title=recipe?.title || (collection==='smoothie'?'Smoothies':'Meals');
+---
+<Base title={title} description={recipe?.summary || 'Find your next meal or smoothie.'} article>
+<RecipePwa/>
+<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/post/15-minute-dump-and-go-instant-pot-recipes/">Easy Meals &amp; Smoothies</a></nav>
+{recipe ? <RecipePage {recipe} client:load/> : <><h1>{title}</h1><RecipeExperience {collection}/></>}
+</Base>

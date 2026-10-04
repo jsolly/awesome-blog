@@ -35,7 +35,7 @@ test('new keto smoothies scale ingredients and keep cold preparation in exports'
    const document=recipeDocument(recipe,{servings,units:'metric'});
    assert.equal(document.ingredients.find(i=>i.name==='Plain lowfat Greek yogurt').quantity,`${100*servings}g`);
    assert.ok(Math.abs(document.nutrition.net_carbs_g-netCarbs*4*236.5882365/recipe.estimatedYieldMl)<1e-9);
-   assert.match(document.nutritionHeading,/8 fl oz glass.*estimated/);
+   assert.equal(document.nutritionHeading,'Nutrition per 8 oz glass');
    assert.match(document.capacity,/two servings/);
    assert.match(document.safety,/chilled/);assert.doesNotMatch(document.safety,/poultry|thermometer/);
    assert.doesNotMatch(document.leftovers,/reheat/);

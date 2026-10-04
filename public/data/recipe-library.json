@@ -2700,9 +2700,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "14g",
-              "name": "Olive oil",
-              "state": "",
+              "text": "454g",
+              "name": "Cauliflower florets",
+              "state": "about 1 inch across",
               "essentialState": false
             },
             {
@@ -2726,113 +2726,10 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "2g",
-              "name": "Ground cumin",
-              "state": "",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "1g",
-              "name": "Smoked paprika",
-              "state": "",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "1g",
-              "name": "Garlic powder",
-              "state": "",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "¼ tsp",
-              "name": "Ground turmeric",
-              "state": "",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "⅛ tsp",
-              "name": "Ground cinnamon",
-              "state": "",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "to taste",
-              "name": "Black pepper",
-              "state": "",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "½ remaining (5g total)",
-              "name": "Fine salt",
-              "state": "",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "454g",
-              "name": "Cauliflower florets",
-              "state": "about 1 inch across",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
               "text": "14g",
               "name": "Olive oil",
               "state": "",
               "essentialState": false
-            },
-            {
-              "kind": "operation",
-              "col": 1,
-              "colspan": 1,
-              "rowspan": 9,
-              "text": "Toss chicken with oil and spices on its own 18×13-inch pan."
             }
           ],
           [
@@ -2929,6 +2826,109 @@
               "name": "Boneless skinless chicken thighs",
               "state": "raw, thawed, cut into 1-inch pieces",
               "essentialState": true
+            },
+            {
+              "kind": "operation",
+              "col": 1,
+              "colspan": 1,
+              "rowspan": 9,
+              "text": "Toss chicken with oil and spices on its own 18×13-inch pan."
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "14g",
+              "name": "Olive oil",
+              "state": "",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "2g",
+              "name": "Ground cumin",
+              "state": "",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "1g",
+              "name": "Smoked paprika",
+              "state": "",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "1g",
+              "name": "Garlic powder",
+              "state": "",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "¼ tsp",
+              "name": "Ground turmeric",
+              "state": "",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "⅛ tsp",
+              "name": "Ground cinnamon",
+              "state": "",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "to taste",
+              "name": "Black pepper",
+              "state": "",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "½ remaining (5g total)",
+              "name": "Fine salt",
+              "state": "",
+              "essentialState": false
             }
           ],
           [
@@ -8663,9 +8663,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "400g",
-              "name": "Plain lowfat Greek yogurt",
-              "state": "plain, unsweetened, 2% fat",
+              "text": "14 oz",
+              "name": "Cold water",
+              "state": "",
               "essentialState": false
             },
             {
@@ -8674,6 +8674,42 @@
               "colspan": 1,
               "rowspan": 6,
               "text": "Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled."
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "20g",
+              "name": "Lime juice",
+              "state": "",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "400g",
+              "name": "Plain lowfat Greek yogurt",
+              "state": "plain, unsweetened, 2% fat",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "28g",
+              "name": "Ground flaxseed",
+              "state": "",
+              "essentialState": false
             }
           ],
           [
@@ -8697,42 +8733,6 @@
               "text": "200g",
               "name": "Cucumber",
               "state": "trimmed, chopped",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "20g",
-              "name": "Lime juice",
-              "state": "",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "28g",
-              "name": "Ground flaxseed",
-              "state": "",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "14 fl oz",
-              "name": "Cold water",
-              "state": "",
               "essentialState": false
             }
           ]
@@ -8779,7 +8779,7 @@
           "note": ""
         },
         {
-          "quantity": "14 fl oz",
+          "quantity": "14 oz",
           "name": "Cold water",
           "state": "",
           "note": ""
@@ -8834,7 +8834,7 @@
         "fiber_g": 4.556160417815217,
         "net_carbs_g": 5.227424432928261
       },
-      "nutritionHeading": "Nutrition per 8 fl oz glass (estimated)",
+      "nutritionHeading": "Nutrition per 8 oz glass",
       "familyNutrition": null,
       "nutritionNote": "This batch makes about 5.4 eight-fluid-ounce glasses. Yield is estimated; added liquid and blending affect actual volume. Estimated from ingredient mass using approximately 1 g/ml for the blended mixture. Finished volume has not been measured; aeration, blender retention and extra liquid affect yield. Per estimated glass: base includes measured sauces, seeds and sides. Family nutrition adds one selected starch portion. US net carbs = total carbohydrate − fiber. Labels and food variation matter; no guarantee of ketosis.",
       "allergens": [
@@ -9113,9 +9113,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "400g",
-              "name": "Plain lowfat Greek yogurt",
-              "state": "plain, unsweetened, 2% fat",
+              "text": "14 oz",
+              "name": "Cold water",
+              "state": "",
               "essentialState": false
             },
             {
@@ -9124,6 +9124,30 @@
               "colspan": 1,
               "rowspan": 5,
               "text": "Blend in batches of up to two servings for 30–60 sec per batch, until smooth. Then: Divide among serving glasses and serve chilled."
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "400g",
+              "name": "Plain lowfat Greek yogurt",
+              "state": "plain, unsweetened, 2% fat",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "28g",
+              "name": "Ground flaxseed",
+              "state": "",
+              "essentialState": false
             }
           ],
           [
@@ -9147,30 +9171,6 @@
               "text": "200g",
               "name": "Strawberries",
               "state": "hulled",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "28g",
-              "name": "Ground flaxseed",
-              "state": "",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "14 fl oz",
-              "name": "Cold water",
-              "state": "",
               "essentialState": false
             }
           ]
@@ -9211,7 +9211,7 @@
           "note": ""
         },
         {
-          "quantity": "14 fl oz",
+          "quantity": "14 oz",
           "name": "Cold water",
           "state": "",
           "note": ""
@@ -9266,7 +9266,7 @@
         "fiber_g": 4.825012862301302,
         "net_carbs_g": 6.015352243727686
       },
-      "nutritionHeading": "Nutrition per 8 fl oz glass (estimated)",
+      "nutritionHeading": "Nutrition per 8 oz glass",
       "familyNutrition": null,
       "nutritionNote": "This batch makes about 5.2 eight-fluid-ounce glasses. Yield is estimated; added liquid and blending affect actual volume. Estimated from ingredient mass using approximately 1 g/ml for the blended mixture. Finished volume has not been measured; aeration, blender retention and extra liquid affect yield. Per estimated glass: base includes measured sauces, seeds and sides. Family nutrition adds one selected starch portion. US net carbs = total carbohydrate − fiber. Labels and food variation matter; no guarantee of ketosis.",
       "allergens": [
@@ -9545,9 +9545,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "600g",
-              "name": "Plain lowfat Greek yogurt",
-              "state": "plain, unsweetened, 2% fat",
+              "text": "14 oz",
+              "name": "Cold water",
+              "state": "",
               "essentialState": false
             },
             {
@@ -9565,8 +9565,8 @@
               "colspan": 1,
               "rowspan": 1,
               "text": "600g",
-              "name": "Strawberries",
-              "state": "hulled",
+              "name": "Plain lowfat Greek yogurt",
+              "state": "plain, unsweetened, 2% fat",
               "essentialState": false
             }
           ],
@@ -9588,9 +9588,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "14 fl oz",
-              "name": "Cold water",
-              "state": "",
+              "text": "600g",
+              "name": "Strawberries",
+              "state": "hulled",
               "essentialState": false
             }
           ]
@@ -9625,7 +9625,7 @@
           "note": ""
         },
         {
-          "quantity": "14 fl oz",
+          "quantity": "14 oz",
           "name": "Cold water",
           "state": "",
           "note": ""
@@ -9680,7 +9680,7 @@
         "fiber_g": 2.6497882487999997,
         "net_carbs_g": 16.405028318909995
       },
-      "nutritionHeading": "Nutrition per 8 fl oz glass (estimated)",
+      "nutritionHeading": "Nutrition per 8 oz glass",
       "familyNutrition": null,
       "nutritionNote": "This batch makes about 8.5 eight-fluid-ounce glasses. Yield is estimated; added liquid and blending affect actual volume. Estimated from ingredient mass using approximately 1 g/ml for the blended mixture. Finished volume has not been measured; aeration, blender retention and extra liquid affect yield. Per estimated glass: base includes measured sauces, seeds and sides. Family nutrition adds one selected starch portion. US net carbs = total carbohydrate − fiber. Labels and food variation matter; no guarantee of ketosis.",
       "allergens": [
@@ -9959,9 +9959,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "600g",
-              "name": "Plain lowfat Greek yogurt",
-              "state": "plain, unsweetened, 2% fat",
+              "text": "14 oz",
+              "name": "Cold water",
+              "state": "",
               "essentialState": false
             },
             {
@@ -9978,9 +9978,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "480g",
-              "name": "Banana",
-              "state": "peeled, sliced",
+              "text": "600g",
+              "name": "Plain lowfat Greek yogurt",
+              "state": "plain, unsweetened, 2% fat",
               "essentialState": false
             }
           ],
@@ -10002,9 +10002,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "14 fl oz",
-              "name": "Cold water",
-              "state": "",
+              "text": "480g",
+              "name": "Banana",
+              "state": "peeled, sliced",
               "essentialState": false
             }
           ]
@@ -10039,7 +10039,7 @@
           "note": ""
         },
         {
-          "quantity": "14 fl oz",
+          "quantity": "14 oz",
           "name": "Cold water",
           "state": "",
           "note": ""
@@ -10094,7 +10094,7 @@
         "fiber_g": 3.6422136408552626,
         "net_carbs_g": 18.89966449261579
       },
-      "nutritionHeading": "Nutrition per 8 fl oz glass (estimated)",
+      "nutritionHeading": "Nutrition per 8 oz glass",
       "familyNutrition": null,
       "nutritionNote": "This batch makes about 6.4 eight-fluid-ounce glasses. Yield is estimated; added liquid and blending affect actual volume. Estimated from ingredient mass using approximately 1 g/ml for the blended mixture. Finished volume has not been measured; aeration, blender retention and extra liquid affect yield. Per estimated glass: base includes measured sauces, seeds and sides. Family nutrition adds one selected starch portion. US net carbs = total carbohydrate − fiber. Labels and food variation matter; no guarantee of ketosis.",
       "allergens": [
@@ -10373,9 +10373,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "400g",
-              "name": "Plain lowfat Greek yogurt",
-              "state": "plain, unsweetened, 2% fat",
+              "text": "20 oz",
+              "name": "Cold water",
+              "state": "",
               "essentialState": false
             },
             {
@@ -10392,9 +10392,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "240g",
-              "name": "Strawberries",
-              "state": "hulled",
+              "text": "400g",
+              "name": "Plain lowfat Greek yogurt",
+              "state": "plain, unsweetened, 2% fat",
               "essentialState": false
             }
           ],
@@ -10416,9 +10416,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "20 fl oz",
-              "name": "Cold water",
-              "state": "",
+              "text": "240g",
+              "name": "Strawberries",
+              "state": "hulled",
               "essentialState": false
             }
           ]
@@ -10453,7 +10453,7 @@
           "note": ""
         },
         {
-          "quantity": "20 fl oz",
+          "quantity": "20 oz",
           "name": "Cold water",
           "state": "",
           "note": ""
@@ -10519,7 +10519,7 @@
         "fiber_g": 1.4338681,
         "net_carbs_g": 5.9376478021
       },
-      "nutritionHeading": "Nutrition per 8 fl oz glass (estimated)",
+      "nutritionHeading": "Nutrition per 8 oz glass",
       "familyNutrition": null,
       "nutritionNote": "This batch makes about 5.6 eight-fluid-ounce glasses. Yield is estimated; added liquid and blending affect actual volume. Estimated from ingredient mass using approximately 1 g/ml for the blended mixture. Finished volume has not been measured; aeration, blender retention and extra liquid affect yield. Per estimated glass: base includes measured sauces, seeds and sides. Family nutrition adds one selected starch portion. US net carbs = total carbohydrate − fiber. Labels and food variation matter; no guarantee of ketosis.",
       "allergens": [
@@ -10798,9 +10798,9 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "400g",
-              "name": "Plain lowfat Greek yogurt",
-              "state": "plain, unsweetened, 2% fat",
+              "text": "20 oz",
+              "name": "Cold water",
+              "state": "",
               "essentialState": false
             },
             {
@@ -10817,33 +10817,21 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "240g",
-              "name": "Cucumber",
-              "state": "trimmed, chopped",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
-              "text": "120g",
-              "name": "Raw spinach",
-              "state": "fresh, washed",
-              "essentialState": false
-            }
-          ],
-          [
-            {
-              "kind": "ingredient",
-              "col": 0,
-              "colspan": 1,
-              "rowspan": 1,
               "text": "24g",
               "name": "Lime juice",
               "state": "",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "400g",
+              "name": "Plain lowfat Greek yogurt",
+              "state": "plain, unsweetened, 2% fat",
               "essentialState": false
             }
           ],
@@ -10865,9 +10853,21 @@
               "col": 0,
               "colspan": 1,
               "rowspan": 1,
-              "text": "20 fl oz",
-              "name": "Cold water",
-              "state": "",
+              "text": "120g",
+              "name": "Raw spinach",
+              "state": "fresh, washed",
+              "essentialState": false
+            }
+          ],
+          [
+            {
+              "kind": "ingredient",
+              "col": 0,
+              "colspan": 1,
+              "rowspan": 1,
+              "text": "240g",
+              "name": "Cucumber",
+              "state": "trimmed, chopped",
               "essentialState": false
             }
           ]
@@ -10914,7 +10914,7 @@
           "note": ""
         },
         {
-          "quantity": "20 fl oz",
+          "quantity": "20 oz",
           "name": "Cold water",
           "state": "",
           "note": ""
@@ -10988,7 +10988,7 @@
         "fiber_g": 2.1172642181694914,
         "net_carbs_g": 4.581123519527965
       },
-      "nutritionHeading": "Nutrition per 8 fl oz glass (estimated)",
+      "nutritionHeading": "Nutrition per 8 oz glass",
       "familyNutrition": null,
       "nutritionNote": "This batch makes about 6.0 eight-fluid-ounce glasses. Yield is estimated; added liquid and blending affect actual volume. Estimated from ingredient mass using approximately 1 g/ml for the blended mixture. Finished volume has not been measured; aeration, blender retention and extra liquid affect yield. Per estimated glass: base includes measured sauces, seeds and sides. Family nutrition adds one selected starch portion. US net carbs = total carbohydrate − fiber. Labels and food variation matter; no guarantee of ketosis.",
       "allergens": [
