@@ -1,5 +1,7 @@
 # AGENTS.md
 
+**Code freeze:** the blog and recipes are moving into jsolly/jsolly-website (plan: `docs/plans/blogthedata-merge/plan.md` there). Until its cutover step C0, only content edits (`src/content/posts/**`, `src/content/categories/**`, `src/components/recipes/{recipes,nutrition-data}.json`, `public/media/**`) are allowed; do not drain or merge Dependabot PRs.
+
 ## Stack and structure
 
 Static Astro + Svelte + PagesCMS blog, Node 24. `src/content/posts/*.md` holds
