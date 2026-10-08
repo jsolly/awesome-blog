@@ -201,6 +201,20 @@ policy or assume-role will hang. The role ARN may be a Cursor Environment Variab
 Claude/Codex cloud OIDC is stubbed until those vendors publish an issuer; then add
 another IAM OIDC provider + trust statement on the **same** `agent-readonly` role.
 
+### Host work (explicit role)
+
+The script also writes profile `agent-host-operator`, which assumes
+`arn:aws:iam::730335616323:role/agent-host-operator` through the same JWT. Use it only for
+host work on `fleet:agent-operable=true` instances, and only by naming it on the command:
+`AWS_PROFILE=agent-host-operator aws ssm send-command ...` (read results with
+`aws ssm get-command-invocation`), or `aws ssm start-session` where a TTY and the Session
+Manager plugin exist (the script installs the plugin when it can). Never export it as the
+default. What the role may and may not do is in
+`~/.cursor/dotagents-package/rules/agent-cloud-access.md` → Agent-operable hosts; until John
+deploys shared-infra's role, assuming it fails, so report that rather than switching roles.
+On this VM the split is a convention, not a boundary: both roles trust the same JWT, so any
+process here can assume either.
+
 ## Infra plan (read-only change set)
 
 The procedure and its meaning are canon in
