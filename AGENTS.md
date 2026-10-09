@@ -1,6 +1,9 @@
 # AGENTS.md
 
-**Code freeze:** the blog and recipes are moving into jsolly/jsolly-website (plan: `docs/plans/blogthedata-merge/plan.md` there). Until its cutover step C0, only content edits (`src/content/posts/**`, `src/content/categories/**`, `src/components/recipes/{recipes,nutrition-data}.json`, `public/media/**`) are allowed; do not drain or merge Dependabot PRs.
+**Source archive:** the blog and recipes now live in jsolly/jsolly-website.
+This repository is frozen for retained public source and recovery history. Do not
+publish content here, drain Dependabot, reconnect hosting, or delete local recovery
+exports. John's approved C4 archive notices are the final integration work.
 
 ## Stack and structure
 
@@ -68,35 +71,21 @@ Git history keeps legacy code; ignored SQLite, virtualenv and media state is ret
 
 ## Ship and release
 
-Ship profile: `vercel-static`.
+Ship profile: `gate-only`.
 
-Integration is branch → PR → merge on green `CI / ci`. Start new work from freshly
-fetched `origin/main`. Every remote push and PR runs through `/ship`; never push
-`main`, edit rulesets, admin-merge, or arm automatic previews. CI retains exact-tree
-proof; manual CI runs always validate. Dependabot remains deferred until a manually
-invoked drain adds `ow-ci`; skipped checks cannot satisfy `ci`.
+Integration for the final archive notices is branch → PR → merge on green
+`CI / ci`. Start from freshly fetched `origin/main`. Every remote push and PR
+runs through `/ship`; never push `main`, edit rulesets or admin-merge.
+Record `deploy: none`; do not dispatch Production smoke for this repository.
+The retained workflow and Vercel configuration are historical recovery inputs.
 
-Canonical production URL: <https://www.blogthedata.com>. Vercel production branch
-is `main`, install `npm ci`, build `npm run build`, output `dist`, Node 24.
-`vercel.json` disables other Git refs and supplies redirects/security/feed MIME.
-Vercel project `blogthedata` deploys GitHub repository `jsolly/awesome-blog` from
-protected `main`; project previews are disabled and deployment protection remains
-enabled. Canonical production serves the static site over valid HTTPS. Every
-release must match its full SHA and pass canonical Production smoke. Heroku
-automatic deploys are disabled; release v315 and its database/media remain for
-recovery. John accepted the cutover and closed the initial rollback window on
-October 2, 2026; publishing may resume through PagesCMS editorial branches and PRs.
-Follow [the migration runbook](docs/astro-migration.md).
-
-A release requires successful production deployment plus that exact SHA's canonical
-production smoke. `/release.json` records `VERCEL_GIT_COMMIT_SHA` (CI/local use
-`GITHUB_SHA`/Git HEAD). Smoke rejects stale releases before public reading, GET
-search, RSS/Atom MIME and mobile navigation. It performs no authenticated writes.
-Set the GitHub repository variable `VERCEL_PRODUCTION_ENVIRONMENT` only after
-observing the Vercel project's actual production environment. Heroku events are
-excluded. Missing, skipped, failed or timed-out smoke is incomplete; dispatch the
-workflow on `main` with the full deployed SHA and a unique request ID as fallback.
-Record deployment and smoke URLs. Artifacts upload even on failure.
+Vercel project `blogthedata` is connected to
+`jsolly/jsolly-website`, Root Directory `legacy/blogthedata`, for the permanent
+redirects. Never reconnect it to awesome-blog. The live blog and recipes are
+<https://www.jsolly.com/blog/> and <https://www.jsolly.com/recipes/>. Production
+release verification belongs to the active repository. Heroku automatic deploys
+remain disabled; release v315, its database and media stay retained for recovery
+until separately authorized retirement.
 
 ## UI verification
 
@@ -109,7 +98,7 @@ code and iframe checks in both viewports. Screenshots/evidence belong in ignored
 
 ## Infra
 
-- **Dirty IaC.** Vercel ships the site; nothing deploys the CloudFormation stack. A change to an infra input (`scripts/infra-inputs.json`: the backup template and its deploy script) needs a manual infra deploy after merge. Say that in the PR body and the final report, and include `plan:infra` output. `check:infra-drift` never blocks; it reads `pending` while the stack's `InfraDeployCommit` tag (written only by `deploy:infra`) lags main's infra inputs. Do not run `deploy:infra`. The action is `John runs deploy:infra after reviewing`. Canon: laptop global brief Implementation when synced.
+- **Dirty IaC.** This frozen repository has no deployment entry; nothing deploys the CloudFormation stack. A change to an infra input (`scripts/infra-inputs.json`: the backup template and its deploy script) needs a manual infra deploy after merge. Say that in the PR body and the final report, and include `plan:infra` output. `check:infra-drift` never blocks; it reads `pending` while the stack's `InfraDeployCommit` tag (written only by `deploy:infra`) lags main's infra inputs. Do not run `deploy:infra`. The action is `John runs deploy:infra after reviewing`. Canon: laptop global brief Implementation when synced.
 
 `npm run plan:infra -- --json --out <file>` previews the stack update as `agent-readonly`
 with a change set it deletes and never executes. `npm run check:infra-drift -- --json --warn-only`

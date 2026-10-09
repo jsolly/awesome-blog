@@ -1,60 +1,45 @@
-# Blogthedata
+# Blogthedata — retained source archive
 
-A static technical blog built with Astro and Svelte. Markdown articles and category
-metadata live in GitHub and are edited with PagesCMS. Vercel builds production from
-protected `main`; ordinary images live in the repository and existing large media
-remains on AWS S3/CloudFront.
+The blog now lives at <https://www.jsolly.com/blog/> and the recipe library at
+<https://www.jsolly.com/recipes/>. Active source and publishing workflows are in
+[jsolly/jsolly-website](https://github.com/jsolly/jsolly-website), a private repository.
+This public MIT repository preserves the earlier source and migration history.
+Do not publish here or reconnect it to a hosting project. Open Dependabot PRs are
+closed as part of archival; dependency maintenance belongs in the active repository.
 
-Production is live on Vercel at <https://www.blogthedata.com>. Heroku automatic
-deploys are disabled; the old serving release and independent backups are retained
-for recovery. John accepted the cutover and closed the initial rollback window on
-October 2, 2026. Publishing may resume through PagesCMS editorial branches and PRs.
-Retain the old resources and backups until separately authorized retirement.
-See the [migration runbook](docs/astro-migration.md).
+## Retained recovery resources
 
-## Develop
+The AWS `blogthedata-migration-backups` stack and its IaC remain frozen here.
+The recovery objects remain under Object Lock through **November 1, 2026**.
+Continuous fleet protection and drift reads stop when this repository is archived;
+the stack's termination protection and stack policy remain enabled independently.
+John's November 1 retention decision remains open; archival does not authorize
+infrastructure deployment or teardown.
 
-Use Node 24 (`.nvmrc`), npm, and Bash 5 for repository scripts. Commands run from
-`/Users/johnsolly/code/awesome-blog`.
+Final read-only checks on October 9, 2026, from
+`/Users/johnsolly/code/awesome-blog` through `gate_with_readonly_aws`:
 
-```bash
-npm ci
-npx --no-install playwright install chromium
-npm run gate:app
-npm run dev
-```
+- `check:stack-protection` passed: termination protection is on and the stack
+  policy matches `aws/migration-backups/stack-policy.json`.
+- `check:infra-drift -- --json --warn-only` passed with `status: clean`, no changed
+  infra inputs, and `InfraDeployCommit` matching main's infra inputs. Recorded
+  deployed commit: `88a9012b0d63c34751b397ee0b7dac08a2a8efbe`; latest infra-input
+  commit: `00b5fb31e2e69b6a5d1efe25151c6564d080679f`.
 
-The local site is <http://127.0.0.1:4321>. `npm run build` writes `dist/`;
-`npm run preview` serves that build. No application secrets, database or cloud
-credentials are required. `npm run worktree:init` installs pinned Node dependencies
-in a fresh checkout. The full `npm run gate` also runs the shared dotagents security
-and repository checks; see [AGENTS.md](AGENTS.md).
+S3/CloudFront still serve article images for jsolly.com. Heroku release v315,
+its database and media, independent backups and local recovery exports remain
+retained until separately authorized retirement. Keep blogthedata.com registered
+indefinitely with auto-renew; its Vercel project serves redirects from the active
+repository's `legacy/blogthedata` directory.
 
-## Content and behavior
+## Historical documentation
 
-Posts are `src/content/posts/*.md` with YAML frontmatter. Categories are JSON files
-in `src/content/categories`. `.pages.yml` supplies typed metadata and a Markdown
-source editor. CommonMark prose and headings are converted from the old HTML;
-complex tables, code, styled blocks and embeds retain HTML to preserve authored
-meaning. No MDX or executable article scripts are enabled. Rendering sanitizes HTML.
-
-The site provides article reading, category pages, a complete archive, GET search,
-pagination, RSS/Atom feeds, sitemap, heading links and print controls. Search and
-pagination use Svelte in the browser; the archive remains readable without
-JavaScript. Drafts are excluded from every public output. Reader accounts, comments,
-AI endpoints and the status dashboard were retired with the static migration.
-
-## Publish
-
-Install the PagesCMS GitHub App for this repository, then edit an editorial branch
-created from current `main`. Save changes, open a PR, pass `CI / ci`, and merge
-through the existing review process. Vercel deploys `main` only; automatic branch
-previews are disabled. See [publishing instructions](docs/publishing.md) and the
-[deployment/cutover runbook](docs/astro-migration.md).
-
-New images upload into `public/media`. Large objects are uploaded separately to S3
-and linked with their CloudFront URL; the CMS has no AWS credentials or S3 uploader.
-Retain stable post and category slugs, including case, when editing existing content.
+[Publishing](docs/publishing.md), [recipes](docs/recipes.md), the
+[Astro migration runbook](docs/astro-migration.md), and
+[backup runbook](docs/migration-backups.md) describe the retained source and
+recovery history. Current publishing instructions belong in jsolly-website.
+Local builds remain available for recovery using Node 24 and the commands in
+[AGENTS.md](AGENTS.md); merging archival documentation does not deploy this site.
 
 See [contributing](docs/CONTRIBUTING.md), [security](docs/SECURITY.md), and
 [license](LICENSE).

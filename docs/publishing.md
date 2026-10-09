@@ -1,5 +1,10 @@
 # Publishing with PagesCMS
 
+> **Retained historical documentation.** The live blog now lives at
+> <https://www.jsolly.com/blog/>. Publish and maintain its private source in
+> [jsolly/jsolly-website](https://github.com/jsolly/jsolly-website); do not edit
+> or publish from this frozen repository. Instructions below describe the old source.
+
 Use [hosted PagesCMS](https://app.pagescms.org) after granting its GitHub App access
 only to `jsolly/awesome-blog`. Choose an editorial branch made from current
 `main`. Saves create commits on that branch; production changes only after a PR
