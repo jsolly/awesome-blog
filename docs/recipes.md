@@ -1,5 +1,10 @@
 # Meal library data contract
 
+> **Retained historical documentation.** The live recipe library now lives at
+> <https://www.jsolly.com/recipes/>. Publish and maintain its private source in
+> [jsolly/jsolly-website](https://github.com/jsolly/jsolly-website); do not edit
+> or publish from this frozen repository. Instructions below describe the old source.
+
 All recipe ingredient amounts describe the reviewed four-adult base, except familyOptions which describe one non-keto adult's starch. The 12 recipe IDs preserve the static article anchors. Canonical units distinguish mass, volume, count and spoon measures; source-specific US measures describe the same food quantity. Pesto and pressure liquid stay weighed/measured in grams/mL in both display modes because generic spoon conversions would be misleading.
 
 Linear ingredient scaling supports 2/4/6/8 adults. Pressure liquid has a minimum constraint matching the named Duo 6 QT manual. Its small-batch per-serving nutrient difference is recalculated from the model's all-broth-counted contribution. Higher minima for another cooker are outside the numeric estimate and explicitly noted. Time, safe endpoints, cut size, patty geometry and capacity do not scale linearly. Six/eight servings require capacity checks/batches; the frittata explicitly uses two matching dishes. Fractional turkey eggs are beaten and weighed.
